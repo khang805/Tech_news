@@ -1,0 +1,330 @@
+# Feed list for the collector.
+#   enabled: true/false     turn a feed on or off
+#   source_priority: 1-5    higher = more importance points (up to 25)
+#   category: ""            leave empty to classify by keywords in settings.yaml
+#   fetch_full_text: true   also downloads the article page (slower; 1 request/second per site)
+# "Google News search" feeds collect news about a topic from many outlets (free, no key needed).
+# Lines marked VERIFY had a URL that could not be confirmed when this project was built.
+# Test one feed with:  python -m newsintel --feed "NAME" --no-email --verbose
+feeds:
+  # ---------- Frontier AI labs (US) ----------
+  - name: "OpenAI news search"
+    url: "https://news.google.com/rss/search?q=OpenAI&hl=en-US&gl=US&ceid=US:en"
+    category: "Frontier AI Labs"
+    source_priority: 5
+    enabled: true
+  - name: "Anthropic and Claude news search"
+    url: "https://news.google.com/rss/search?q=Anthropic+Claude&hl=en-US&gl=US&ceid=US:en"
+    category: "Frontier AI Labs"
+    source_priority: 5
+    enabled: true
+  - name: "Google Gemini and DeepMind news search"
+    url: "https://news.google.com/rss/search?q=Google+Gemini+OR+DeepMind&hl=en-US&gl=US&ceid=US:en"
+    category: "Frontier AI Labs"
+    source_priority: 5
+    enabled: true
+  - name: "xAI Grok news search"
+    url: "https://news.google.com/rss/search?q=xAI+Grok&hl=en-US&gl=US&ceid=US:en"
+    category: "Frontier AI Labs"
+    source_priority: 4
+    enabled: true
+  - name: "Meta Llama news search"
+    url: "https://news.google.com/rss/search?q=Meta+Llama+AI&hl=en-US&gl=US&ceid=US:en"
+    category: "Frontier AI Labs"
+    source_priority: 4
+    enabled: true
+  - name: "Mistral AI news search"
+    url: "https://news.google.com/rss/search?q=Mistral+AI&hl=en-US&gl=US&ceid=US:en"
+    category: "Frontier AI Labs"
+    source_priority: 4
+    enabled: true
+  - name: "Google AI blog"  # VERIFY
+    url: "https://blog.google/technology/ai/rss/"
+    category: "Frontier AI Labs"
+    source_priority: 5
+    enabled: true
+
+  # ---------- China big tech and AI models ----------
+  - name: "DeepSeek news search"
+    url: "https://news.google.com/rss/search?q=DeepSeek+AI&hl=en-US&gl=US&ceid=US:en"
+    category: "China Big Tech & AI"
+    source_priority: 5
+    enabled: true
+  - name: "Alibaba Qwen news search"
+    url: "https://news.google.com/rss/search?q=Alibaba+Qwen+AI&hl=en-US&gl=US&ceid=US:en"
+    category: "China Big Tech & AI"
+    source_priority: 5
+    enabled: true
+  - name: "Tencent Hunyuan news search"
+    url: "https://news.google.com/rss/search?q=Tencent+Hunyuan+AI&hl=en-US&gl=US&ceid=US:en"
+    category: "China Big Tech & AI"
+    source_priority: 4
+    enabled: true
+  - name: "Baidu ERNIE news search"
+    url: "https://news.google.com/rss/search?q=Baidu+ERNIE+AI&hl=en-US&gl=US&ceid=US:en"
+    category: "China Big Tech & AI"
+    source_priority: 4
+    enabled: true
+  - name: "ByteDance Doubao news search"
+    url: "https://news.google.com/rss/search?q=ByteDance+Doubao+AI&hl=en-US&gl=US&ceid=US:en"
+    category: "China Big Tech & AI"
+    source_priority: 4
+    enabled: true
+  - name: "Huawei Ascend AI news search"
+    url: "https://news.google.com/rss/search?q=Huawei+Ascend+AI&hl=en-US&gl=US&ceid=US:en"
+    category: "China Big Tech & AI"
+    source_priority: 4
+    enabled: true
+
+  # ---------- China AI startups ----------
+  - name: "Chinese AI model startups news search"
+    url: "https://news.google.com/rss/search?q=Zhipu+OR+Moonshot+Kimi+OR+MiniMax+AI&hl=en-US&gl=US&ceid=US:en"
+    category: "China AI Startups"
+    source_priority: 4
+    enabled: true
+  - name: "China AI startup funding news search"
+    url: "https://news.google.com/rss/search?q=China+AI+startup+funding&hl=en-US&gl=US&ceid=US:en"
+    category: "China AI Startups"
+    source_priority: 3
+    enabled: true
+  - name: "Pandaily (China tech startups)"  # VERIFY
+    url: "https://pandaily.com/feed/"
+    category: "China AI Startups"
+    source_priority: 3
+    enabled: true
+
+  # ---------- US and Europe AI startups ----------
+  - name: "TechCrunch AI"  # VERIFY
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    category: "US & Europe AI Startups"
+    source_priority: 4
+    enabled: true
+  - name: "VentureBeat AI"  # VERIFY
+    url: "https://venturebeat.com/category/ai/feed/"
+    category: "US & Europe AI Startups"
+    source_priority: 3
+    enabled: true
+  - name: "European AI startup funding news search"
+    url: "https://news.google.com/rss/search?q=European+AI+startup+funding&hl=en-US&gl=US&ceid=US:en"
+    category: "US & Europe AI Startups"
+    source_priority: 3
+    enabled: true
+  - name: "Tech.eu"  # VERIFY
+    url: "https://tech.eu/feed/"
+    category: "US & Europe AI Startups"
+    source_priority: 3
+    enabled: true
+
+  # ---------- NLP, LLMs and agents ----------
+  - name: "Hugging Face blog"  # VERIFY
+    url: "https://huggingface.co/blog/feed.xml"
+    category: "NLP & LLMs"
+    source_priority: 4
+    enabled: true
+  - name: "NLP and LLM news search"
+    url: "https://news.google.com/rss/search?q=natural+language+processing+LLM&hl=en-US&gl=US&ceid=US:en"
+    category: "NLP & LLMs"
+    source_priority: 3
+    enabled: true
+  - name: "AI agents news search"
+    url: "https://news.google.com/rss/search?q=AI+agents&hl=en-US&gl=US&ceid=US:en"
+    category: "AI Agents"
+    source_priority: 3
+    enabled: true
+  - name: "LangChain releases"
+    url: "https://github.com/langchain-ai/langchain/releases.atom"
+    category: "AI Agents"
+    source_priority: 3
+    enabled: true
+
+  # ---------- NVIDIA: launches, updates, GPUs, Jetson ----------
+  - name: "NVIDIA blog"  # VERIFY
+    url: "https://blogs.nvidia.com/feed/"
+    category: "NVIDIA"
+    source_priority: 5
+    enabled: true
+  - name: "NVIDIA developer blog"  # VERIFY
+    url: "https://developer.nvidia.com/blog/feed/"
+    category: "NVIDIA"
+    source_priority: 4
+    enabled: true
+  - name: "NVIDIA launches news search"
+    url: "https://news.google.com/rss/search?q=NVIDIA+launches&hl=en-US&gl=US&ceid=US:en"
+    category: "NVIDIA"
+    source_priority: 4
+    enabled: true
+  - name: "NVIDIA Jetson and edge AI news search"
+    url: "https://news.google.com/rss/search?q=NVIDIA+Jetson+OR+edge+AI+device&hl=en-US&gl=US&ceid=US:en"
+    category: "Jetson & Edge AI"
+    source_priority: 4
+    enabled: true
+  - name: "GPU news search"
+    url: "https://news.google.com/rss/search?q=AI+GPU+launch&hl=en-US&gl=US&ceid=US:en"
+    category: "GPUs & Accelerators"
+    source_priority: 4
+    enabled: true
+
+  # ---------- AMD and Intel ----------
+  - name: "AMD AI and GPU news search"
+    url: "https://news.google.com/rss/search?q=AMD+Instinct+OR+AMD+AI+GPU+ROCm&hl=en-US&gl=US&ceid=US:en"
+    category: "AMD & Intel"
+    source_priority: 4
+    enabled: true
+  - name: "Intel AI news search"
+    url: "https://news.google.com/rss/search?q=Intel+Gaudi+OR+Intel+AI+chip&hl=en-US&gl=US&ceid=US:en"
+    category: "AMD & Intel"
+    source_priority: 4
+    enabled: true
+
+  # ---------- High performance computing ----------
+  - name: "HPCwire"  # VERIFY
+    url: "https://www.hpcwire.com/feed/"
+    category: "High Performance Computing"
+    source_priority: 3
+    enabled: true
+  - name: "Supercomputer and HPC news search"
+    url: "https://news.google.com/rss/search?q=supercomputer+OR+high+performance+computing&hl=en-US&gl=US&ceid=US:en"
+    category: "High Performance Computing"
+    source_priority: 3
+    enabled: true
+
+  # ---------- Inference engines and GPU software (GitHub releases) ----------
+  - name: "vLLM releases"
+    url: "https://github.com/vllm-project/vllm/releases.atom"
+    category: "Inference Engines"
+    source_priority: 4
+    enabled: true
+  - name: "NVIDIA TensorRT-LLM releases"
+    url: "https://github.com/NVIDIA/TensorRT-LLM/releases.atom"
+    category: "Inference Engines"
+    source_priority: 4
+    enabled: true
+  - name: "NVIDIA TensorRT releases"
+    url: "https://github.com/NVIDIA/TensorRT/releases.atom"
+    category: "Inference Engines"
+    source_priority: 4
+    enabled: true
+  - name: "Triton Inference Server releases"
+    url: "https://github.com/triton-inference-server/server/releases.atom"
+    category: "Inference Engines"
+    source_priority: 4
+    enabled: true
+  - name: "Triton language releases"
+    url: "https://github.com/triton-lang/triton/releases.atom"
+    category: "Inference Engines"
+    source_priority: 3
+    enabled: true
+  - name: "Slang shading language releases"
+    url: "https://github.com/shader-slang/slang/releases.atom"
+    category: "Inference Engines"
+    source_priority: 3
+    enabled: true
+  - name: "llama.cpp releases"
+    url: "https://github.com/ggml-org/llama.cpp/releases.atom"
+    category: "Inference Engines"
+    source_priority: 3
+    enabled: true
+  - name: "SGLang releases"
+    url: "https://github.com/sgl-project/sglang/releases.atom"
+    category: "Inference Engines"
+    source_priority: 3
+    enabled: true
+  - name: "Hugging Face TGI releases"
+    url: "https://github.com/huggingface/text-generation-inference/releases.atom"
+    category: "Inference Engines"
+    source_priority: 3
+    enabled: true
+  - name: "ONNX Runtime releases"
+    url: "https://github.com/microsoft/onnxruntime/releases.atom"
+    category: "Inference Engines"
+    source_priority: 3
+    enabled: true
+  - name: "OpenVINO releases"
+    url: "https://github.com/openvinotoolkit/openvino/releases.atom"
+    category: "Inference Engines"
+    source_priority: 3
+    enabled: true
+  - name: "DeepStream and inference engine news search"
+    url: "https://news.google.com/rss/search?q=NVIDIA+DeepStream+OR+inference+engine+LLM+serving&hl=en-US&gl=US&ceid=US:en"
+    category: "Inference Engines"
+    source_priority: 3
+    enabled: true
+
+  # ---------- Cloud: AWS, Google Cloud, Azure ----------
+  - name: "AWS What's New"  # VERIFY
+    url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
+    category: "Cloud (AWS, Google Cloud, Azure)"
+    source_priority: 3
+    enabled: true
+  - name: "AWS Machine Learning blog"  # VERIFY
+    url: "https://aws.amazon.com/blogs/machine-learning/feed/"
+    category: "Cloud (AWS, Google Cloud, Azure)"
+    source_priority: 3
+    enabled: true
+  - name: "Google Cloud AI blog"  # VERIFY
+    url: "https://cloud.google.com/blog/products/ai-machine-learning/rss"
+    category: "Cloud (AWS, Google Cloud, Azure)"
+    source_priority: 3
+    enabled: true
+  - name: "Azure blog"  # VERIFY
+    url: "https://azure.microsoft.com/en-us/blog/feed/"
+    category: "Cloud (AWS, Google Cloud, Azure)"
+    source_priority: 3
+    enabled: true
+
+  # ---------- Big tech and general AI ----------
+  - name: "Microsoft AI blog"  # VERIFY
+    url: "https://blogs.microsoft.com/ai/feed/"
+    category: "Big Tech"
+    source_priority: 4
+    enabled: true
+  - name: "Big tech AI news search"
+    url: "https://news.google.com/rss/search?q=Apple+OR+Amazon+OR+Microsoft+AI+launch&hl=en-US&gl=US&ceid=US:en"
+    category: "Big Tech"
+    source_priority: 3
+    enabled: true
+  - name: "Hacker News - AI"
+    url: "https://hnrss.org/newest?q=AI"
+    category: ""
+    source_priority: 2
+    enabled: true
+  - name: "Hacker News - Front page"
+    url: "https://hnrss.org/frontpage"
+    category: ""
+    source_priority: 2
+    enabled: true
+
+  # ---------- Cloud-native and networking (kept from v1) ----------
+  - name: "GitHub - kubernetes"
+    url: "https://github.com/kubernetes/kubernetes/releases.atom"
+    category: "Cloud & DevOps"
+    source_priority: 4
+    enabled: true
+  - name: "GitHub - terraform"
+    url: "https://github.com/hashicorp/terraform/releases.atom"
+    category: "Cloud & DevOps"
+    source_priority: 3
+    enabled: true
+  - name: "Cloudflare Blog"  # VERIFY
+    url: "https://blog.cloudflare.com/rss/"
+    category: "Networking & Infrastructure"
+    source_priority: 3
+    enabled: true
+    fetch_full_text: true
+
+  # ---------- Disabled until the URL is confirmed ----------
+  - name: "OpenAI RSS (official, if available)"  # VERIFY before enabling
+    url: "https://openai.com/news/rss.xml"
+    category: "Frontier AI Labs"
+    source_priority: 5
+    enabled: false
+  - name: "Anthropic news (replace URL with a working feed)"
+    url: "https://www.anthropic.com/news"
+    category: "Frontier AI Labs"
+    source_priority: 5
+    enabled: false
+  - name: "DeepSeek GitHub releases (replace URL with a working feed)"
+    url: "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom"
+    category: "China Big Tech & AI"
+    source_priority: 4
+    enabled: false

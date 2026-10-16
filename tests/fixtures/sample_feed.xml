@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Sample Tech Feed (offline test fixture, fictional items)</title>
+<link>https://example.com/</link>
+<description>Fictional items used only for offline tests</description>
+<item>
+<title>Example Lab releases open-source reasoning model v2</title>
+<link>https://example.com/news/reasoning-model-v2?utm_source=rss</link>
+<description>&lt;p&gt;Example Lab released version 2 of its open-source reasoning model on Monday. The company said the model is available now for download and can run on a single high-end graphics card. Developers can use the weights under a permissive license. The release includes benchmark results on coding and math tasks. The lab also published an evaluation report describing how the model was tested. Independent researchers have been invited to review the results.&lt;/p&gt;</description>
+<pubDate>Mon, 12 Oct 2026 08:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Example Lab releases open-source reasoning model v2.</title>
+<link>https://www.example.com/news/reasoning-model-v2/?utm_medium=feed</link>
+<description>Short item.</description>
+<pubDate>Mon, 12 Oct 2026 09:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Sample startup launches vector search API</title>
+<link>https://example.com/news/vector-api</link>
+<description>Sample startup launched an API for vector search.</description>
+<pubDate>Mon, 12 Oct 2026 10:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Critical CVE-2026-0001 vulnerability patched in sample container runtime</title>
+<link>https://example.com/security/cve-2026-0001</link>
+<description>Maintainers released a patch for a vulnerability in the sample container runtime. Affected versions should be upgraded as soon as possible. The advisory lists the affected versions and the fixed release.</description>
+</item>
+</channel>
+</rss>

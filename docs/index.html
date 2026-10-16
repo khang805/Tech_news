@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech Intelligence</title>
+<style>
+body { font-family: system-ui, Arial, sans-serif; margin: 0; background: #f4f6f9; color: #1d1d1f; }
+header { background: #1d2b44; color: #fff; padding: 16px; }
+header h1 { margin: 0; font-size: 20px; }
+header small { opacity: .8; }
+main { max-width: 900px; margin: 0 auto; padding: 16px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.controls input, .controls select { flex: 1 1 150px; padding: 9px; border: 1px solid #c8ccd4; border-radius: 6px; font-size: 14px; }
+.count { font-size: 13px; color: #555; margin-bottom: 10px; }
+.card { background: #fff; border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.card h3 { margin: 6px 0; font-size: 17px; }
+.card a { color: #0b57d0; }
+.meta { font-size: 12px; color: #666; margin: 4px 0; }
+.line { font-weight: 600; font-size: 14px; margin: 8px 0 6px; }
+.para { font-size: 14px; line-height: 1.5; margin: 0 0 8px; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 12px; background: #e6ebf5; }
+.badge.High { background: #ffd7d7; }
+.error { color: #a00; }
+</style>
+</head>
+<body>
+<header><h1>Tech Intelligence</h1><small>Data updated: <span id="updated">2026-10-16T11:08:33+00:00</span> UTC</small></header>
+<main>
+<div class="controls">
+<input id="q" type="search" placeholder="Search titles, summaries, sources">
+<select id="period">
+  <option value="1">Last day</option>
+  <option value="7">Last week</option>
+  <option value="30">Last month</option>
+  <option value="all">All stored (30 days)</option>
+</select>
+<select id="impact">
+  <option value="all">All impact levels</option>
+  <option value="high">High Impact</option>
+  <option value="other">Medium &amp; Low Impact</option>
+</select>
+<select id="cat"><option value="">All categories</option></select>
+</div>
+<div class="count" id="count">Loading...</div>
+<div id="list"></div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+let DATA = null;
+
+function el(tag, cls, text) {
+  const node = document.createElement(tag);
+  if (cls) node.className = cls;
+  if (text !== undefined) node.textContent = text;
+  return node;
+}
+
+function fillCategories() {
+  const order = DATA.category_order || [];
+  const cats = [...new Set(DATA.articles.map((a) => a.category))];
+  cats.sort((a, b) => {
+    const ia = order.indexOf(a) < 0 ? 999 : order.indexOf(a);
+    const ib = order.indexOf(b) < 0 ? 999 : order.indexOf(b);
+    return ia - ib || a.localeCompare(b);
+  });
+  cats.forEach((c) => {
+    const opt = el("option", "", c);
+    opt.value = c;
+    $("cat").appendChild(opt);
+  });
+}
+
+function render() {
+  const q = $("q").value.trim().toLowerCase();
+  const days = $("period").value;
+  const impact = $("impact").value;
+  const cat = $("cat").value;
+  const cutoff = Date.now() - (days === "all" ? Infinity : Number(days) * 86400000);
+  const rows = DATA.articles.filter((a) => {
+    if (Date.parse(a.published_utc) < cutoff) return false;
+    if (impact === "high" && a.impact_level !== "High") return false;
+    if (impact === "other" && a.impact_level === "High") return false;
+    if (cat && a.category !== cat) return false;
+    return !q || [a.title, a.overview, a.explanation, a.source_name, a.category].join(" ").toLowerCase().includes(q);
+  });
+  rows.sort((x, y) => (days === "1" ? (x.published_utc < y.published_utc ? 1 : -1) : y.importance_score - x.importance_score));
+  const list = $("list");
+  list.innerHTML = "";
+  $("count").textContent = `${rows.length} of ${DATA.articles.length} stored stories`;
+  rows.forEach((a) => {
+    const card = el("div", "card");
+    const title = el("h3");
+    const link = el("a", "", a.title);
+    link.href = a.link;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    title.appendChild(link);
+    card.appendChild(title);
+    card.appendChild(el("span", "badge " + a.impact_level, a.impact_level + " impact"));
+    card.appendChild(el("span", "meta", "  " + a.category));
+    card.appendChild(el("div", "meta", `${a.published_utc.replace("T", " ").slice(0, 16)} UTC | ${a.source_name} | ${a.impact_source === "ai" ? "AI" : "rules"} impact`));
+    card.appendChild(el("p", "line", a.overview));
+    if (a.explanation) card.appendChild(el("p", "para", a.explanation));
+    list.appendChild(card);
+  });
+}
+
+async function load() {
+  try {
+    const res = await fetch("data/articles.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    DATA = await res.json();
+    $("updated").textContent = DATA.generated_utc;
+    fillCategories();
+    ["q", "period", "impact", "cat"].forEach((id) => $(id).addEventListener("input", render));
+    render();
+  } catch (err) {
+    $("count").textContent = "";
+    $("list").appendChild(el("p", "error", "Could not load data/articles.json (" + err.message + "). Open the site over http, not as a local file."));
+  }
+}
+load();
+</script>
+</body>
+</html>

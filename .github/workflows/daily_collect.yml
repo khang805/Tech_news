@@ -1,0 +1,101 @@
+name: Tech news collector
+
+on:
+  schedule:
+    # All times are UTC. 01:00 UTC = 06:00 Pakistan time. GitHub may start runs a few minutes late.
+    - cron: "0 1 * * *"     # every day: daily digest
+    - cron: "0 1 * * 0"     # every Sunday: weekly digest
+    - cron: "0 1 1 * *"     # 1st of each month: monthly digest
+  workflow_dispatch:
+    inputs:
+      period:
+        description: "Digest period to send"
+        type: choice
+        options: [day, week, month]
+        default: day
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newsintel
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install -e .
+
+      - name: Choose digest period
+        id: period
+        env:
+          EVENT: ${{ github.event_name }}
+          CRON: ${{ github.event.schedule }}
+          MANUAL: ${{ inputs.period }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then P="$MANUAL"
+          elif [ "$CRON" = "0 1 1 * *" ]; then P="month"
+          elif [ "$CRON" = "0 1 * * 0" ]; then P="week"
+          else P="day"; fi
+          echo "period=$P" >> "$GITHUB_OUTPUT"
+          echo "Digest period: $P"
+
+      - name: Collect, label impact, send emails, rebuild website data
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python -m newsintel --digest --period "${{ steps.period.outputs.period }}"
+
+      - name: Commit updated data and website
+        if: always()
+        id: commit
+        run: |
+          git config user.name "newsintel-bot"
+          git config user.email "newsintel-bot@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Update news data $(date -u +%Y-%m-%d)"
+            git push origin HEAD:${{ github.ref_name }}
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Ask Vercel to redeploy (optional backup to Git integration)
+        if: always() && steps.commit.outputs.changed == 'true'
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
+            curl -fsS -X POST "$VERCEL_DEPLOY_HOOK" && echo "Vercel redeploy requested" || echo "Vercel deploy hook failed"
+          else
+            echo "No VERCEL_DEPLOY_HOOK secret set; relying on the Vercel Git integration."
+          fi
+
+      - name: Upload log file
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: newsintel-logs
+          path: logs/newsintel.log
+          if-no-files-found: ignore

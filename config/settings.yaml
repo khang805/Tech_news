@@ -1,0 +1,113 @@
+# Global settings. Timestamps are stored in UTC; timezone_display is only for showing times.
+max_article_age_days: 7        # feed items older than this are ignored when fetching
+retention_days: 30             # stored articles older than this are removed
+request_timeout_seconds: 20
+max_retries: 3                 # retries after the first attempt (waits 2, 4, 8 seconds)
+backoff_seconds: 2
+max_items_per_feed: 30
+high_importance_threshold: 70  # rule-based score at or above this is High (used when AI is off)
+max_alerts_per_run: 10
+period_top_n:                  # stories per digest email
+  day: 15
+  week: 20
+  month: 25
+title_similarity_threshold: 0.9
+dedupe_window_days: 7
+max_page_bytes: 1000000        # 1 MB cap for optional full-page downloads
+page_rate_limit_seconds: 1     # minimum gap between requests to the same website
+user_agent: "NewsIntelBot/1.0 (personal project; contact: abdurrahmank084@gmail.com)"
+timezone_display: "Asia/Karachi"
+default_category: "General Tech"
+
+# Order of categories in the website dropdown (NVIDIA first). Others follow alphabetically.
+category_order:
+  - "NVIDIA"
+  - "Jetson & Edge AI"
+  - "GPUs & Accelerators"
+  - "AMD & Intel"
+  - "Inference Engines"
+  - "Frontier AI Labs"
+  - "China Big Tech & AI"
+  - "China AI Startups"
+  - "US & Europe AI Startups"
+  - "NLP & LLMs"
+  - "AI Agents"
+  - "Cloud (AWS, Google Cloud, Azure)"
+  - "High Performance Computing"
+  - "Big Tech"
+
+ai:
+  enabled: true                # needs GEMINI_API_KEY or GROQ_API_KEY; otherwise rules are used
+  gemini_model: "gemini-2.5-flash"
+  groq_model: "llama-3.3-70b-versatile"
+  batch_size: 25               # new articles per AI request when labelling impact
+  max_items_per_run: 150       # cap on AI-labelled articles per run (keeps free quotas safe)
+  max_selection_candidates: 250  # cap on articles sent to the AI for weekly/monthly picks
+  pause_seconds: 4             # pause between AI requests (free tiers limit requests per minute)
+
+email:
+  # One or more recipients. Override with the EMAIL_TO secret (comma-separated) to keep addresses private.
+  to:
+    - "abdurrahmank084@gmail.com"
+  subject_prefix: "[TechIntel]"
+  # SMTP and AI keys are NOT stored here. They come from environment variables / GitHub Secrets.
+
+category_keywords:
+  "Jetson & Edge AI": [jetson, edge ai, edge device, edge devices]
+  "NVIDIA": [nvidia]
+  "Inference Engines": [inference engine, inference engines, vllm, tensorrt, triton, deepstream, llama.cpp, sglang, slang, onnx runtime, openvino, serving]
+  "GPUs & Accelerators": [gpu, gpus, accelerator, accelerators, tpu, h100, b200, blackwell]
+  "AMD & Intel": [amd, intel, instinct, gaudi, xeon, radeon, rocm]
+  "High Performance Computing": [hpc, supercomputer, high performance computing]
+  "Cloud (AWS, Google Cloud, Azure)": [aws, amazon web services, google cloud, azure]
+  "China Big Tech & AI": [alibaba, qwen, deepseek, tencent, hunyuan, baidu, ernie, bytedance, doubao, huawei, ascend]
+  "China AI Startups": [zhipu, moonshot, kimi, minimax, chinese startup, china startup]
+  "Frontier AI Labs": [openai, anthropic, claude, gemini, grok, xai, llama, mistral]
+  "AI Agents": [agent, agents, agentic]
+  "NLP & LLMs": [nlp, natural language, llm, language model]
+  "US & Europe AI Startups": [startup, startups, seed round, series a, series b, funding round]
+  "Generative AI": [generative, diffusion, image generation, text-to-image, video generation]
+  "Computer Vision": [vision, image segmentation, object detection, multimodal]
+  "MLOps & Data": [mlops, training pipeline, fine-tuning, deployment]
+  "Cloud & DevOps": [kubernetes, docker, terraform, devops, serverless, ci/cd]
+  "Networking & Infrastructure": [network, router, 5g, bgp, dns, datacenter]
+  "Big Tech": [apple, google, microsoft, amazon, meta, samsung]
+
+major_entities:
+  - OpenAI
+  - Anthropic
+  - Claude
+  - Google
+  - Gemini
+  - DeepMind
+  - xAI
+  - Grok
+  - Meta
+  - Llama
+  - Mistral
+  - DeepSeek
+  - Qwen
+  - Alibaba
+  - Tencent
+  - Baidu
+  - ByteDance
+  - Huawei
+  - Zhipu
+  - Moonshot
+  - Kimi
+  - NVIDIA
+  - Jetson
+  - AMD
+  - Intel
+  - Microsoft
+  - Apple
+  - Amazon
+  - AWS
+  - Azure
+  - "Google Cloud"
+  - Kubernetes
+  - PyTorch
+  - vLLM
+  - TensorRT
+  - Triton
+  - "Hugging Face"
