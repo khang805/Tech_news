@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-10-18T05:19:01+00:00",
+  "last_run_utc": "2026-10-18T05:40:31+00:00",
   "articles": [
     {
       "id": "79428cf43613e4131c16b2f45c833d7e87f5fb9b7bf3c33fddcb7e212b8af303",
@@ -16949,7 +16949,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "AI agents news search"
+      ]
     },
     {
       "id": "f514504f52a08e68e2f3058432bb648c6f19f3cbb0ed7423c37804dbe9973425",
@@ -17773,7 +17775,8 @@
       "alerted": false,
       "digested": false,
       "also_reported_by": [
-        "TechCrunch AI"
+        "TechCrunch AI",
+        "Anthropic and Claude news search"
       ]
     },
     {
@@ -18832,7 +18835,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "GPU news search"
+      ]
     },
     {
       "id": "b9e15e254f5c8b3ac2c20d38a26b08afb1123548a0f28b6d0c9744462661fe3c",
@@ -19431,7 +19436,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "GPU news search"
+      ]
     },
     {
       "id": "5eb559e50fd7886d16ab05385266393c7126d95ff81c90f2c2f7713f6112db3d",
@@ -19569,7 +19576,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "GPU news search"
+      ]
     },
     {
       "id": "2e07b76194b73f80e446ea3f5cc26c8c49b897eb5e869e622314ca2cb950e8cf",
@@ -22212,7 +22221,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "Hacker News - Front page"
+      ]
     },
     {
       "id": "9528bdbda532e359fc1a64af59d0bfbc7f6a4cea78b6c6601bdbda3844f956e4",
@@ -22260,6 +22271,296 @@
       "overview": "Limited source content: only the title and link are available.",
       "explanation": "",
       "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "5d371091462e11c5130c2307d7f9baf22f7ec58f586986f1e4a9ef138378d9ee",
+      "title": "Chinese Smart Glasses Come With a 50-Megapixel Camera - PetaPixel",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUjI5RUdkV2pkTmh3UVU5YjN5SllveXBMZUMyQmpzTU04ZWtYTHlYVzVKd0pMRDhMNkpwX0x2VUp3d3ZBSEowdzYyT0hmNi1DY2UwN3BBOW41M3pEaGFKY09sTzhoOWl3cVNORHpoME1tSThPd0pSbkpmX2kzRER2dWhuZlBYSHdVdDV3QWZORzc?oc=5",
+      "source_name": "Alibaba Qwen news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-15T11:23:54+00:00",
+      "first_seen_utc": "2026-10-18T05:40:31+00:00",
+      "importance_score": 25,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 5"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 25 (Low). Reasons: source priority 5. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "c4a1f7acf5cb165ca831747a790392f70b920544c63c98ff29246aea0ff6102d",
+      "title": "What Will Change If You Use An AI Chatbot Instead Of Google Search? - BGR",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMHNMQUc3dHlnVXN1UngyUVh2NmRIRnU0Ujg1cDdNdDVIeGxMajV2YW5WV0haenFqSUVLZ3o0alJROV9oOFRjTlNRdXlsekNQUDVmSThSS0FhcTZma2N4SU8wek5oaVJsLUpya3hITFNZN2cxdzljREdqRnB1TWFldWNmYnk1MkRPMGVLa1VNaXZrQQ?oc=5",
+      "source_name": "Google Gemini and DeepMind news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-17T17:17:00+00:00",
+      "first_seen_utc": "2026-10-18T05:40:31+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Google"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Google. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "44b6a31012af5344296ad41f54e1afc82be9f6d9722a12bf0e428c6bba1d399e",
+      "title": "Mistral AI Models Run Aboard First Satellite of 50-Satellite AI Constellation - Analytics India Magazine",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVkFhbTgxTmE3a2oxUTc2YjZ5ajRVMG93VTBfUDgyQlZGcHhxZWNPRTcyZjF3c2QzNW56R2ZXVF9vSWd4VkFhNGMzbTYtRllzd2NOUHd0UVNmXzIxR0lhV0x2QzA3WDRJa0dXWGJUUWVUdDZzMG16NkstU1B1Y29kN2FKUThBY01oZVZwbUFDLWZ5U0dwV2w4T0EzVVAwbWhCbElOaEk0TXZNeUJLNHNPSGZNVTU5QQ?oc=5",
+      "source_name": "Mistral AI news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 4,
+      "published_utc": "2026-10-14T13:55:40+00:00",
+      "first_seen_utc": "2026-10-18T05:40:31+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4",
+        "major entity in title: Mistral"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 4; major entity in title: Mistral. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "1aafec827a095caba3356696fb3f0b59417021611cfc77844f7498dd18ed24b6",
+      "title": "Nvidia Launches RTX Spark Laptops Integrating RTX Graphics and A - GuruFocus",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYVZ0UWNJQklvSWFpemI3QTBpU2lIZV9HZlByNV82MGh6NVdZdHZ0QmZtWHo4UXdsT3RXWThpZVFYMVYyTHhLUGp1RTdqamVFOGhUSmlLRC16Z0dKQ1JOWVM2UElGUXROd0kyRFhtZUREMDdYTW1WR09XcmQxcUpsRXp2SU9kQmJKS0xIREo1anFnWHhXbHdKTnZFRkZyQ3R0UXR1dmpWRS13V0pxS0JZY0hQUGhMYmhJVlE?oc=5",
+      "source_name": "NVIDIA launches news search",
+      "category": "NVIDIA",
+      "source_priority": 4,
+      "published_utc": "2026-10-16T13:27:16+00:00",
+      "first_seen_utc": "2026-10-18T05:40:31+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "release keyword: launch",
+        "published in last 48h",
+        "major entity in title: NVIDIA"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; release keyword: launch; published in last 48h; major entity in title: NVIDIA. Category: NVIDIA.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "71665063b8311de926715168d868e28fd63fbb939d3191b1f5cea53d120990e7",
+      "title": "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance - IBM Newsroom",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOGRIM2VCbDY1bEs0czNwNS1hRFg0em9JaTJVQV9MVVgyQkZvZ0txeFJGLURkQmVCT0lEZHdCaXByalU5aV9remJDZ3pIUWM2aEg5azFPWG91NUV4ZjJHek1EMWxBenEwNHpWWkVfd0R1NkFqSk1lUXBVSWpTUDhBcmhBMHpDRERLNHlqR05BWGNiREF4X01aSUtoRW85bWNPWWUxNmk0X19zcFRIMjBueDdSSFRXN3FXX0FKVTZtWTRsUVViYWN2N015dVZTazd3SlZ4SDVNcU5PMGV0OW93?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-14T23:02:03+00:00",
+      "first_seen_utc": "2026-10-18T05:40:31+00:00",
+      "importance_score": 15,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance IBM Newsroom",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 15 (Low). Reasons: source priority 3. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "400a8da91f8ed27bc12a1f6f567bd9164b042db054309c5d8053c22440d6a3a8",
+      "title": "Managing open-weight model risk in enterprise deployments",
+      "link": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
+      "source_name": "Azure blog",
+      "category": "Cloud (AWS, Google Cloud, Azure)",
+      "source_priority": 3,
+      "published_utc": "2026-10-16T16:05:00+00:00",
+      "first_seen_utc": "2026-10-18T05:40:31+00:00",
+      "importance_score": 25,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 48h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.",
+      "explanation": "The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Azure Blog .",
+      "relevance": "Rule-based score 25 (Low). Reasons: source priority 3; published in last 48h. Category: Cloud (AWS, Google Cloud, Azure).",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "18d1e44de8d029c019fd315b4265ac5c66b31db04786b5b81d1b728840958784",
+      "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore - Amazon Web Services (AWS)",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYlRvMDFmOXZBTEFiY2lrbFNVWnUzSnZwc2FrTF9hVExFLXc1R2lNVHdXUmpjbGRsQldybDdoT3poS3BmRWlUcVc0T1YybmthLU9pQ3NYSk5WdVM3S0pGRV90Um1ERzlJcmtVaDRNMlRQaGI2em05aUdLVFl1ZHUtM2szNlNYdHpWNHA0X3hvSDBWTTFmVENPLUVzQUNiUS1RelZNYjZOQWd5MklLTVNQdzlpWEZ1WDktcENwZzZMYlRZSWxUNnViZE0zcEdLM0JLNzRWMWQ2b010eUFO?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-16T20:48:16+00:00",
+      "first_seen_utc": "2026-10-18T05:40:31+00:00",
+      "importance_score": 40,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 48h",
+        "major entity in title: Amazon, AWS"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore Amazon Web Services (AWS)",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 40 (Medium). Reasons: source priority 3; published in last 48h; major entity in title: Amazon, AWS. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "32ef315fdf4fd38cee9fbc5b00cb39bac26961c797060a003c10f0d3c60c5e92",
+      "title": "After Muse Launch, U.S. Banks Are Saying Hell No to AI Agents Moving Money - Gizmodo",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONU0zV2oySGQyVkRnVWtVc1YxZlptcUg4NXowX1pzNUxhQVhUa2tUbGF2dWtEaHBYRVJ6YzZZT0VkVDhRc3p5RHVvam1wcWh2dlZ1bWtRUV81aUdPWVFMRGNKNl83b0t2ZTNZb1E4THBpZnJqaG4wek40ZlR5dWJsSjJmZ2pSelM1eGgwSzY2TzFLQkJrUFNOVTQ3YzMzeTk3Y1ZxcjVR?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-16T23:15:00+00:00",
+      "first_seen_utc": "2026-10-18T05:40:31+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "release keyword: launch",
+        "published in last 48h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "After Muse Launch, U.S.",
+      "explanation": "Banks Are Saying Hell No to AI Agents Moving Money Gizmodo",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; release keyword: launch; published in last 48h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "52a17ebbf558b552118df780521e6a54a5532c745a5d734bac9413d1e3cd2f09",
+      "title": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help - The Decoder",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUzJHSDJLdG1oSjZZdzZ3M3g3N3hoMUpZTWNRRVFKa2NwS2dQODM5TU42Z05MVVBIOEV0QkJRZ1hXUjhYYzZydlgwWnJhRURzZ3kxT2RhcjJQR3pvWk9vaHQyQ3d4RW1tcWFJUFFEOUxhOHBmalpGSkhWNjZleVpEaTREXzlZc1VxaW9lYmlPNWRDd1Z0VmlsU0xiSWU1eTFrT3lqdlZucDFkRHVXdC03M08yWDFJZw?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-17T09:58:38+00:00",
+      "first_seen_utc": "2026-10-18T05:40:31+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help The Decoder",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "f3460f7e801f8a866180ca5d90aa7444675575804ac9c44ffbbda0430d93a0be",
+      "title": "Schwab and JPMorgan Block Unauthorized AI Agents from Moving Money as Private Ordering Reaches Financial Core - Forkast News",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWGlZVFByTHZKZ0JhUThmUGp1QWhBZ21uOWV5OTNUdUJlQzVQbF9GaTJ2Qzc2dnB1QWE0N1dtQ0cxeHBzTThWSjR0dXdkSTBlVGcyWVR0UU5uZTdWZk9nallsV3ZCVnRjV1lXQnRrZjJabEg5V25wOGdFaWlDWnhCbUdqbTl1SHRSY1UyMEFIQjE1TkRVRi1sZ2MtTWtDbF90SVhJNmJ1ZTVXcjdURTJKRUFQbWtKUGI1b3g0dU44VDZlZExadWd2Vm44UQ?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-17T21:11:21+00:00",
+      "first_seen_utc": "2026-10-18T05:40:31+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Schwab and JPMorgan Block Unauthorized AI Agents from Moving Money as Private Ordering Reaches Financial Core Forkast News",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "e8ca44f79633328c1f4d803053f41fee2165943a61d21d48c4c857faa31744f4",
+      "title": "Anthropic Taps 2,800 Lawyers to Watch AI Agent Deals [2026] - https://tech-insider.org/",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PWERsakVaT0tELTFnWEZLSW0yUVFXWXBYdndoY2FxZktKdXBJM3FBMFdSbFdkSFg0dHBEVEpyX01LM1RTMDlhSC1sbVNfRjkwaGM1SU9JeGFXTW1JYWNlWWtDdWkyNGdsdFZEcnF4SU9nV1NoVFVLNmJMM0t5YXM?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-18T04:22:54+00:00",
+      "first_seen_utc": "2026-10-18T05:40:31+00:00",
+      "importance_score": 50,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h",
+        "major entity in title: Anthropic"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 50 (Medium). Reasons: source priority 3; published in last 24h; major entity in title: Anthropic. Category: AI Agents.",
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
@@ -25591,6 +25892,50 @@
     {
       "id": "370a8dac53bb74445d050122d0902c3afa774268cd83d3ab35758cf75eb04f9f",
       "added_utc": "2026-10-18T05:19:01+00:00"
+    },
+    {
+      "id": "5d371091462e11c5130c2307d7f9baf22f7ec58f586986f1e4a9ef138378d9ee",
+      "added_utc": "2026-10-18T05:40:31+00:00"
+    },
+    {
+      "id": "c4a1f7acf5cb165ca831747a790392f70b920544c63c98ff29246aea0ff6102d",
+      "added_utc": "2026-10-18T05:40:31+00:00"
+    },
+    {
+      "id": "44b6a31012af5344296ad41f54e1afc82be9f6d9722a12bf0e428c6bba1d399e",
+      "added_utc": "2026-10-18T05:40:31+00:00"
+    },
+    {
+      "id": "1aafec827a095caba3356696fb3f0b59417021611cfc77844f7498dd18ed24b6",
+      "added_utc": "2026-10-18T05:40:31+00:00"
+    },
+    {
+      "id": "71665063b8311de926715168d868e28fd63fbb939d3191b1f5cea53d120990e7",
+      "added_utc": "2026-10-18T05:40:31+00:00"
+    },
+    {
+      "id": "400a8da91f8ed27bc12a1f6f567bd9164b042db054309c5d8053c22440d6a3a8",
+      "added_utc": "2026-10-18T05:40:31+00:00"
+    },
+    {
+      "id": "18d1e44de8d029c019fd315b4265ac5c66b31db04786b5b81d1b728840958784",
+      "added_utc": "2026-10-18T05:40:31+00:00"
+    },
+    {
+      "id": "32ef315fdf4fd38cee9fbc5b00cb39bac26961c797060a003c10f0d3c60c5e92",
+      "added_utc": "2026-10-18T05:40:31+00:00"
+    },
+    {
+      "id": "52a17ebbf558b552118df780521e6a54a5532c745a5d734bac9413d1e3cd2f09",
+      "added_utc": "2026-10-18T05:40:31+00:00"
+    },
+    {
+      "id": "f3460f7e801f8a866180ca5d90aa7444675575804ac9c44ffbbda0430d93a0be",
+      "added_utc": "2026-10-18T05:40:31+00:00"
+    },
+    {
+      "id": "e8ca44f79633328c1f4d803053f41fee2165943a61d21d48c4c857faa31744f4",
+      "added_utc": "2026-10-18T05:40:31+00:00"
     }
   ],
   "run_history": [
@@ -25627,6 +25972,18 @@
       "duplicates": 353,
       "high": 14,
       "digest": "week",
+      "digest_sent": false,
+      "pruned": 0
+    },
+    {
+      "run_utc": "2026-10-18T05:40:31+00:00",
+      "ai": true,
+      "feeds_ok": 53,
+      "feeds_failed": 3,
+      "new": 11,
+      "duplicates": 563,
+      "high": 0,
+      "digest": "day",
       "digest_sent": false,
       "pruned": 0
     }
