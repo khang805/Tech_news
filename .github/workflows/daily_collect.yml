@@ -2,10 +2,9 @@ name: Tech news collector
 
 on:
   schedule:
-    # All times are UTC. 01:00 UTC = 06:00 Pakistan time. GitHub may start runs a few minutes late.
-    - cron: "0 1 * * *"     # every day: daily digest
-    - cron: "0 1 * * 0"     # every Sunday: weekly digest
-    - cron: "0 1 1 * *"     # 1st of each month: monthly digest
+    # One run per day (UTC). 01:00 UTC = 06:00 Pakistan time. GitHub may start runs a few minutes late.
+    # The run decides which single digest to send: month (1st), week (Sunday), otherwise day.
+    - cron: "0 1 * * *"
   workflow_dispatch:
     inputs:
       period:
@@ -13,6 +12,10 @@ on:
         type: choice
         options: [day, week, month]
         default: day
+      test_email:
+        description: "Only send a test email (skips collection)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -40,21 +43,20 @@ jobs:
           pip install -r requirements.txt
           pip install -e .
 
-      - name: Choose digest period
+      - name: Choose digest period (exactly one email per period)
         id: period
         env:
           EVENT: ${{ github.event_name }}
-          CRON: ${{ github.event.schedule }}
           MANUAL: ${{ inputs.period }}
         run: |
           if [ "$EVENT" = "workflow_dispatch" ]; then P="$MANUAL"
-          elif [ "$CRON" = "0 1 1 * *" ]; then P="month"
-          elif [ "$CRON" = "0 1 * * 0" ]; then P="week"
+          elif [ "$(date -u +%d)" = "01" ]; then P="month"
+          elif [ "$(date -u +%u)" = "7" ]; then P="week"
           else P="day"; fi
           echo "period=$P" >> "$GITHUB_OUTPUT"
           echo "Digest period: $P"
 
-      - name: Collect, label impact, send emails, rebuild website data
+      - name: Collect, label impact, send email, rebuild website data
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -63,7 +65,12 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: python -m newsintel --digest --period "${{ steps.period.outputs.period }}"
+        run: |
+          if [ "${{ inputs.test_email }}" = "true" ]; then
+            python -m newsintel --test-email
+          else
+            python -m newsintel --digest --period "${{ steps.period.outputs.period }}"
+          fi
 
       - name: Commit updated data and website
         if: always()
@@ -75,11 +82,19 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes to commit."
             echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            git commit -m "Update news data $(date -u +%Y-%m-%d)"
-            git push origin HEAD:${{ github.ref_name }}
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+          git commit -m "Update news data $(date -u +%Y-%m-%d)"
+          BRANCH="${{ github.ref_name }}"
+          # If someone pushed to the branch since checkout, rebase our new data on top.
+          # On a data conflict, keep this run's data (-X theirs during a rebase = our commit).
+          for attempt in 1 2 3; do
+            git pull --rebase -X theirs origin "$BRANCH" && git push origin HEAD:"$BRANCH" && break
+            echo "Push attempt $attempt failed, retrying in 5 seconds..."
+            sleep 5
+          done
+          git status --short | head -5
+          echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Ask Vercel to redeploy (optional backup to Git integration)
         if: always() && steps.commit.outputs.changed == 'true'

@@ -38,6 +38,16 @@ def run(opts) -> int:
 
     now = utcnow()
     no_send = opts.dry_run or opts.no_email
+    cfg = load_email_config(settings)
+    log.info("email setup: SMTP_USERNAME %s, SMTP_PASSWORD %s, recipients %d",
+             "set" if cfg["username"] else "MISSING", "set" if cfg["password"] else "MISSING",
+             len(cfg["recipients"]))
+    if opts.test_email:
+        text = "This is a test from News Intel. If you can read this, email is working."
+        ok = send_email(cfg, f"{settings['email']['subject_prefix']} test email", text, f"<p>{text}</p>",
+                        dry_run=opts.dry_run)
+        log.info("test email %s", "sent" if ok else "NOT sent (see messages above)")
+        return 0 if ok else 1
     db_path = DATA_DIR / "articles.json"
     db = load_db(db_path)
     session = make_session(settings)
@@ -94,12 +104,13 @@ def run(opts) -> int:
     # 6. Breaking alerts for new High-impact articles (capped; extras get one summary email).
     cfg = load_email_config(settings)
     high = sorted([a for a in new if a.impact_level == "High"], key=lambda a: -a.importance_score)
-    limit = settings["max_alerts_per_run"]
-    for art in high[:limit]:
+    alerts_on = bool(settings.get("breaking_alerts", False))
+    limit = settings["max_alerts_per_run"] if alerts_on else 0
+    for art in (high[:limit] if alerts_on else []):
         subj, text, html = build_alert(art, settings)
         if send_email(cfg, subj, text, html, dry_run=no_send):
             art.alerted = True
-    overflow = high[limit:]
+    overflow = high[limit:] if alerts_on else []
     if overflow:
         subj, text, html = build_overflow(len(overflow), settings)
         send_email(cfg, subj, text, html, dry_run=no_send)
@@ -148,4 +159,7 @@ def run(opts) -> int:
             return 1
 
     log.info("run complete: %s", summary)
+    if opts.digest and not no_send and not digest_sent:
+        log.error("DIGEST EMAIL WAS NOT SENT. Read the email lines above: missing secrets or an SMTP error.")
+        return 1
     return 0 if (feeds_ok or not feeds) else 1

@@ -70,3 +70,9 @@ def test_digest_has_two_groups_and_escapes_html():
     assert "===== High Impact (1) =====" in text
     assert "===== Medium & Low Impact (1) =====" in text
     assert subject.startswith("[T] Daily digest: 2 stories (1 high impact)")
+
+
+def test_missing_secret_is_reported_not_silent(caplog):
+    caplog.set_level("WARNING")
+    assert send_email(BASE, "Daily digest", "t", "<p>h</p>") is False
+    assert "not configured" in caplog.text

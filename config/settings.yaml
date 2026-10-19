@@ -1,11 +1,12 @@
 # Global settings. Timestamps are stored in UTC; timezone_display is only for showing times.
 max_article_age_days: 7        # feed items older than this are ignored when fetching
 retention_days: 30             # stored articles older than this are removed
-request_timeout_seconds: 20
-max_retries: 3                 # retries after the first attempt (waits 2, 4, 8 seconds)
+request_timeout_seconds: 15
+max_retries: 2                 # retries after the first attempt (waits 2, 4, 8 seconds)
 backoff_seconds: 2
 max_items_per_feed: 30
 high_importance_threshold: 70  # rule-based score at or above this is High (used when AI is off)
+breaking_alerts: false         # true = also send one email per new High Impact story (off: one email per period)
 max_alerts_per_run: 10
 period_top_n:                  # stories per digest email
   day: 15

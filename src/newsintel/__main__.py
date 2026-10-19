@@ -19,6 +19,7 @@ def main(argv=None) -> int:
     parser.add_argument("--feed", help="process only the enabled feed with this exact name")
     parser.add_argument("--fixture", help="read this XML file instead of the network (offline testing)")
     parser.add_argument("--ignore-age", action="store_true", help="keep old items too (use with --fixture)")
+    parser.add_argument("--test-email", action="store_true", help="send one test email to check email setup")
     parser.add_argument("--verbose", action="store_true", help="debug logging")
     opts = parser.parse_args(argv)
     if hasattr(sys.stdout, "reconfigure"):
