@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-10-19T11:09:45+00:00",
+  "last_run_utc": "2026-10-19T11:12:29+00:00",
   "articles": [
     {
       "id": "79428cf43613e4131c16b2f45c833d7e87f5fb9b7bf3c33fddcb7e212b8af303",
@@ -30114,7 +30114,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "Supercomputer and HPC news search"
+      ]
     },
     {
       "id": "82d7367336fb0961c7981548fe3e39be5d7be048aa4c180a6e11ca590446aa43",
@@ -30425,6 +30427,138 @@
       "overview": "Limited source content: only the title and link are available.",
       "explanation": "",
       "relevance": "Rule-based score 50 (Medium). Reasons: source priority 3; published in last 24h; major entity in title: Gemini. Category: Cloud (AWS, Google Cloud, Azure).",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "6e78e2722ac94fa74978b8d50e86d0bcfb002085c1675d20872568e10dcbd1ea",
+      "title": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS2JaOUJUMmZyYlh4NW1YV1NTVW90S1BJVEFHdGdqQnVYaGczX2RaaHlLYjB4anJadVMtTUU2Z200Tm92Unl0V3dBUjQtNnZ0alBneGlQUE5lTkI0RklNYlRZUzNQX3hDeEtiV1d0andiNTdrWWVVZW1vM1ZMbFhxMlBQTi1GUnphelYzMEpvZlY4cXlsVnQycHQtbkx5bWpWSExGNnlRZ3EtbW9BRnc?oc=5",
+      "source_name": "Chinese AI model startups news search",
+      "category": "China AI Startups",
+      "source_priority": 4,
+      "published_utc": "2026-10-17T09:37:12+00:00",
+      "first_seen_utc": "2026-10-19T11:12:29+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4",
+        "major entity in title: Alibaba, Moonshot, Kimi"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "BABA Stock At Near Two-Month Highs — Kimi AI's Moonshot Reportedly Has A Power Agreement With Alibaba For 20K Nvidia Chips Stocktwits",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 4; major entity in title: Alibaba, Moonshot, Kimi. Category: China AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "94fe934fe82fd8092a4d7fe8a69263d4b392444bc27a98edfa6f7d92d996291b",
+      "title": "Apple’s AI Launch in China Faces Market Competition Challenges - NAI500",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSHpLd3NDMUp3U0h6YkF4bXhDdHpEY0lpY3J1eXg1ODNVSFQybjEzMmV2cnJPQ0FCNEpMb3dnU1ZzU0Ytb1RwQ19yVHo3cWR2emxYZFJoUE9fSVQyMGhLYXZIdm02TkQwT0hEOVhHZTNjNnhDQ3duTUVPLXJfZEpjanlTUWozd0J1cmw0OVJ2U2liYlhtZ0FHdzZB?oc=5",
+      "source_name": "Big tech AI news search",
+      "category": "Big Tech",
+      "source_priority": 3,
+      "published_utc": "2026-10-15T03:24:00+00:00",
+      "first_seen_utc": "2026-10-19T11:12:29+00:00",
+      "importance_score": 40,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "release keyword: launch",
+        "major entity in title: Apple"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 40 (Medium). Reasons: source priority 3; release keyword: launch; major entity in title: Apple. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "e9b51c8b4fc5df5642ca25262d2d47bd10e837e9176cc6795be63c3a2b374ede",
+      "title": "Top six AI spenders are spending more than the Russian govt. this year",
+      "link": "https://www.takingstock.ai/",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T11:02:33+00:00",
+      "first_seen_utc": "2026-10-19T11:12:29+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "97d81049508e6e79648c0850a5ddcc156b7a0bfededd0ca911c2888c828c3e7d",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to \"play.\"",
+      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "source_name": "Hacker News - AI",
+      "category": "Frontier AI Labs",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T11:02:45+00:00",
+      "first_seen_utc": "2026-10-19T11:12:29+00:00",
+      "importance_score": 45,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h",
+        "major entity in title: Claude"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 45 (Medium). Reasons: source priority 2; published in last 24h; major entity in title: Claude. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "5df41cca0b0f14e123963d88c1b0d56e375bc6614546b00fe3b5129ee846a4fc",
+      "title": "Show HN: I re-read the terms of 175 AI tools twice; 60% changed in 15 weeks",
+      "link": "https://clipjury.com/guides/ai-tool-terms-changed-2026/",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T11:07:21+00:00",
+      "first_seen_utc": "2026-10-19T11:12:29+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
@@ -34976,6 +35110,26 @@
     {
       "id": "ce2f0a1765b699cefe6550052afb22cb3796f4e040684a9c27ab2e72357bb685",
       "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "6e78e2722ac94fa74978b8d50e86d0bcfb002085c1675d20872568e10dcbd1ea",
+      "added_utc": "2026-10-19T11:12:29+00:00"
+    },
+    {
+      "id": "94fe934fe82fd8092a4d7fe8a69263d4b392444bc27a98edfa6f7d92d996291b",
+      "added_utc": "2026-10-19T11:12:29+00:00"
+    },
+    {
+      "id": "e9b51c8b4fc5df5642ca25262d2d47bd10e837e9176cc6795be63c3a2b374ede",
+      "added_utc": "2026-10-19T11:12:29+00:00"
+    },
+    {
+      "id": "97d81049508e6e79648c0850a5ddcc156b7a0bfededd0ca911c2888c828c3e7d",
+      "added_utc": "2026-10-19T11:12:29+00:00"
+    },
+    {
+      "id": "5df41cca0b0f14e123963d88c1b0d56e375bc6614546b00fe3b5129ee846a4fc",
+      "added_utc": "2026-10-19T11:12:29+00:00"
     }
   ],
   "run_history": [
@@ -35120,6 +35274,18 @@
       "duplicates": 562,
       "high": 1,
       "digest": "month",
+      "digest_sent": true,
+      "pruned": 0
+    },
+    {
+      "run_utc": "2026-10-19T11:12:29+00:00",
+      "ai": true,
+      "feeds_ok": 55,
+      "feeds_failed": 0,
+      "new": 5,
+      "duplicates": 588,
+      "high": 0,
+      "digest": "week",
       "digest_sent": true,
       "pruned": 0
     }
