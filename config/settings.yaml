@@ -4,6 +4,9 @@ retention_days: 30             # stored articles older than this are removed
 request_timeout_seconds: 15
 max_retries: 2                 # retries after the first attempt (waits 2, 4, 8 seconds)
 backoff_seconds: 2
+server_error_backoff_seconds: 10 
+host_min_interval_seconds:         # minimum gap between requests to the same site
+  news.google.com: 3               # Google News blocks bursts of requests (HTTP 503)
 max_items_per_feed: 30
 high_importance_threshold: 70  # rule-based score at or above this is High (used when AI is off)
 breaking_alerts: false         # true = also send one email per new High Impact story (off: one email per period)

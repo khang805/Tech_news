@@ -72,3 +72,26 @@ def test_timeouts_exhaust_retries():
         get_with_retries(session, "https://x", SETTINGS, sleep=lambda _: None)
     assert exc.value.kind == "timeout"
     assert session.calls == 3
+
+def test_server_error_waits_longer_than_normal_retries():
+    waits = []
+    session = FakeSession([FakeResp(503), FakeResp(200, b"ok")])
+    get_with_retries(session, "https://x", SETTINGS | {"server_error_backoff_seconds": 10}, sleep=waits.append)
+    assert waits == [10]
+
+def test_pacing_spaces_requests_to_the_same_site():
+    waits = []
+    now = [0.0]
+
+    def clock():
+        return now[0]
+
+    def sleep(seconds):
+        waits.append(seconds)
+        now[0] += seconds
+
+    settings = SETTINGS | {"host_min_interval_seconds": {"news.google.com": 3}}
+    session = FakeSession([FakeResp(200, b"a"), FakeResp(200, b"b")])
+    get_with_retries(session, "https://news.google.com/rss/x", settings, sleep=sleep, clock=clock)
+    get_with_retries(session, "https://news.google.com/rss/y", settings, sleep=sleep, clock=clock)
+    assert waits == [3]
