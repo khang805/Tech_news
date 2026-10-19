@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-19T07:48:05+00:00",
+ "generated_utc": "2026-10-19T07:53:31+00:00",
  "category_order": [
   "NVIDIA",
   "Jetson & Edge AI",
@@ -684,7 +684,7 @@
    "content_status": "partial",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -922,7 +922,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -1005,7 +1005,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -1267,7 +1267,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -1450,7 +1450,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -1531,7 +1531,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -1874,7 +1874,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -2330,7 +2330,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -2491,7 +2491,7 @@
    "content_status": "partial",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -2518,7 +2518,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -2571,7 +2571,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -2949,7 +2949,7 @@
    "content_status": "partial",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -3264,7 +3264,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -3564,7 +3564,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -3671,7 +3671,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": [
     "Intel AI news search"
    ]
@@ -6816,7 +6816,9 @@
    "date_is_estimated": false,
    "alerted": false,
    "digested": false,
-   "also_reported_by": []
+   "also_reported_by": [
+    "OpenAI news search"
+   ]
   },
   {
    "id": "392ea257e3b7f0ff45d819ddb3fd5b569351462d3de2b1fa5c0363b4d50a2735",
@@ -11743,7 +11745,8 @@
    "alerted": false,
    "digested": false,
    "also_reported_by": [
-    "NVIDIA launches news search"
+    "NVIDIA launches news search",
+    "Big tech AI news search"
    ]
   },
   {
