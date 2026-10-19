@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-19T11:12:29+00:00",
+ "generated_utc": "2026-10-19T11:15:16+00:00",
  "category_order": [
   "NVIDIA",
   "Jetson & Edge AI",
@@ -334,7 +334,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -441,7 +441,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -522,7 +522,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -575,7 +575,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -602,7 +602,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -681,7 +681,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -789,7 +789,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -949,7 +949,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -976,7 +976,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -2073,7 +2073,7 @@
    "content_status": "partial",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -2101,7 +2101,7 @@
    "content_status": "partial",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -2287,7 +2287,7 @@
    "content_status": "partial",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -4175,7 +4175,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -4528,7 +4528,7 @@
    "content_status": "partial",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {
@@ -4607,7 +4607,7 @@
    "content_status": "insufficient",
    "date_is_estimated": false,
    "alerted": false,
-   "digested": false,
+   "digested": true,
    "also_reported_by": []
   },
   {

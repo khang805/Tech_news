@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-10-19T11:12:29+00:00",
+  "last_run_utc": "2026-10-19T11:15:16+00:00",
   "articles": [
     {
       "id": "79428cf43613e4131c16b2f45c833d7e87f5fb9b7bf3c33fddcb7e212b8af303",
@@ -27137,7 +27137,7 @@
       "content_status": "partial",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -27271,7 +27271,7 @@
       "content_status": "partial",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -27299,7 +27299,7 @@
       "content_status": "partial",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -27836,7 +27836,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -27863,7 +27863,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -27970,7 +27970,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -28025,7 +28025,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -28052,7 +28052,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -28079,7 +28079,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -28391,7 +28391,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -28418,7 +28418,7 @@
       "content_status": "partial",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -29693,7 +29693,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -29721,7 +29721,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -29748,7 +29748,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -29775,7 +29775,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -35286,6 +35286,18 @@
       "duplicates": 588,
       "high": 0,
       "digest": "week",
+      "digest_sent": true,
+      "pruned": 0
+    },
+    {
+      "run_utc": "2026-10-19T11:15:16+00:00",
+      "ai": true,
+      "feeds_ok": 55,
+      "feeds_failed": 0,
+      "new": 0,
+      "duplicates": 584,
+      "high": 0,
+      "digest": "day",
       "digest_sent": true,
       "pruned": 0
     }
