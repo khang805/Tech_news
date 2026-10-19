@@ -8,7 +8,7 @@
 body { font-family: system-ui, Arial, sans-serif; margin: 0; background: #f4f6f9; color: #1d1d1f; }
 header { background: #1d2b44; color: #fff; padding: 16px; }
 header h1 { margin: 0; font-size: 20px; }
-header small { opacity: .8; }
+header .updated { font-size: 13px; opacity: .9; margin-top: 4px; line-height: 1.5; }
 main { max-width: 900px; margin: 0 auto; padding: 16px; }
 .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
 .controls input, .controls select { flex: 1 1 150px; padding: 9px; border: 1px solid #c8ccd4; border-radius: 6px; font-size: 14px; }
@@ -25,7 +25,13 @@ main { max-width: 900px; margin: 0 auto; padding: 16px; }
 </style>
 </head>
 <body>
-<header><h1>Tech Intelligence</h1><small>Data updated: <span id="updated">2026-10-19T10:05:30+00:00</span> UTC</small></header>
+<header>
+  <h1>Tech Intelligence</h1>
+  <div class="updated">
+    Data updated: <span id="updated-local">2026-10-19T10:45:23+00:00</span> (your time)<br>
+    Pakistan time: 19 Oct 2026, 03:45 PM PKT
+  </div>
+</header>
 <main>
 <div class="controls">
 <input id="q" type="search" placeholder="Search titles, summaries, sources">
@@ -54,6 +60,13 @@ function el(tag, cls, text) {
   if (cls) node.className = cls;
   if (text !== undefined) node.textContent = text;
   return node;
+}
+
+function showLocalUpdateTime(iso) {
+  // Show the update time in the viewer's own timezone (browser setting).
+  const d = new Date(iso);
+  if (isNaN(d)) return;
+  $("updated-local").textContent = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
 }
 
 function fillCategories() {
@@ -111,7 +124,7 @@ async function load() {
     const res = await fetch("data/articles.json", { cache: "no-store" });
     if (!res.ok) throw new Error("HTTP " + res.status);
     DATA = await res.json();
-    $("updated").textContent = DATA.generated_utc;
+    showLocalUpdateTime(DATA.generated_utc);
     fillCategories();
     ["q", "period", "impact", "cat"].forEach((id) => $(id).addEventListener("input", render));
     render();

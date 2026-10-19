@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-10-19T10:05:30+00:00",
+  "last_run_utc": "2026-10-19T10:45:23+00:00",
   "articles": [
     {
       "id": "79428cf43613e4131c16b2f45c833d7e87f5fb9b7bf3c33fddcb7e212b8af303",
@@ -29414,6 +29414,246 @@
       "alerted": false,
       "digested": false,
       "also_reported_by": []
+    },
+    {
+      "id": "2bd1be0741b4142215cc098880d7cd8cae1abfdfccca67a023212d58aed1df63",
+      "title": "b11729: qwen3 : bidirectional attention and dense_2 output projection (#30607)",
+      "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11729",
+      "source_name": "llama.cpp releases",
+      "category": "Inference Engines",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T06:29:02+00:00",
+      "first_seen_utc": "2026-10-19T10:45:23+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "qwen3 : bidirectional attention and dense_2 output projection Assisted-by: Grok convert : read use_bidirectional_attention in base Assisted-by: Grok Update conversion/base.py Co-authored-by: Sigbjørn Skjæret sigbjorn.sk...",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: Inference Engines.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "d6393521bbe321cb1d6d827ca7e94d690a49a48a4e1cbc3042619831e04d6d2f",
+      "title": "Linkener secures €7.5M to expand its energy management platform",
+      "link": "https://tech.eu/2026/10/19/linkener-secures-eur75m-to-expand-its-energy-management-platform/",
+      "source_name": "Tech.eu",
+      "category": "US & Europe AI Startups",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T10:39:59+00:00",
+      "first_seen_utc": "2026-10-19T10:45:23+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "funding keyword: funding",
+        "funding keyword: funding",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Energytechnology startup Linkener has raised €7.5 million in a funding round led byKlima Energy Transition Fund, Alantra’s energy transition fund, with existingshareholder GoHub Ventures remaining on ...",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 3; funding keyword: funding; funding keyword: funding; published in last 24h. Category: US & Europe AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "bd124660de03cd29c1c1ce44e4096344308872ec0a445a847bfc072b9e4cb599",
+      "title": "German VCs call for €15B annual funding boost to build the next generation of tech giants",
+      "link": "https://tech.eu/2026/10/19/german-vcs-call-for-eur15b-annual-funding-boost-to-build-the-next-generation-of-tech-giants/",
+      "source_name": "Tech.eu",
+      "category": "US & Europe AI Startups",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T10:46:06+00:00",
+      "first_seen_utc": "2026-10-19T10:45:23+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "funding keyword: funding",
+        "funding keyword: funding",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Today the German federal government is holding its first investor conference: the Invest in Germany Summit The event focuses on what Germany needs right now as a business and investment destination. ...",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 3; funding keyword: funding; funding keyword: funding; published in last 24h. Category: US & Europe AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "78a8712da04b62ebca0ae172ef1e912cc34a7d86c4b6427a75a3a6399e3d9101",
+      "title": "Show HN: Ranet3 – High performance policy routed IPsec mesh SD-WAN",
+      "link": "https://ranet3.com/",
+      "source_name": "Hacker News - Front page",
+      "category": "Networking & Infrastructure",
+      "source_priority": 2,
+      "published_utc": "2026-10-18T14:31:52+00:00",
+      "first_seen_utc": "2026-10-19T10:45:23+00:00",
+      "importance_score": 40,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 2",
+        "release keyword: version",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "btw this is already running on all my machines (including a macbook), and i've configured all of them to have routable public ip addresses ;) especially for the mac, my ISP is SFR (over coaxial connection) with only dyn...",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 40 (Medium). Reasons: source priority 2; release keyword: version; published in last 24h. Category: Networking & Infrastructure.",
+      "content_status": "full",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "7ddadf011e6f13bca4759946a5e4621e440f25045ef705195b90e8aa63bfa6e2",
+      "title": "Show HN: Gsearch – Real Google Search for AI Agents, via a Real Firefox (MCP)",
+      "link": "https://github.com/RayenMlayeh/gsearch",
+      "source_name": "Hacker News - AI",
+      "category": "AI Agents",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T10:17:12+00:00",
+      "first_seen_utc": "2026-10-19T10:45:23+00:00",
+      "importance_score": 45,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h",
+        "major entity in title: Google"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 45 (Medium). Reasons: source priority 2; published in last 24h; major entity in title: Google. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "ca250c64c9d1e50ae83818018575e387a5de25114e934c55399b2d9c42c66be6",
+      "title": "Rebuilding the API edge for AI Agents",
+      "link": "https://engineering.monday.com/rebuilding-monday-api-edge-for-agents/",
+      "source_name": "Hacker News - AI",
+      "category": "AI Agents",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T10:28:39+00:00",
+      "first_seen_utc": "2026-10-19T10:45:23+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "e3d65d1a1f3c1dde99dd5690418062e65ee0534b132f759a60cb70d27cb80439",
+      "title": "The Weak Points in AI Bonds Are Becoming Clearer",
+      "link": "https://www.wsj.com/finance/investing/the-weak-points-in-ai-bonds-are-becoming-clearer-12f09cc6",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T10:42:34+00:00",
+      "first_seen_utc": "2026-10-19T10:45:23+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "d8e9ddb3bca096fc5c911ac9a854ce9a02aef68b64ec2988c8a7702508e01b13",
+      "title": "Show HN: CanaryGuard – A <0.1ms deterministic AI prompt firewall with $5 bounty",
+      "link": "https://canaryguard-402.onrender.com/bounty.html",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T10:46:14+00:00",
+      "first_seen_utc": "2026-10-19T10:45:23+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "7ca52900a71654833ed28ff4f14bbc9ce85a0b667551b84d2d8eae987e32a968",
+      "title": "How AI is creating a lopsided US economy",
+      "link": "https://www.abc.net.au/news/2026-10-19/ai-stock-market-concentration-data/107261078",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T10:47:37+00:00",
+      "first_seen_utc": "2026-10-19T10:45:23+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
     }
   ],
   "seen_ids": [
@@ -33808,6 +34048,42 @@
     {
       "id": "a8e0d37789ba009eb9ce15c3f18a5517783cc755d3db736903e768bac744b55b",
       "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "2bd1be0741b4142215cc098880d7cd8cae1abfdfccca67a023212d58aed1df63",
+      "added_utc": "2026-10-19T10:45:23+00:00"
+    },
+    {
+      "id": "d6393521bbe321cb1d6d827ca7e94d690a49a48a4e1cbc3042619831e04d6d2f",
+      "added_utc": "2026-10-19T10:45:23+00:00"
+    },
+    {
+      "id": "bd124660de03cd29c1c1ce44e4096344308872ec0a445a847bfc072b9e4cb599",
+      "added_utc": "2026-10-19T10:45:23+00:00"
+    },
+    {
+      "id": "78a8712da04b62ebca0ae172ef1e912cc34a7d86c4b6427a75a3a6399e3d9101",
+      "added_utc": "2026-10-19T10:45:23+00:00"
+    },
+    {
+      "id": "7ddadf011e6f13bca4759946a5e4621e440f25045ef705195b90e8aa63bfa6e2",
+      "added_utc": "2026-10-19T10:45:23+00:00"
+    },
+    {
+      "id": "ca250c64c9d1e50ae83818018575e387a5de25114e934c55399b2d9c42c66be6",
+      "added_utc": "2026-10-19T10:45:23+00:00"
+    },
+    {
+      "id": "e3d65d1a1f3c1dde99dd5690418062e65ee0534b132f759a60cb70d27cb80439",
+      "added_utc": "2026-10-19T10:45:23+00:00"
+    },
+    {
+      "id": "d8e9ddb3bca096fc5c911ac9a854ce9a02aef68b64ec2988c8a7702508e01b13",
+      "added_utc": "2026-10-19T10:45:23+00:00"
+    },
+    {
+      "id": "7ca52900a71654833ed28ff4f14bbc9ce85a0b667551b84d2d8eae987e32a968",
+      "added_utc": "2026-10-19T10:45:23+00:00"
     }
   ],
   "run_history": [
@@ -33928,6 +34204,18 @@
       "duplicates": 512,
       "high": 4,
       "digest": "day",
+      "digest_sent": true,
+      "pruned": 0
+    },
+    {
+      "run_utc": "2026-10-19T10:45:23+00:00",
+      "ai": true,
+      "feeds_ok": 27,
+      "feeds_failed": 28,
+      "new": 9,
+      "duplicates": 209,
+      "high": 0,
+      "digest": "month",
       "digest_sent": true,
       "pruned": 0
     }
