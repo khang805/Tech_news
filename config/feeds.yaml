@@ -177,11 +177,12 @@ feeds:
     enabled: true
 
   # ---------- High performance computing ----------
-  - name: "HPCwire"  # VERIFY
-    url: "https://www.hpcwire.com/feed/"
+  - name: "HPC news search"  # VERIFY
+    url: "https://news.google.com/rss/search?q=high+performance+computing+HPC&hl=en-US&gl=US&ceid=US:en"
     category: "High Performance Computing"
     source_priority: 3
     enabled: true
+    
   - name: "Supercomputer and HPC news search"
     url: "https://news.google.com/rss/search?q=supercomputer+OR+high+performance+computing&hl=en-US&gl=US&ceid=US:en"
     category: "High Performance Computing"

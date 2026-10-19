@@ -1,8 +1,10 @@
 """Builds the static website in docs/: index.html (the page) and data/articles.json (the data it loads).
 Vercel serves the docs folder; GitHub Actions rebuilds it every run."""
 import json
+from datetime import datetime
 from html import escape
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 TEMPLATE = """<!doctype html>
 <html lang="en">
@@ -14,7 +16,7 @@ TEMPLATE = """<!doctype html>
 body { font-family: system-ui, Arial, sans-serif; margin: 0; background: #f4f6f9; color: #1d1d1f; }
 header { background: #1d2b44; color: #fff; padding: 16px; }
 header h1 { margin: 0; font-size: 20px; }
-header small { opacity: .8; }
+header .updated { font-size: 13px; opacity: .9; margin-top: 4px; line-height: 1.5; }
 main { max-width: 900px; margin: 0 auto; padding: 16px; }
 .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
 .controls input, .controls select { flex: 1 1 150px; padding: 9px; border: 1px solid #c8ccd4; border-radius: 6px; font-size: 14px; }
@@ -31,7 +33,13 @@ main { max-width: 900px; margin: 0 auto; padding: 16px; }
 </style>
 </head>
 <body>
-<header><h1>Tech Intelligence</h1><small>Data updated: <span id="updated">__GENERATED__</span> UTC</small></header>
+<header>
+  <h1>Tech Intelligence</h1>
+  <div class="updated">
+    Data updated: <span id="updated-local">__UPDATED_LOCAL__</span> (your time)<br>
+    Pakistan time: __UPDATED_PKT__
+  </div>
+</header>
 <main>
 <div class="controls">
 <input id="q" type="search" placeholder="Search titles, summaries, sources">
@@ -60,6 +68,13 @@ function el(tag, cls, text) {
   if (cls) node.className = cls;
   if (text !== undefined) node.textContent = text;
   return node;
+}
+
+function showLocalUpdateTime(iso) {
+  // Show the update time in the viewer's own timezone (browser setting).
+  const d = new Date(iso);
+  if (isNaN(d)) return;
+  $("updated-local").textContent = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
 }
 
 function fillCategories() {
@@ -117,7 +132,7 @@ async function load() {
     const res = await fetch("data/articles.json", { cache: "no-store" });
     if (!res.ok) throw new Error("HTTP " + res.status);
     DATA = await res.json();
-    $("updated").textContent = DATA.generated_utc;
+    showLocalUpdateTime(DATA.generated_utc);
     fillCategories();
     ["q", "period", "impact", "cat"].forEach((id) => $(id).addEventListener("input", render));
     render();
@@ -133,6 +148,11 @@ load();
 """
 
 
+def _format_time(iso_utc: str, tz_name: str) -> str:
+    dt = datetime.fromisoformat(iso_utc).astimezone(ZoneInfo(tz_name))
+    return dt.strftime("%d %b %Y, %I:%M %p %Z")
+
+
 def build_site(articles: list[dict], docs_dir: Path, generated_utc: str, settings: dict) -> None:
     rows = sorted(articles, key=lambda a: a["published_utc"], reverse=True)
     payload = {"generated_utc": generated_utc,
@@ -141,5 +161,9 @@ def build_site(articles: list[dict], docs_dir: Path, generated_utc: str, setting
     data_dir = docs_dir / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
     (data_dir / "articles.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
-    page = TEMPLATE.replace("__GENERATED__", escape(generated_utc))
+
+    tz = settings.get("timezone_display", "UTC")
+    page = (TEMPLATE
+            .replace("__UPDATED_PKT__", escape(_format_time(generated_utc, tz)))
+            .replace("__UPDATED_LOCAL__", escape(generated_utc)))
     (docs_dir / "index.html").write_text(page, encoding="utf-8")
