@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-10-19T05:57:39+00:00",
+  "last_run_utc": "2026-10-19T06:44:59+00:00",
   "articles": [
     {
       "id": "79428cf43613e4131c16b2f45c833d7e87f5fb9b7bf3c33fddcb7e212b8af303",
@@ -16818,7 +16818,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "AI agents news search"
+      ]
     },
     {
       "id": "a1c6c55cfbcb3b510f5477bd91a393854a38b1ddcc951eddb6860e12b5c0b520",
@@ -18786,7 +18788,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "NVIDIA launches news search"
+      ]
     },
     {
       "id": "ba3f3a220181f73f658bc1f35a5e8cad1e3f7d9b2b51e8b3088fed9394ad1c8c",
@@ -22623,7 +22627,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "ByteDance Doubao news search"
+      ]
     },
     {
       "id": "2e2d56889ea37e632eec757898b81c6deb7f2cac65d7e08ceec847c95da467c5",
@@ -22865,7 +22871,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": true,
-      "also_reported_by": []
+      "also_reported_by": [
+        "AI agents news search"
+      ]
     },
     {
       "id": "3aab17654f54b7ac23ee8a3e5d5dfa744849bd00534ac84df167bf617471c385",
@@ -22891,7 +22899,7 @@
       "content_status": "partial",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -22918,7 +22926,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -22973,7 +22981,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23000,7 +23008,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23027,7 +23035,7 @@
       "content_status": "partial",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23054,7 +23062,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23107,7 +23115,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23162,7 +23170,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23189,7 +23197,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23216,7 +23224,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23298,7 +23306,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23351,7 +23359,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23378,7 +23386,7 @@
       "content_status": "partial",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23405,7 +23413,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23999,7 +24007,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "Intel AI news search"
+      ]
     },
     {
       "id": "382ad184d65bdde1771b4933dd6f2a71e33efbdf4a65a9cc92dcd726b4c627a8",
@@ -26507,6 +26517,193 @@
       "overview": "Limited source content: only the title and link are available.",
       "explanation": "",
       "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "40032bacfceef85b6bf422ad2a0609fe0d3bceca3bde87693ea53c63880a2b48",
+      "title": "We’re sharing 3 tips to study smarter with Gemini Notebook. - blog.google",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRmZ6ck1VejZUaWQxTkQ5ZHJMUWt0X2IxLTAtNVN4dWdKLU9hYldXTGtrMWpvZDl2c1RkWnlBbzdGVDZkNVE5LTdZcWJBMGplS0Z1eVJsUlJoajhkN0ROanUwN3ZpZ0JnamJ3T0c4RFlZRGEwRTNud3VWTmZDN0QtNkFpRjFwVldYb1hOTGtsTkZpVUI3UXF1Y3RwY2M?oc=5",
+      "source_name": "Google Gemini and DeepMind news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-16T16:44:59+00:00",
+      "first_seen_utc": "2026-10-19T06:44:59+00:00",
+      "importance_score": 40,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "major entity in title: Google, Gemini"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 40 (Medium). Reasons: source priority 5; major entity in title: Google, Gemini. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "87e918f70f3bf192c52877045e046d3455849d5d9b6fa2acec719d561319e209",
+      "title": "Korean Stocks Fall as DeepSeek Model, Funding Worry Rattle Chips - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOU1ZhLTY1VVQwT2xSZUl1N3o4b0JwcklmSlV4bUJfTGk0em5raU5SY0NGcVItbmtGUndSZkJhTUhsLTR1UFBPNVZHYmdYOHU2b1BxMHl2cVdkV3d4cE5tbGFnZ0tBdnZqZ0JDWWZkQmRoTEVCM3RxTE1VTG5VNnVPc0FnSVNHX1FWOE5BcU9oQmt1Rnc0NHFBRjJTOXl2dDV3NWE2Tk54bkJ0NmliWS1VckdTZ3c?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T00:17:00+00:00",
+      "first_seen_utc": "2026-10-19T06:44:59+00:00",
+      "importance_score": 80,
+      "importance_level": "High",
+      "importance_reasons": [
+        "source priority 5",
+        "funding keyword: funding",
+        "funding keyword: funding",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "High",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 80 (High). Reasons: source priority 5; funding keyword: funding; funding keyword: funding; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "2a20e038d3e1600dc136b3c669ddd45ce2ea03a8aeb4c3be54e281601adf550a",
+      "title": "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNlEzbWo0NE1pc3VuQnRxbDZtNHZGVXd6STNFejRBYTE0T191XzF3dTNWcmc4UmwyUG5Rd0dwNWh5T3Zvb2FTd0IyNm1KTXVhMnpKUlJlUXZRY3B3S0IwRExRV3l6UXVPMlctUGRoV1FPS2dOR096d3M5U3huQVRyZ2sySE1PRGtfU0xmei1ZNNIBlAFBVV95cUxQamxHOGJ2QWpKYjhDa08weUJKWFg1MHVhRkdCbGVQY3NHTXZPdzdHS3lZb19EX1NmMnRXRkh1WUtZUFRZTkR0Z1FiUzB6YWFTcm4yQlVwVko3Rm5mX2FWYVJlV3lEZWNqQXRYcDFNMnllNktDbVFzMUdNVnNPcUFudzc0NElpVjNSQ2QtN0h5ekFKMDlX?oc=5",
+      "source_name": "OpenAI news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T06:03:03+00:00",
+      "first_seen_utc": "2026-10-19T06:44:59+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: OpenAI"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: OpenAI. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "8275dde850227c6bb35cabb2cd21838d3116259f5cc31e9bada620e5eb654acc",
+      "title": "Doubao Clarifies \"Half of China's Computing Power Used for Short Dramas\" Claim: Only About 10% of ByteDance's Compute Goes to Video Generation - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8xUEpzdmpqTHFBZjY0NGVJaC1oZlpsVjhQQ2stMHBiVUlvRFo2S0VoU010Sm9UZmxzNDE1TE91MWdVV0JIanMwLVdxRUxDdGpwUXRfZDRGYzhYU1ZadHlSZXdOZnU3dXlkaVN5RlNQZ0ZyYVFvU3c?oc=5",
+      "source_name": "ByteDance Doubao news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 4,
+      "published_utc": "2026-10-19T05:55:00+00:00",
+      "first_seen_utc": "2026-10-19T06:44:59+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: ByteDance"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Doubao Clarifies \"Half of China's Computing Power Used for Short Dramas\" Claim: Only About 10% of ByteDance's Compute Goes to Video Generation BigGo Finance",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: ByteDance. Category: China Big Tech & AI.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "53943c5fe9d49c8a20db64ef27ba5d5bc9ce68b4c71a76258db2f9c8864d846a",
+      "title": "Controlled Autonomy for AI Agents: Interview with Cobo Co-founder and CTO Changhao Jiang - HackerNoon",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMWRIV2YyRTc4VUdyWEJQSjk4LVBKQkREMDI5NDVFV3VCSkU3M2xFSTBmYlRtelBKMGZuSVdmVUVhRG8weFdCNkEyVjlDZzI1ekV5aDBjY0VETXByNGY0RktXd1dnaTRzRGhVZVpiVlhxdWUtR0lnQjJBYTBMTUxRdWNicS1DSDJvbWZJZGZneF9obi1HQlg2YmhsRHc2WTBDTVNKbEI3YnMyQm9ycGpn?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T06:35:56+00:00",
+      "first_seen_utc": "2026-10-19T06:44:59+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "7d8df076cba8b980c3c0124d6344ff95dfe782cb8f40f3e5cc4986141fc4c7e3",
+      "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+      "link": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "source_name": "Hacker News - Front page",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-17T23:26:35+00:00",
+      "first_seen_utc": "2026-10-19T06:44:59+00:00",
+      "importance_score": 20,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 48h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 20 (Low). Reasons: source priority 2; published in last 48h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "241dad6dc890994b7568c85038ec86a049574b01567ad0012b8975e53e520930",
+      "title": "TamperAudit – Tamper-evident audit logs for AI agents (EU AI Act Article 12)",
+      "link": "https://tamperaudit.com",
+      "source_name": "Hacker News - AI",
+      "category": "AI Agents",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T06:36:00+00:00",
+      "first_seen_utc": "2026-10-19T06:44:59+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: AI Agents.",
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
@@ -30474,6 +30671,34 @@
     {
       "id": "1e3eb40309ca4d065c0e29ec8622179bad92f760a30d7a85975d7baf3f8d0bab",
       "added_utc": "2026-10-19T05:57:39+00:00"
+    },
+    {
+      "id": "40032bacfceef85b6bf422ad2a0609fe0d3bceca3bde87693ea53c63880a2b48",
+      "added_utc": "2026-10-19T06:44:59+00:00"
+    },
+    {
+      "id": "87e918f70f3bf192c52877045e046d3455849d5d9b6fa2acec719d561319e209",
+      "added_utc": "2026-10-19T06:44:59+00:00"
+    },
+    {
+      "id": "2a20e038d3e1600dc136b3c669ddd45ce2ea03a8aeb4c3be54e281601adf550a",
+      "added_utc": "2026-10-19T06:44:59+00:00"
+    },
+    {
+      "id": "8275dde850227c6bb35cabb2cd21838d3116259f5cc31e9bada620e5eb654acc",
+      "added_utc": "2026-10-19T06:44:59+00:00"
+    },
+    {
+      "id": "53943c5fe9d49c8a20db64ef27ba5d5bc9ce68b4c71a76258db2f9c8864d846a",
+      "added_utc": "2026-10-19T06:44:59+00:00"
+    },
+    {
+      "id": "7d8df076cba8b980c3c0124d6344ff95dfe782cb8f40f3e5cc4986141fc4c7e3",
+      "added_utc": "2026-10-19T06:44:59+00:00"
+    },
+    {
+      "id": "241dad6dc890994b7568c85038ec86a049574b01567ad0012b8975e53e520930",
+      "added_utc": "2026-10-19T06:44:59+00:00"
     }
   ],
   "run_history": [
@@ -30533,6 +30758,18 @@
       "new": 148,
       "duplicates": 413,
       "high": 6,
+      "digest": "day",
+      "digest_sent": true,
+      "pruned": 0
+    },
+    {
+      "run_utc": "2026-10-19T06:44:59+00:00",
+      "ai": true,
+      "feeds_ok": 53,
+      "feeds_failed": 3,
+      "new": 7,
+      "duplicates": 556,
+      "high": 1,
       "digest": "day",
       "digest_sent": true,
       "pruned": 0
