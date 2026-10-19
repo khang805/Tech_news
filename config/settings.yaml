@@ -48,9 +48,9 @@ ai:
 
 email:
   # One or more recipients. Override with the EMAIL_TO secret (comma-separated) to keep addresses private.
-  # to:
-  #  - "mabdurrahmank@gmail.com"
-  # subject_prefix: "[TechIntel]"
+   to:
+    - "mabdurrahmank@gmail.com"
+   subject_prefix: "[TechIntel]"
   # SMTP and AI keys are NOT stored here. They come from environment variables / GitHub Secrets.
 
 category_keywords:
