@@ -4,7 +4,7 @@ on:
   schedule:
     # One run per day (UTC). 01:00 UTC = 06:00 Pakistan time. GitHub may start runs a few minutes late.
     # The run decides which single digest to send: month (1st), week (Sunday), otherwise day.
-    - cron: "0 1 * * *"
+    - cron: "0 4 * * *"
   workflow_dispatch:
     inputs:
       period:
