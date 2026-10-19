@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-10-19T10:45:23+00:00",
+  "last_run_utc": "2026-10-19T11:09:45+00:00",
   "articles": [
     {
       "id": "79428cf43613e4131c16b2f45c833d7e87f5fb9b7bf3c33fddcb7e212b8af303",
@@ -7956,7 +7956,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "HPC news search"
+      ]
     },
     {
       "id": "544b6eb6ccf7d051cc55fa76853c9c7453691d769d6fc5eb2241b3174f052f27",
@@ -8377,7 +8379,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "HPC news search"
+      ]
     },
     {
       "id": "b97f8fe456e8ff0edc9b1a44dadfca9db14399c6e0127873d1dd90a6aa194dcf",
@@ -14941,7 +14945,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "HPC news search"
+      ]
     },
     {
       "id": "70347720ff6f1e9a629ba150715997a660480092956707cc8d0bb109c1e68cfa",
@@ -15056,7 +15062,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "HPC news search"
+      ]
     },
     {
       "id": "73c05de96ed57d2467556098ddd9d444e07bbbd2e09cf0dca1a1464b4e2c3e88",
@@ -24643,7 +24651,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "HPC news search"
+      ]
     },
     {
       "id": "28b8e3611c197a9b8e61f39034d2b70a8e875de9320d515b316c020f34b24d2f",
@@ -27232,7 +27242,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "HPC news search"
+      ]
     },
     {
       "id": "1a6a7ab42e9b0295b440d8f51aa6ecfb739ae57be3d6620b0c3c31adee2a0563",
@@ -28515,7 +28527,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "GPU news search"
+      ]
     },
     {
       "id": "1f3bc1050c455601ee7ff76eaffeed89504938dd4a885e46126440bc4f75ec1d",
@@ -29649,6 +29663,768 @@
       "overview": "Limited source content: only the title and link are available.",
       "explanation": "",
       "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "d3174991f2e78415224746f5e65f3b072d8121b1137fddac9050c3c5c2b059b5",
+      "title": "Anthropic to commit 5% stake to new ‘public benefit fund’ - The Japan Times",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQa0JBd2lhSnltTl92Ri1hVXNjWHl2Y0tHV253NDFxNlpFanN2RDRlaGtFV2hHaXVoLVlWc2luWmlkTmxFLXc0SUMwZDZoSEFNYVlvS29LWnY2d053bF94cG9YNlBqaE1jVWRGSG9ycHBvX1BlSWpaSnZVTzlMREFaNTlKRmNjeDl2R1E?oc=5",
+      "source_name": "Anthropic and Claude news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T01:14:00+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Anthropic"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Anthropic. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "4710b1a34b207189242dce8cad9d3e375d225fc8c3a0e0e920adab5d1c7b94c7",
+      "title": "DeepSeek Updates V4.1 Flash Without Raising API Prices - Dataconomy",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObzlKZndjYjVQaFRPU2pGc0JraTRZZUdNc1dDYlJBUTc3aHd3bzZJRVZOaWh2UnBZXzhnYlV0T2drSXJPd19vMnVPaG5NM2ZfdnRVbHhPVGd2QkR4WUdQUGc2UUEtRmczUkU4SmFOVmI5X1MwXzltdDhZYXRhNldyTw?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T10:16:07+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 70,
+      "importance_level": "High",
+      "importance_reasons": [
+        "source priority 5",
+        "release keyword: version",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "High",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 70 (High). Reasons: source priority 5; release keyword: version; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "dd1e846e7ea8f636868efd2ad4a67e587af7fe67e809e0a4a5e958a96245ac11",
+      "title": "Google Gemini 4 AI Agents Defeat Minecraft Without Any Human Help - The Mac Observer",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPclVFVXZuSElHWHFNekhCbmIwd1psT3l6ZnJxRVE1Q3Nnbk9hZmVNd295dFZPeHZkUnVNYnczeU9IWVhtb3lqZGpRZzJyZVZzS3E3TV9ncmpQaWk1NEN6TjRLRl9melRoUEhIV1RSc090WW9wSlVyMWpFYUFHaThzRmxaMkFpVmpkb1lRdkpXTUFrU0lfSlFRV3VNSEQ3T0lN?oc=5",
+      "source_name": "Google Gemini and DeepMind news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T10:17:59+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Google, Gemini"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Google, Gemini. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "0b15dc2082785b7611778f6205144c505d8ba27e230090baeb6b5e87acfac21e",
+      "title": "Sergey Brin Tells AI Staff: Go All In on Gemini [2026] - shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5XQ19xanptNzVRTVRySXJQbGNHbjBfRHkxVjdHSUlwd2lnRU5BSnNySkZqaVYxT0s1cTBUd0x3UXBSMU52U3YzRUt0UzZqdEM2bnp5c3VmN1FEZll5V2R0SmJCNG9TTVp0cEF4NmJYRWg1ams?oc=5",
+      "source_name": "Google Gemini and DeepMind news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T10:30:44+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Gemini"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Gemini. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "7c9f08a0422e57fcaa09a57b60d71f21abfc2d71f440fda33b9a9da4d987125d",
+      "title": "AMD Stock Forecast: $1T Milestone Meets Helios Ramp as $617.80 Breakout Nears - TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQTVYS3l0V1p6eUhpYVVJNHpndVNYZEJUdDIxUm9FSFUzbHh5aHRPTF9YczhRMWRXSnBSY3U5a2NnZEZ6dHo2b1Mwd19MMXNyOEhsZF9jVTlfOEtNWkRydmZ4WDBybnB6aXY0aDRRaGF5QUQydXBJWGRDVU9FUzVRcmktS2gzdllsMFY1S0tYb0FteXlxOENoRVNLTkUwNklLdWxKSV81NWNQRnFWdmJVQTRn?oc=5",
+      "source_name": "AMD AI and GPU news search",
+      "category": "AMD & Intel",
+      "source_priority": 4,
+      "published_utc": "2026-10-18T21:02:06+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: AMD"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: AMD. Category: AMD & Intel.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "5287e5ab2fba6ada53893b9a99e2ccf76adb88b87aacaa3f235e7ba2bb931f63",
+      "title": "Intel and AMD Stocks Rebound. Chip Sector's Worst Losing Streak in Over 20 Years Set to Snap. - Barron's",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XR3ZBVW1mVmNMdlMtTUpGMnN1RWZUY09NVG1SLXg1eHF2akYwOXpiM0o3YzFRUkhzYWVySXpUa1dHb0E1NGNJTVhRdXl5TzNpdEtydWR3ZV9ZMHJDNjYyd0ljc0tCbkVDQmc0c29yWi1ZbjBJ?oc=5",
+      "source_name": "Intel AI news search",
+      "category": "AMD & Intel",
+      "source_priority": 4,
+      "published_utc": "2026-10-19T10:28:00+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: AMD, Intel"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Intel and AMD Stocks Rebound.",
+      "explanation": "Chip Sector's Worst Losing Streak in Over 20 Years Set to Snap. Barron's",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: AMD, Intel. Category: AMD & Intel.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "55905bf8a9a85a25a421bbf4de2d354b181821dfc1be472398052e8ada8f42ea",
+      "title": "UNFRAMED: How WPP is giving its people ‘AI superpowers’ to reshape advertising - Microsoft UK Stories",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUXNsQlVkdHFyVEtLQnR5YmlWRXJLVDJ2bFZzR0pQMG9qTEx6MzFCSENUa3NuUHp0YnlfR05aMXVEd3l1S0dwZjlpOXJSeFVrVUNEdHA4OFV1Rnd4RndMejF4WVM4WXJ4bzdZOGlHMWxZY2VoZFhsOVVsVzlEaVdrSnBrZkZCZGJNeEZ1Wm03OFNjSEx0STZySkFwQ0JkdXhhMl9lbzlUV0llTG1hT0hvclNRazJ2Ti1P?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-19T10:38:24+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "UNFRAMED: How WPP is giving its people ‘AI superpowers’ to reshape advertising Microsoft UK Stories",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "60cf43a9e0c4e54fe461532b92ca78e34377db57daa9a4733108a0ba0efa34e1",
+      "title": "Bull to Bring NVIDIA Vera and Vera Rubin Ultra NVL72 to Europe - HPCwire",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQXzhVUGd2VEtUNVhIc3pJSmFTNmo1N3pUd1hmeE9fSjRVT1dRakxJN2lQTFM3WS1vT0NnS1VuSjVpb1NjaFdidmVSZlM4MjBGT2tNU0VRVkEzb1dYS0xXWW1qaHhCRjhDWm9Kd3psZ2VqekhVM3lRS1BrSWpLN0NoeDJial9KQ0p0VE5IUHh0S3V6b0hFWjJ3OUdPX1UwNmo1c1E?oc=5",
+      "source_name": "HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-14T18:27:42+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "major entity in title: NVIDIA"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 3; major entity in title: NVIDIA. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "7fa7db861f4a91fa7d68879ddeefb6f32953c269a314a5e9c72aa7c396af88b4",
+      "title": "AI’s $9-Trillion Question - HPCwire",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nRnZDMlgyVjVGSmtmSmhCRHkxUXNTOWZwZGhBZTZiSWE1WWM2UWRuWG5tNHNTRHdhOWhnLTlmU09ZQVUwaDhmbURzZXNHMy1XZlo1cVpMb3pCUDd5UDZucFFJMHg3U01xZGNr?oc=5",
+      "source_name": "HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-15T00:52:57+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 15,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 15 (Low). Reasons: source priority 3. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "f9babc37842002a982b742fcb87879e539570758179e18889afbc1e3279a4264",
+      "title": "TSMC Earnings: Its 2026 Outlook Now Implies About 44% Growth - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBXQ0hnWXhoRUxBMldBQWRIMmt2a2tMbnVqZVlibjc5LVF4TGNtTFg2UHI1My1QRS0xOWlCM1JScjdDbFlKMmpyMXdBUmJRcEpYc3NRaWIzUEpCRWNJTHVCUHNwelRRM3hXUDRGN0VDdU9NOGZsUWtnbDdR?oc=5",
+      "source_name": "HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-15T08:33:25+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 15,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 15 (Low). Reasons: source priority 3. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "896a09a3064102d99072e26d60ded1f11201c560657b67904d2cf1cf55a921e7",
+      "title": "Commerce Dept. Reallocates Up to $955M in GlobalFoundries CHIPS Funding - HPCwire",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSWpEbzAxQ1lDek1udzNaRTdJeWVsRWJpemRrblZoRXRYVlQ0amZhN2JpSDdrNmF3ZEpIQUFKUExuRGVuSy0yYU1ESDVSbW5MTnUyVkktWHpaM2x1UHA0aXYxWHkxbnhiay1palMya04zdXRvREpDR2NZNU5Bdk1OOWNQcGpPRE1DNXU4MUxpUDRNaS1lWi03Zmt0WGY1Tk56ZlpQeDZ2MEV4VVk?oc=5",
+      "source_name": "HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-15T13:07:41+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "funding keyword: funding",
+        "funding keyword: funding"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; funding keyword: funding; funding keyword: funding. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "c6231e3b4252a45cd98f42a85567abfa10b925ce96bc40cce84944ee50a891dd",
+      "title": "NVIDIA Joins European Commission Initiative to Expand AI Resources for Science - HPCwire",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTldlS2xLeElLWUQ2d2ZrSDVTNU1EekFUN0NIZ2ZZZWkxN0xBTWdqaVI5RHF1MmlXNXpNRE5pNTJPZ09pMnJaLTFjc3YtODRHMXFkcUNBYnpRSlNnUlhIcHRSbjZJNTRhUWpvcUlsZHFhVXFPaEthbnFrSW9iREd5cDRZN29kY2k2dGZPNTZ0ai1ESHVhZlhvNk1jRVlybHdKS2hNX2pNUXY4clRrV3gyVmQxZWNxdEU?oc=5",
+      "source_name": "HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-15T19:23:39+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "major entity in title: NVIDIA"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 3; major entity in title: NVIDIA. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "e89c5cec6466cfb87983aad193dffcea6fbcf2631c522c74e7d33cccf1f5be99",
+      "title": "Huawei Proposes Next-Gen OTN for AIDC-Centric All-Optical Network - HPCwire",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdzlsS3g4SF9Vb1VQRWU1SkNXcVVjYjF5aEVNMzFVclFYZnBVbkJtbjNnejMxdWtnZzN0Mm4zNEVYVW1UbVBSdzhtMVFlVENsTjEzcHlIZDMtZ2pfemNXZHM2ZHl1RDJBUXJDTllNOHF5czI0ai1zdVBwakxDeS1hQU1iUVA1MlN0V0J5ekwzU0J1dVJuNFdVa1o3MkJ5Y2swdmx5U2Rn?oc=5",
+      "source_name": "HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-15T22:07:25+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "major entity in title: Huawei"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 3; major entity in title: Huawei. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "0579ecf2b95d24e1e54c125303b9e9aed937f8d4857e2c56511f5efc234bf836",
+      "title": "CERN and Mistral Plan Foundation Models for Scientific Discovery - HPCwire",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaU41eFVkZWdKTjltWWhqd0JYOTlTRXdSeldBMlJlaU9sd1M0NUhYbzJ3aEczdWo3TDdBT3ZyYmQ3aUh2aERKazA3YVpSZF9rMHZMVkZzS3RVV2VDTG1jWUFpZ3RUTTRhbE5ndVQ0WEZCWmJFOGhpZTU1bmg2MjVUblBLMGtaVjFrRld6NDlrQjV6bVQzZDVjVVcxYVBBZEZCbVBYbQ?oc=5",
+      "source_name": "HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-15T22:41:33+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "major entity in title: Mistral"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 3; major entity in title: Mistral. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "d9c4011fb307f1ae244f8ce8c624a59cb20091244d02aa7976c26f94a44ac907",
+      "title": "When Will AI Investments Pay Off? JPMorgan Is Bullish on Google and Amazon - Moomoo",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNlBMWnFpZFZpbVc2c1gyd3g0d3BGSWhyZzd4MTdIcnoyVGtDM2ZTTFh2ODBtUGlpTGNGbzZ1c0VWOUFqOEFlS2RPQVpqQS1VYVJyWW9WSXBIZDkyYzlOamNVaVNES2h2ZjgzMnYzVl96Q2djX2tkckpIaHFaMEVoQWlYd3RPdXM5WGt1MzNMdWdJbFk0czRkTFItYlB6VVlx?oc=5",
+      "source_name": "Google Cloud AI news search",
+      "category": "Cloud (AWS, Google Cloud, Azure)",
+      "source_priority": 3,
+      "published_utc": "2026-10-16T04:57:29+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "major entity in title: Google, Amazon"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 3; major entity in title: Google, Amazon. Category: Cloud (AWS, Google Cloud, Azure).",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "fad008092e3654ccca2c4b2960e6975d4cfe4c314970551f12303bea9a404052",
+      "title": "Alphabet’s Cloud Surge and AI Dominance Overshadow Capex Fears and Keep Me Buying - 24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWkJRNUpXbEhLLWpObnlCSmFTSjE0R1BRMXpDWGx3azFVR2tqaWtUV0oza0dXdkQ2b21ERkFYZzI5RGhYSFRCQ1ZzRjhmcnNxbjBXMEd4cXZESGFuNVlkRmhKX1ZfMV9kZEs2Wk14eDE3SWZWUl9GSkV0X1dqQlBXN1V0M2ZYLWluNGFXVVFhdFlXNkh2VHhYamVJS2JZOXBfVzRYeXNDOWxtN3AtbC1jdVdrM0FEaGV6QnF5SVFteFEzdw?oc=5",
+      "source_name": "Google Cloud AI news search",
+      "category": "Cloud (AWS, Google Cloud, Azure)",
+      "source_priority": 3,
+      "published_utc": "2026-10-16T16:45:00+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 15,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Alphabet’s Cloud Surge and AI Dominance Overshadow Capex Fears and Keep Me Buying 24/7 Wall St.",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 15 (Low). Reasons: source priority 3. Category: Cloud (AWS, Google Cloud, Azure).",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "edff0c3f2e59d52d6278aed320867ba24c6f9cf26be4334983834bce9f2cb2cc",
+      "title": "CCPC: Leveraging DOE Computational Resources for Success - Department of Energy (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdlltUHBfcGxMUkRxMjg0WnRGSmNFdzlpWW1TbHRUYzI2OTFQVWF5dmNwbnQxX1hQNEU4ODUycHZFcENWOGVyRXF5SlJwMlJaNkdEOUFCNFROQmtyQko4SjZURWc3WXNyS2lSOHZoS1kzRF8tZ2NLMXNnSElhYVFfSGFvU3VFSGIxeTNGX013?oc=5",
+      "source_name": "HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-16T17:30:00+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 15,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 15 (Low). Reasons: source priority 3. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "82d7367336fb0961c7981548fe3e39be5d7be048aa4c180a6e11ca590446aa43",
+      "title": "Top Full Stack AI Cloud Platforms and AWS Alternatives for Reliable LLM Production GPU Workloads Training Inference and Faster Enterprise Deployments - TechBullion",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNcGdqcHZtTnkzSFdrZFB5TUpDUDd0LVVjS2xPOThoUG1Zd2VaYU1NT01SNXZyWEhhOHhWMTdXTWtscjNqLWNuRl9uNll3RlBLYUtTdGg1UnNkYzkwNi1HUmgySWJhYldBdlAzOGY1d2xGZlplWldOOUlXSTBha3ZjeHNsRU1EOVh1MG5GWlNETDZMOUc2ajRYd2RvSGE5Wkh5a29lYTgtZ3Vhd0ZCam5sQUF2NU1rdUx6ZXpJcEYzemh1UmxfYjZNU1NDdmVramRUVzhfQmNQZDd5TWtTVGJYRlBHaVpiaU9venczSVZKTlJ4VjFEaEFFcm9DSElBTWk5MmNlOA?oc=5",
+      "source_name": "Google Cloud AI news search",
+      "category": "Cloud (AWS, Google Cloud, Azure)",
+      "source_priority": 3,
+      "published_utc": "2026-10-17T09:11:34+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "major entity in title: AWS"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Top Full Stack AI Cloud Platforms and AWS Alternatives for Reliable LLM Production GPU Workloads Training Inference and Faster Enterprise Deployments TechBullion",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 3; major entity in title: AWS. Category: Cloud (AWS, Google Cloud, Azure).",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "abbb43d6e6957616256b45c3d3cfbf0d6ecee006545bb338eb20272aa834fa66",
+      "title": "Core Scientific Stock Is Worth Watching After CoreWeave HPC Deal - Simply Wall Street",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVm1UclltOExWd2c0blRSNUtUSnBqQjhxWHNVdWMzYzRMNUdFbXJRVTFVT2RlMFp2LVpWV1IycEx1QVZ6QXREUGRNQVQ2NjMxZzNBdC1URWdueGNSTTR3TkU1VzNxaTR4TFlGWHdsLVhZWmZzc3Etb3ItbUJjVzU0VDlmZ2kzYzYtQlJENllXenFxOUF6MEhPUzBzWHgydmY1NUsyTVRxbktMM1BjWC1QUGtibGF4MkZKR3dxa0NTRXg5Sk51YjJnNHFNeENLd9IB0wFBVV95cUxNaUpSMGJGUHVQMUlBbmlKTXZOeUdJNExfa3BhLTJQdG93WnMybmd0VXJweGNEcWxhRTAzUWd0Z25CelBQd3JRNDN3MGt0TWRWNUZ4X0dnckdGX0haS2hPTUlHS3FhdnNtamUxSVVnTG5US1VodTI3Mno4NEk1c0tFdml3WjMydldVeWJvcTJKQ24yU2ZZSnRwd2FTbE9xUkJJMmdLeXlDUkF4QU91Tmx2aGhCdGVpX0FZZVRsWHd4SER2dElHUFFBZG5KRTFaUk9BUE9V?oc=5",
+      "source_name": "HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-17T14:39:26+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 25,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 48h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 25 (Low). Reasons: source priority 3; published in last 48h. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "c2cebdde8b146432a67b1f3440eb33b1b007997dbc00ecb8729e1fb8155d1e09",
+      "title": "Daikin unveils 2.5MW liquid cooling CDUs for AI data centres - Data Centre Solutions",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFRPVmozTEE4djU2bGZaYWlDTFVqdTZxZWVBdjNMek5CbzFJVUpvbERmV212QkU2TUVHa1dtRm43dDBCUzNkVGZtWkZJMVZxWE1YaHZURVJEbUNVaVJLS3AySXQxZjAtR2VjRlY2UVFLWEJoNl9heHJQajJjT0hNUktjdl9aRWxYbXFHdEhJVWc1dm9vNjlicFdKbjVxM1Vk?oc=5",
+      "source_name": "HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T07:54:32+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "ade52d4c465c385a0b0246969bc94f3dcb6758a066aef130e3f5469d27e1d2b3",
+      "title": "The agents nobody meant to build - CIO",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UaHFiUlZwVW5SbmtOOEl0SkdKYUR2NmRHV3ozQXc5cXlVTzF2SDk2ZzJNRmI2UExYUlVDeFhxMG9ydW1Yc0tCaDg0V3lzVXJzbU1xSFB0dHBwUmEwZkhPMTZncjBJZ21oU2loaXloNzI0YnducVN6cFhyUVBUUQ?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T09:06:00+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "5e1ee32cf1b529cd2a03822d254eddfe353aa1c1af06f365aa4cbb14a717075f",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.” - MIT Technology Review",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNlVSYXNOX05TSlZKNTlLcVlYLWhodG9UMnZ4V0IzOUZSNWkxSDZSak9TOVZNOXI4a1hNbzF4MjZwUnQybFRyZ2hFaXc0ZTJVN1NyVWoyblFZTXJOUlNPeUZ1Y1JqaHNaRjNOd1ZYODRNSUpWcEpBV0xBd3VkMkhDQ1JUZGptb3hReFQ2NFVFMm9aMWhIM1pMU1ctVUFNWTTSAaQBQVVfeXFMTUpVWGRFV2xVaDFBdFgzaTJEaDlLazh0TDVsMFJCUlgwblA0RzZpSEZwdVlYSVUzdFI3UGpXdlhseHZPOWxLVEwxX1B3d3FuTVVEMFNxWXJ5LW8tYy1qN2JCRFFEUDUzUzVMT1F2R1AtWXZvSHpYX2RUb1hpc3Y0LVhsWjJoakZJa0hqdnNBSERESWRPRnlSdkVDUi1zR09NZjRISmw?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T09:08:05+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 50,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h",
+        "major entity in title: Claude"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "AI researchers stranded Claude on a virtual desert island.",
+      "explanation": "It started to “play.” MIT Technology Review",
+      "relevance": "Rule-based score 50 (Medium). Reasons: source priority 3; published in last 24h; major entity in title: Claude. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "504a31b04f4d69f955bf68fc758d09b23a78b497cd8fccc8ec2a3f8bb43945d1",
+      "title": "AI agents phishing scams can hijack trusted assistants - Cybernews",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0VWhiYVdHdWQ1MFgwa1RXUjFTWmRfUXUxTVR1OGlYa0IzZEt4bkxhSnFYQWpFblNsX1hCVmdYWkZCY3U3bGxwMURway1PRkRpUUF4ZUF5M1otYTkzVDNlclZKRWNyR3NYZkJ4YTJTeEtaYzZxT0w5RA?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T09:11:15+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "5b836ebcaf8bf48b990a746544eebad389375a0fba3d2658d3afbfce7da38eaa",
+      "title": "World brings biometric proof of human to banking and AI agents - Biometric Update",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc0xYcnJUMFRrSFJ3eXFNQzRiSHRCanRQbkNGOGMtbFFvbGhTT1BGbmxaMFllZ0dtYzZhQWx2NEhJSkctbEQ4X01WT1o5cWdYQW5WVEJ5VkNmM21ZejZBaWtFYlVmaGVfWmRWUVRZZTdZcEdsNEtESzNOYXBCZXhaeVdtRG8wY2ZLcWd3dXZINF9VSEJoYVVUM3d1T19DcDZnWmVj?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T09:18:00+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "7a04355ad5d60eb0653e46f73c5753ab082124c82acc60afbbec2a400b5a90e6",
+      "title": "Aixia Strengthens Strategic AI Partnership with SEK 45 Million Order - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdHpyYk45czk2M1NnWGdOUDZKZVY0SmNEVThGUC1SdGtYR3hPVzFkWmJIUXhBdE9CTDVycWx0WUJCQm4yTDk4dEktOXJSbkQyUHNjdUQyNy1UV0NncTJCNFppcV9mRVdpQ2lrWHZiVFVNQ19CZjVuUC1XWjZId0xiRC1lUFVicHhjWmUxVU93NUZMRE1SMnVsZE52OGI1SjdPUS1SVUdMRFpxSTU4T09BTzVQN1R0UEtLZ2pBcHJ1YThmRDVReG9KZDJKamU1WTQ?oc=5",
+      "source_name": "Supercomputer and HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T10:10:00+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "18d13b785c2dfe8651d6654a0634e5768f39e03c0aee4fcda078b8d12ec632d5",
+      "title": "1,000 AI Agents by SAP TechEd: SAP and Partners Accelerate Together - SAP News Center",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMVF3Rjc3M1VaWHpTWlZIMHJkNzNyWW5na0ZSRE41WU9UVDFOU3J1TE1lVnVBVWozN3o4VEwzYkxlRDR0ZXNTMFRVRkg4R3pfRWJKajU4VUFkcXd0OGJSMVR3aTJ1YzFWTE9hSjliM0FLY1RsSHdSSjB6Y1lNTjY0X1ZSdUxJYm93elZydURVMmRCOUlEbDh3YQ?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T10:17:32+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "ff21ce7f121130d46fe6b0dcff68c520fc33b2b98aa2e08e08dc039a9d53c61e",
+      "title": "Google Messages Scam Protection: What Data Is Sent? - TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYVZaWUR5S05ydktyRU9BWnpfMVJtUXFpNTBGLWFrVzNaRGNlOFJ2U2JFUVJ5NTZVZnhXM1V5ZzNNRkVkUmVackJYSjZWazFrV1FjOGNQNXN0bi1BRTZnallyMVZxQ19hVHBZQzBCUWdZNTFXbTlEZGxBcGl3S2trM25mUEJkYnR0Wnp4V2xZWQ?oc=5",
+      "source_name": "Google Cloud AI news search",
+      "category": "Cloud (AWS, Google Cloud, Azure)",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T10:23:45+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 50,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h",
+        "major entity in title: Google"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 50 (Medium). Reasons: source priority 3; published in last 24h; major entity in title: Google. Category: Cloud (AWS, Google Cloud, Azure).",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "1b75e087b70c13e381dbebe3644c2f56716f6b76fe1013325af24e2b82ea8220",
+      "title": "EXCLUSIVE: How one hacker used AI agents and a few thousand dollars to break into scores of sites - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSUVKUWRvY0tQeUZscHhGcDBLYjI5VVZaYXRFRklFbmEzX29RaVFuMmt6cDlpMURENUtWRFpBQVBnNngwcWJla3NJZllZVDFBb2NKU21YUnBkMTNKb1NEM3BNLXk2OXpVbVpyZXM3NHVaOUNrWGZzRWhGQlRFSDhPa0E4TVdCTnBuZjNBS2R2UU9ySzV1c2hCbUVycmFHUTNpVk1vX0kxSEEyMUllRlpsakRfNEdZUlJUWVBVRTFqYkZiYm5jR1E?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T10:33:25+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "EXCLUSIVE: How one hacker used AI agents and a few thousand dollars to break into scores of sites Reuters",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "ce2f0a1765b699cefe6550052afb22cb3796f4e040684a9c27ab2e72357bb685",
+      "title": "From implementation to innovation: The next step in your Gemini Enterprise journey - YourStory.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONk1WLTdiajdSZ096VkNXSWdfZHZqU1V4NEFZbnNXZEVqRU9UUVpFRmFBLU1mOXlDM3JaSXZpUkhTaXVqbHEtT0VlMDBUMjNzdFlQWEx4UkRFQlJLV2VqWm51UW1FaVd3TTN5dTltSDRMX3M0bEZjMTUyLURyT3F1a0xtdXFVMXVSQ3dkbFhIalR1dkhkZGhzNUJpTFRUVmpwMmc?oc=5",
+      "source_name": "Google Cloud AI news search",
+      "category": "Cloud (AWS, Google Cloud, Azure)",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T10:59:05+00:00",
+      "first_seen_utc": "2026-10-19T11:09:45+00:00",
+      "importance_score": 50,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h",
+        "major entity in title: Gemini"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 50 (Medium). Reasons: source priority 3; published in last 24h; major entity in title: Gemini. Category: Cloud (AWS, Google Cloud, Azure).",
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
@@ -34084,6 +34860,122 @@
     {
       "id": "7ca52900a71654833ed28ff4f14bbc9ce85a0b667551b84d2d8eae987e32a968",
       "added_utc": "2026-10-19T10:45:23+00:00"
+    },
+    {
+      "id": "d3174991f2e78415224746f5e65f3b072d8121b1137fddac9050c3c5c2b059b5",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "4710b1a34b207189242dce8cad9d3e375d225fc8c3a0e0e920adab5d1c7b94c7",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "dd1e846e7ea8f636868efd2ad4a67e587af7fe67e809e0a4a5e958a96245ac11",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "0b15dc2082785b7611778f6205144c505d8ba27e230090baeb6b5e87acfac21e",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "7c9f08a0422e57fcaa09a57b60d71f21abfc2d71f440fda33b9a9da4d987125d",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "5287e5ab2fba6ada53893b9a99e2ccf76adb88b87aacaa3f235e7ba2bb931f63",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "55905bf8a9a85a25a421bbf4de2d354b181821dfc1be472398052e8ada8f42ea",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "60cf43a9e0c4e54fe461532b92ca78e34377db57daa9a4733108a0ba0efa34e1",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "7fa7db861f4a91fa7d68879ddeefb6f32953c269a314a5e9c72aa7c396af88b4",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "f9babc37842002a982b742fcb87879e539570758179e18889afbc1e3279a4264",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "896a09a3064102d99072e26d60ded1f11201c560657b67904d2cf1cf55a921e7",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "c6231e3b4252a45cd98f42a85567abfa10b925ce96bc40cce84944ee50a891dd",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "e89c5cec6466cfb87983aad193dffcea6fbcf2631c522c74e7d33cccf1f5be99",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "0579ecf2b95d24e1e54c125303b9e9aed937f8d4857e2c56511f5efc234bf836",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "d9c4011fb307f1ae244f8ce8c624a59cb20091244d02aa7976c26f94a44ac907",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "fad008092e3654ccca2c4b2960e6975d4cfe4c314970551f12303bea9a404052",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "edff0c3f2e59d52d6278aed320867ba24c6f9cf26be4334983834bce9f2cb2cc",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "82d7367336fb0961c7981548fe3e39be5d7be048aa4c180a6e11ca590446aa43",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "abbb43d6e6957616256b45c3d3cfbf0d6ecee006545bb338eb20272aa834fa66",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "c2cebdde8b146432a67b1f3440eb33b1b007997dbc00ecb8729e1fb8155d1e09",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "ade52d4c465c385a0b0246969bc94f3dcb6758a066aef130e3f5469d27e1d2b3",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "5e1ee32cf1b529cd2a03822d254eddfe353aa1c1af06f365aa4cbb14a717075f",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "504a31b04f4d69f955bf68fc758d09b23a78b497cd8fccc8ec2a3f8bb43945d1",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "5b836ebcaf8bf48b990a746544eebad389375a0fba3d2658d3afbfce7da38eaa",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "7a04355ad5d60eb0653e46f73c5753ab082124c82acc60afbbec2a400b5a90e6",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "18d13b785c2dfe8651d6654a0634e5768f39e03c0aee4fcda078b8d12ec632d5",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "ff21ce7f121130d46fe6b0dcff68c520fc33b2b98aa2e08e08dc039a9d53c61e",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "1b75e087b70c13e381dbebe3644c2f56716f6b76fe1013325af24e2b82ea8220",
+      "added_utc": "2026-10-19T11:09:45+00:00"
+    },
+    {
+      "id": "ce2f0a1765b699cefe6550052afb22cb3796f4e040684a9c27ab2e72357bb685",
+      "added_utc": "2026-10-19T11:09:45+00:00"
     }
   ],
   "run_history": [
@@ -34215,6 +35107,18 @@
       "new": 9,
       "duplicates": 209,
       "high": 0,
+      "digest": "month",
+      "digest_sent": true,
+      "pruned": 0
+    },
+    {
+      "run_utc": "2026-10-19T11:09:45+00:00",
+      "ai": true,
+      "feeds_ok": 55,
+      "feeds_failed": 0,
+      "new": 29,
+      "duplicates": 562,
+      "high": 1,
       "digest": "month",
       "digest_sent": true,
       "pruned": 0
