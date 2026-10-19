@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-10-19T07:53:31+00:00",
+  "last_run_utc": "2026-10-19T10:05:30+00:00",
   "articles": [
     {
       "id": "79428cf43613e4131c16b2f45c833d7e87f5fb9b7bf3c33fddcb7e212b8af303",
@@ -1158,7 +1158,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "Google Cloud AI news search"
+      ]
     },
     {
       "id": "e06a878aa7febd7c014433ad197faebd8e31b9be863ee36895a629a74e68da8b",
@@ -10584,7 +10586,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "Google Cloud AI news search"
+      ]
     },
     {
       "id": "8a39d8e977ac632af1ebff4af0ad21363cd0446c62fb60e29c0ff760854fbe22",
@@ -11107,7 +11111,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
-      "also_reported_by": []
+      "also_reported_by": [
+        "Microsoft AI news search"
+      ]
     },
     {
       "id": "557e33cb91229b254bc5ded347f671a5eb1f6ee8c4485fd8f0a1533a70e631f2",
@@ -23175,7 +23181,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": true,
-      "also_reported_by": []
+      "also_reported_by": [
+        "Microsoft AI news search"
+      ]
     },
     {
       "id": "ca6636d17bd8b50070f59bdc87cd65dd5fd8b1121456a02899d8bbe351acef00",
@@ -24446,7 +24454,9 @@
       "date_is_estimated": false,
       "alerted": false,
       "digested": true,
-      "also_reported_by": []
+      "also_reported_by": [
+        "Microsoft AI news search"
+      ]
     },
     {
       "id": "b4bc26efe6a7a1a524328c5d35bb226f81bfc0e2f9678ec637ac8fe2b55fc8f8",
@@ -27432,6 +27442,1974 @@
       "explanation": "And yet, in the past ~2 years, I often feel that it's pretty much impossible to keep up with the latest AI development (in particular regarding vibe coding), which in turns gives me less energy or determination to explore the latest thing. How do you feel about it? And did you find a solution to stay motivated to learn and get better at using AI? Comments URL: https://news.ycombinator.com/item?id=50149373 Points: 2 # Comments: 0",
       "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
       "content_status": "full",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "c96ee1130aa381b735fee0df33a093552eb469bceddb1ae508ad13399b4276bb",
+      "title": "Investing in the public benefit - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWMUFBangwVDdnUXBLeEFmOEtSVFYzN3NSU1lVdVduQl9iNFVTN0hfdEVkNS1yakJCLWFtdkVqTXlLM1VhblU5empsdmVKTVNDVy1PZ1JoUW1HYUlLb0FV?oc=5",
+      "source_name": "Anthropic and Claude news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-18T16:49:35+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Anthropic"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Anthropic. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "3a76eb9678855aa5d317f4056d45434dd6c23d945a1d8865356d8004bdd65bab",
+      "title": "DeepSeek Deploys What It Calls Faster Version of Its Open-Source Model - PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTjZ2LTRyYkJrQ3B3UkViOVpuWnlTcXcyTHFMT2JQUjNrMlpEZ2dwcTZEMnBBMUhzVURxbzgyazd4cGNTTjRsS2I0WUpmeDRIRy03cVZpdjRpTHhzMm9hejB1ZFhya1NSdGRhMlB2dnpNdFlZWVlQclJxQ2NVM3FDTnZSRzNXMXo3THZqVFJXeGxZMHVKdS1ncVNLZk1wb3Jab184OTJHRmVCRlFhbXZSM1NnUDZ5eXQyYVoybV9aelJ1TzA3d3pJ?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T01:43:03+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 70,
+      "importance_level": "High",
+      "importance_reasons": [
+        "source priority 5",
+        "release keyword: open-source",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "High",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 70 (High). Reasons: source priority 5; release keyword: open-source; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "260c8f104b6346b83f75c76275e98d54bb2975e2d7a51fdef0b53494d1d37a95",
+      "title": "Claude Writes Code So Fast Git Can't Keep Up: Anthropic Built a New Version Control System With Only 7 People in 5 Months - 36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jRmRmdldGbXMyMl9JY0M0SUFHemw3LWdWcGp5cGJiRFdlSFh4Tm5VeFBGeXlPMDZrdkRJSDZzZ0RfRHVqcC1DTTRmdi1PVkJ2NDFF?oc=5",
+      "source_name": "Anthropic and Claude news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T05:12:41+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Anthropic, Claude"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Claude Writes Code So Fast Git Can't Keep Up: Anthropic Built a New Version Control System With Only 7 People in 5 Months 36Kr",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Anthropic, Claude. Category: Frontier AI Labs.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "04832ecc2d3126165bb071f809aa207e6493795599f0c1b487a4e0e29b032058",
+      "title": "Anthropic's Claude AI 'fixes' Oblivion Remastered on PC by creating a mod that boosts performance by 40% - TweakTown",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPY21YNlFUaFBzS0s2LWVkUnNoWUFWbU0td0FtYVlyeGtvb2V3MC1hMTNCaGNfSWtRZE1seXRGa2JQWmMyOFVPNlQtYmZlTE9zWE1WbDhpRjVwMlJrcDFIREV4WkpFSVE5VjR1Q1BCUHRmZEl3bjRWYUtlWmJ5N2NxRzVjcmNsSkFSMzhHTnpjalEzRko1b042aHNhTHFuYjhtTEFfMVdHbTZsOUJKb1N0MFRvdng3UkxxcEpsR2FmSGQtX2pqblBKekwxRGp5UGxfVURCT1l3S2tiWDQ0N1dhNkVuNDlSN1RHd3NFM25n?oc=5",
+      "source_name": "Anthropic and Claude news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T07:56:02+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Anthropic, Claude"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Anthropic's Claude AI 'fixes' Oblivion Remastered on PC by creating a mod that boosts performance by 40% TweakTown",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Anthropic, Claude. Category: Frontier AI Labs.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "1d3c5e70f5c5b5f751e5195a092b1955c44013d922d19d87222b8ed1197ba1fd",
+      "title": "DeepSeek V4.1-Flash-1017 Update Hits Chip Stocks - Technology Org",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd3lNMEJ1UEpocmY0M1JZQnl6U3RIWFZ5T2pwdWF6NFFSS3RQblNqUEtwamRRLUxCb2FQbExqak5zZTVvbEZhNmJhLWNKR2FrRldmYWthcDktZnNXcllMeEVROXhaQmxwa0FVckpyTEM4NlVvdTBnRFlSREdtNjFUbHRVbEREZzUyT044SnVBcw?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T08:43:04+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 70,
+      "importance_level": "High",
+      "importance_reasons": [
+        "source priority 5",
+        "release keyword: version",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "High",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 70 (High). Reasons: source priority 5; release keyword: version; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "66e93c51e4dd9a644a83bbed00b2efec874a7b88ef86a00d4d703feb210bc9c2",
+      "title": "What Anthropic’s new Claude tool could mean for advisors in Canada - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOX2lRaW1qSkVIcjRid2M0RTJ4b01yZXRsOUNGNGNLQlM4Z1ltUUVEb09qanM5WUpMMkdlcHlyOTIwWXlUY0s2QWRySFptMTBHLUI0cHc1eFVLb0xYS2pFbTZUZnBtYi1VVEpudTFfYlJIc2JONUh3Z2hkU1g0elZaRVpKZ3BHOEtwYlh5ck5YbVppV0VnOGdpYUxVR3kzXzJJd1BjMzA0STgyaHFYcnNJTXhCZHBVYlcwbFBXZFRrNXpENW1Ta2VreHJEX1JmSktvczlxWHBWT3RSU2M?oc=5",
+      "source_name": "Anthropic and Claude news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T08:45:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Anthropic, Claude"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "What Anthropic’s new Claude tool could mean for advisors in Canada The Globe and Mail",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Anthropic, Claude. Category: Frontier AI Labs.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "4345877efdbb85da605339081013c8c5fdd169a942fae5e997df7ddaf1b59d58",
+      "title": "UK to scrap the non-compete rule that kept Google DeepMind researchers on paid year-long breaks; PM Andy - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNU1pFS0ZpTlo1N1g4NjNiNmVKeHBLQjR6eU1oNFo2Tk5aQ0ZQYzVQWmNmQTJIbkpFWHlzODFMRUpZYmFlOGRRZUhyUGVBXy1sakJ1a2Q0WC1tQ3JxelFGc0ZVdmg0cElneFkwQWI4QXdrQUF6cmJSWGtBRXNXb3g1VkdpN1VoeEpMWkUyVnlKQnVJYmR4UW5PbDY1Rm8zWjR5LW9KeHdJaEc1RXdPcHVZV0hXT3dzdEhCdGRMdFEweUl1S0haMDdUTjZsNUhuN0JUa08zaE1JVVNvQnZnZVk2ajdUWlZZd1I0dElxSUVyLWRPZ1VCcU1heGNSMS1uZ1FJNXJBZHduZ0VVSUZMLXl6R1B6M3A4TzYxblVJSmo3SVIzeEdIeTVfV2xCV3lnaUxkR2VBbkx0TFZ0dzcxNktPTC0xTm96Ynp6bVHSAc8CQVVfeXFMTVprZlZ5blpRc2l2TDVlSFlEdTFIa3RrMFVEdzdfVUd3cUZENHBIeUdtX0ZFWGJaOW9rMEVsZjJMeEs0RFFRRXI0bnBER0pkNTIyLUhxdEF0enhHR3VVM2JGSkNmQmtBcHdZcTUweWUwdHl5dFI1UDhLaXNTekltU0RVTk5oVENuc05IT0dhX1R2SEgwWFBDYlFHV3NzR0RSanZ5NWtzZVV2VUtZamdYYWhRcUNZeTFpdjVvTmRMWjRZazdqbk93ejdWLXliSGJIR0RVWEVZWVU2bVk5RXhZMnA0Tkd4d3Nic3Jqa0JYUDlKM01TOVpTNmdaVU1mS2dxUTZGSHNHbU14NlJMdTFxNi1DR2U1OVk0ZmQ4ZXlfZlJyVnc1WERTckxBZTRxNnFxcHFNTHJycUlvWFlTeHhIbE9NR3dOQlYwX2V0YU5oeTQ?oc=5",
+      "source_name": "Google Gemini and DeepMind news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T08:46:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Google, DeepMind"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "UK to scrap the non-compete rule that kept Google DeepMind researchers on paid year-long breaks; PM Andy The Times of India",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Google, DeepMind. Category: Frontier AI Labs.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "cc664b86181b2e1accdfa80b08c1e041e60016b5f7a872b880724480db6a5390",
+      "title": "DeepSeek Made Search Almost Free. The Number It Returns Is the Bigger Story - Vocal",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTzg5Mk9PblJ3WmFQRHRhZVMxc1NzWXY3OTRlV01JR2dDeGNTeV9xQ3lITm4wNG1PRklIMUw1c29ObERoTExYbnZhbEZfbEdSSGdwVVR6ek5nN3hMak5MSjN0NTBuS2tDQU9DNzZuQUw5cmMxUFFxVFF3TGM0dTNXV3JDQURpU0N0eFNHeXJYZ2tsM1BLVjBGSl9NVGxldw?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T08:46:39+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "77e364b1a6f058165276c21142f05f2d0c7056e951e82da148f7a69f8b983936",
+      "title": "Anthropic Commits 5% Stake to Public Benefit Fund - Technology Org",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdXRzblc1RkRJWHBYcUVXQTNfWUZwbU5oMlFsTm1IWHd0cU1UbnQtaXhsOFlaXzJyTEN4LUx2cWJCRS13dGhaeHh4dlJrQl9LODJUdml1a251b1NUaEFDYUV5SktfenNyOFliM2YwRXRsZnFOM2tmMzRveGYzSHdXTHVmZXBZNC1RcWpjeFFn?oc=5",
+      "source_name": "Anthropic and Claude news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T08:48:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Anthropic"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Anthropic. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "a305cc06419292c044e13b12e24bf19354a205f9f9c4db18ea085b3365551c8f",
+      "title": "College of DuPage brings OpenAI Academy to Illinois for inaugural AI summit - Crain's Chicago Business",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWFVyc2cwN0RXcWtDY2Jpal94dUx2WnMzUnd0VGIxZWZaem5YSGpwazJrYW4tdGdDaDZWT0dIWXpOajBDWDVtUHZGLXJXOW9sakNlMm5Lck5MMHBsMURJeVVwTm0zTEZWTkFkXzJiWlprci1sMnpiQ1ljVGZjaWhqVFNmd1NrLVk1dXYyY2tYcWQ0QkdQZk5yMlpQekJkTTVESkZ2NFZuWXI3WjJWLTN4OFdsUVVEZ0NhT0dfUTREcy0?oc=5",
+      "source_name": "OpenAI news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:00:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: OpenAI"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "College of DuPage brings OpenAI Academy to Illinois for inaugural AI summit Crain's Chicago Business",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: OpenAI. Category: Frontier AI Labs.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "20b1f560c00efe3eebb42ddf8bcc080d1e5e243699632067ea1c69f9d13352c6",
+      "title": "‘I Don’t Think Morality Is Objective’: Meet the AI Ethicists Shaping Claude’s Conscience - freebeacon.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVjUzSTBwaWVOa2huTHR5MlFqWWlpc1IyQmJiVkM4dGlBckhrMDhRS05LVk1EdElzR1dnUVZmT0g2OWhxSHFXbVJMaU1wejJYYktFS2I0WnVsb1VaVVl3OWJPZWJkOGdCbG96VVRDYlRxUlgyU09NejNVeEdxN2E1T2ZvMG9oSlpvUVR5YXQ1Qy12ZlFHaUVvY0JGOHRYbVFWWlEwLXphLWx1VzVzT1UtRkFvTTZDZw?oc=5",
+      "source_name": "Anthropic and Claude news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:02:01+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Claude"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Claude. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "9ddd91e7df72c58e878df1fd96516e1cbe0fe1cf28591dd51721a4344f659223",
+      "title": "CITIC Securities cites DeepSeek AI trend for CITIC stock - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHhfQjJEcWVFWDNwbVlNQ18yUW1sbE1wWWVWUHhTa0htT2x6cFpRSHVOcVhfSi1rejl4VnpFY3lrSnJ6RDg0S0ZqUGppaFpIY2hNODliUmlJcGxhQVVkdklVYktLbl9aSkk2TjM3d3ZPZ2s3YjY1YldtMzFEVnVDNFFyUmt6TmdZd25BcURZY1BwQ1VfOWcyUkxmSVdjTTg5VEFvMm9CMTdMTXU0NUhtY3c3cXlWV1l0SlJZ?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:08:58+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "c3a451b541368e2f449b2e99a17f2595455111f87b17805aad150492c4cbb721",
+      "title": "Google Gemini Just Made a Big AI Announcement. Is It Brilliant or Insane? - Inc.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUW80SXhSWVRzNmctUjA4bU5vNGhOTE1pLUxWNDVrcXBIMkhxa1RIb0E3N1BKMjhSMkZjZTZWSllfMlVSdGhnYmw0elJZQkJGTXppWDBpTlEtVEtRZjU1cE9tbGhzRXZTNmd6ekphdFZaQ3FyZHIwQ2hUMm5QaTJPMnNUN3pYclRLaDBWUElNQ3FfcjhEeWI1MFZnM2d0d0dCSExOWEJ1Y3lkU0JpWW5rT0VB?oc=5",
+      "source_name": "Google Gemini and DeepMind news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:18:39+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Google, Gemini"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Google, Gemini. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "47a029e800c055d66db14797c3ff5ef0361745c8d96d0f9cd5a871ecc83e9a85",
+      "title": "Google Gemini 4 Agents Just Beat Minecraft With No Human Intervention - Engadget",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcGY1T0c0V0xMQTJTUThwdVlEaUNzdjE0MzJTVWlpMXJpM0h2ZzRjNmRjdzFOdXVybkhmV09idkd3VF9tUkxxaDRzNXFoeHlNWml1YkNIUkF5LVZwNy00Zm50T2xYTjdnXzRwT0xaZnlhVENDSEpMY3lhR3ZDQ1J5cmJMeWNXOEV5VS1zLWRVeGs1TU1CcFhYT3pUd0ZyS2V4dXVYcG9n?oc=5",
+      "source_name": "Google Gemini and DeepMind news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:19:19+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Google, Gemini"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Google, Gemini. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "a37d568b69922633234c923acd0d95af356823e77936dc07f2309552f06644c5",
+      "title": "Anthropic: Claude, Enterprise AI Agents and $965bn Valuation - AI Magazine",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX094N1RhQldFWjZOUkwzUGVGUUVNNDlobGlRLTZGMUxvVXB0WGJXUjE2Zl8tRGt1b2hwZDNaWkcxTEFCU2QwNUpPdmJzaGhjMUp0WkFwdUctVkI2cklEWF9zNmNkS1ppaXZKck9CX0ZqT0hnVkJvajhHUmc3UGZYcE0wenBxaU9PYmk5TVFB?oc=5",
+      "source_name": "Anthropic and Claude news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:21:22+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Anthropic, Claude"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Anthropic, Claude. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "b24e12e0b67be7122cfbff7234a194d8555ebf4f8d2b61e0c6faa1d10cb70282",
+      "title": "The Last Shovel - Vocal",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03WTZuZ3ZoQ1d5VjM0R1RWWGNXcXI4cjEtRHBiTkV1UDdDMjhBaXpENkY1WEVyVS1NeDhyQzM2RVRSTVV5MUZrcVhaR3VBY1U?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:25:01+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 45,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 45 (Medium). Reasons: source priority 5; published in last 24h. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "bc603ea636aeac6159e316116d4692a7b638dcda292dccf8e41609cfb9080cc9",
+      "title": "Math's 'Romantic Era' Is Over, UCLA Prodigy Says - Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbXkycnBIekk3QUl4eURaTl90bk9DSnZzYWFYWHFuOVdxVnBvTDc1V2hJb1dMeUhZYXR0OHRMQjVLRXRBeDBhWTREc29VbVpBbVhhUXhhV3BoQWpNSW1Cc3BjWlBaSXJxSnlYOXptcDJxd1E3N3d4R2RhRWhZRUNhbUpLcw?oc=5",
+      "source_name": "OpenAI news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:27:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 45,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 45 (Medium). Reasons: source priority 5; published in last 24h. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "98d802070fec594bda2884473f4a60630dd382a1cf215534f16217a8056c24c9",
+      "title": "DeepSeek updates V4.1 Flash to improve AI agent performance - digitimes",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORHJKYVpING1nNEh0MEpOVk5CRmxUX1VGQ2VNb1R1OTAwVjRuOTBGTHNwT3ZfNWdjbGJDNUNtOVBYNFc5d2hndXFYaFlDNzRZNDdpSlFCazNlWnN6dUFPVHJtMFVjSXpsVTloV1F0TjNfZzQ5c3d6WjNYZDRYSHRvdjJJVWVCbHdmX1FrR3M4Ti00b1k?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:29:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 70,
+      "importance_level": "High",
+      "importance_reasons": [
+        "source priority 5",
+        "release keyword: version",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "High",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 70 (High). Reasons: source priority 5; release keyword: version; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "f32ee385012746806669af18de68d208ccaead40000b5b9408e6a925d6b0ae76",
+      "title": "Here’s How Anthropic and OpenAI Are Building Economic Moats - Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaHIwYjB6c3B1VVZfQ3lONWo2X2lXSm5CeWMzM1RZSDlmdzlUUlZhcnRJX1c0QVhiRGJkdUNfUktsWUFaaVctdTlKc1pVT0s3Unh1bWo0RmR1Q25RRHg1cGVaSS1KemU5cUNmcG8tY2pKMTNtbmtKQlFaNWlDMnlhQkZwUWIyaWlVcmdyd1pScjdqWWg5X0pzdEJoVmw0VlU?oc=5",
+      "source_name": "OpenAI news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:34:09+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: OpenAI, Anthropic"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: OpenAI, Anthropic. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "6c815d5caa2850d05d77376a3391563c2d2cb08b7d916f20b30d9cadc1c61101",
+      "title": "DeepSeek V4.1-Flash-1017: Free, MIT-Licensed Update [2026] - https://tech-insider.org/",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kWDFIS0w5Y1RjMU9ZVWtUb1MyajBSSnJMdEtPRHJHSGFfN2Ntek9zcnUxTmdOUjR6Z0xDaUxJcks4Q2dSUzV5RlJKLTJFdlNLMmVqU0k4OGhxZWxlWHVnS1B6aTM3R09UUzMyZUNqZldHTVY5SHR2MWdnYVFsbGM?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:50:11+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 70,
+      "importance_level": "High",
+      "importance_reasons": [
+        "source priority 5",
+        "release keyword: version",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "High",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 70 (High). Reasons: source priority 5; release keyword: version; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "b6daa2d889510a38417c5aefa92de5b0325cbd200aa695e345e3a8bb95579364",
+      "title": "Eight US States Sue OpenAI Over Alleged ChatGPT Safety Risks to Children - TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPanl1OHczUmxOa1hNSjZ6c3J1QUh5UkNmM1RZRFhPV0VDbk9tdU5vOGVwNm1MMWdRNlRJczhaNC15aVRJZlZSTnFySlp3M0IxWlp6QlQ1UDJnWHI5aTRRd1FRYmNFbl94Z2xjd0xBQzFOcnhXSDJaMTlmYllWUUxGYjVsdWs3MlBjbkdNWTRsOHQ?oc=5",
+      "source_name": "OpenAI news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T09:57:46+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: OpenAI"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: OpenAI. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "8b10c383a415fc86acb7ddaa8e3ed65b467f979bdf3c0c6a1cdb3bfe5d2da00c",
+      "title": "Removing Gemini from your Google TV is hard but not impossible - Pocket-lint",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMEpvREwxRmRUc29xdGRpQjhtXzRpSHdtSUd5Y041alVhaG1YZDdEZTZIaFItWHJ1VHF2bmhESU9BRmFXTTFPTERpUU1aU3NHa0puV2ozc2gtRmJkWk5uTGx0TUtOYWY3V3RWQWRWVGtMek83ek9UZ29iQ20zWGpkMnJBczdLV2tiNFNHeHFUYS1uUi1nTm0yQkpCbXBGYmdNUGRyRFZIeXdDRXRnSkZlYXZiTFQzbkJiYWc?oc=5",
+      "source_name": "Google Gemini and DeepMind news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T10:00:18+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: Google, Gemini"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: Google, Gemini. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "3733c83fa3807c14244af0089c674d3f6562344454dbbd884fd79e2ab1232615",
+      "title": "😺 DeepSeek's free model edged Opus 5 at coding - The Neuron",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUU5CclFtcklSZkRUQUU4TkpwMVhMZnlEUkVyUXlXWVVyYkdZbERuVU1xb19Sd1Z4ZWVJMVI5M1ZZdGVpNUVtRk9aWkJldzh3UjVOdHhzMzNzUzlVbUtUV2duWV9PTC1WOHd6c2NxLVRSQkFuRWNXSHh0ejZrLUdPaVE4RQ?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T10:02:12+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "65882098879fd06299f37a9ee67804ae7a98bb2877c82f0a7488d76b70342e3b",
+      "title": "Microsoft giveth and Microsoft taketh away: Copilot edition - The Register",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLVNoc3c3UjNadnowemVJR0ZWRi1Wbk9KVVdUSHdqXzIzbmJrQnZZQVBQMmZHSnlzMVlGSmxBcTkyR3NhWGFFeG1nSGloUmxWOE5UZDBfOEg0TE1TTUo4ZWFWWEU4U3NqcmdJN1RCOHVYeXF4VGZjWnJpZHBPSmRjYnNvSWx3eWlPOVlrNDVpOHliVU5oNXZteWhqc3RlM0RKOHREb05Oa2NVUVJiaHByeVZ1RC0xblZJX1E?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-12T12:41:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 4; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "52ab957322ee11398ba5b8f3fde451ac540329190c77a9728a8a6fefd89e7f78",
+      "title": "Copilot to autopilot: Why no single safeguard is enough - Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN2pwWmFSOHJRczVzd3FjRms1V05KWUZyLW5WTm9maDdrTVIxNUhTQUFjXzB1LUN2MUF1cUJONVlrUUxRbl93M29WQ1RfTzA3bTBtaTZTT21zcjBNS2NXTmI4bDZkSDFMZ2JjTXhNRHFKbl9QQUszS1VxNDkyTHF0Vm5DM3lMUExoYWVEMFdET19FSU9kVXFVYmdCMWxXd2o1MUI3c0hHZmFhTjRkZEN1V1NNUm1QYXlSajFnLUhaQQ?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-13T16:04:15+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 4; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "fe0b0fa7b1597b8271a07f06e4a883dc9a04c69c1a81b5e1536e6d0341470554",
+      "title": "AI: Microsoft’s Copilot evolving to ‘a Costco of AI’. AI-RTZ #1240 - AI: Reset to Zero",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBTQ190T2VXdFJyT3RfVnNRc21JQVdFaFFLWFNKMkFxTzRhRzdhVElBZ05ENUMyZDFKZjdlVjctNmlzdXhSdWgtRl9ISFZieFpDUUdySGNnc0lNTWZ2MGhNRlA1NXl4V2dQYUtWcklSR3pBNUtNQVZpQjVn?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-15T05:02:59+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "AI: Microsoft’s Copilot evolving to ‘a Costco of AI’.",
+      "explanation": "AI-RTZ #1240 AI: Reset to Zero",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 4; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "39052ad94a8a76cc68a2cb5d2b6325203b5875584233fbb5d6de6b8d63fe42e3",
+      "title": "Apertus 1.5 Release Notes",
+      "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "source_name": "Hugging Face blog",
+      "category": "NLP & LLMs",
+      "source_priority": 4,
+      "published_utc": "2026-10-15T09:08:45+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4",
+        "release keyword: release"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 4; release keyword: release. Category: NLP & LLMs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "4b81dda512a7cd0dd63401244372128766ebbd304c2de8fe8642e128165b0160",
+      "title": "NFL Week 6 predictions by Microsoft Copilot AI for every game - USA Today",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSkM4UTRSb09vUHpjMGVnZzFUY3pxdXFDbUg4Y1V6Uktkb0ltYTlhQkU0ZGdGOTh2Q203MHltOWFNUjdweG8tRDRyTGF1RjhoOUQwWXlUY3hoNTZEX1dMYUlURHN1ZWpzTFpLbHA4QTJoUEJFWlItRHd4Z09KLW93Z3psYjRZSXZ0MFJnWWZIemUzLTBLWUJ6NmZCS1pfNERLMU14WQ?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-15T10:09:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 4; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "91f62c7d7bc3f04752da4d50d0f04d91138792093b660f9c58b058674ffcc539",
+      "title": "Copilot pricing gets complicated - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUFpHSDI2aHZJSEs5OS1VTjJ0TENUMzNBNWpnQ0ljNnd5ZHFrRktXUnh5ZExuV0h4MlhhdkktOWxFMUJoWmVFMWdWTU9kck8tRmdlc2s4ekJfUlJTMXhOLXl0VlRiN3kzS3F3eEs2aFNENl9fNFFmWEM0N2w1ZW9wclRJcTJ3WWlHQkVLYkNxLXNLQjhZNW81Y1pEcU5oUGRqWWc?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-15T11:04:32+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 20,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 20 (Low). Reasons: source priority 4. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "da8c8df1dd2d3856c42362119295bd64fc480a372d054183e8b392e7541f06cf",
+      "title": "Microsoft Launches Copilot for Legal – Brace for Impact! - Artificial Lawyer",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRENsbnZuMnE1bUdIbzZZTGk4czRMLU5SUHduR3Y3cFhZY3NIajJZaUx1aF9hbFBSaGZQQ2kzYWF4b0J2MGxKN0RYdExyWXpRWHdka01aOXdJRHNTYnQ0eS00a01qenI3Q1FKVVJaWHRnNy1wZnpGenM2dTg5M0FaTF9LRy1DVUxFcEgzWUxNMnBzRUhSOHdMU0h3cmMxN1E?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-15T15:02:59+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 45,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "release keyword: launch",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 45 (Medium). Reasons: source priority 4; release keyword: launch; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "b26bd989895c234d82cdd80f094eee35d2a002fe510a3452ca91a31672e3e1c4",
+      "title": "Delegate shared business processes to agents that are more persistent and proactive with Microsoft Copilot Studio - Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNMWJLZjF0emdwNkZQekdCZFdUbnI2eUFXc3FpYVBpZHpYZ0t2czdmUmcxOWQtWWZaM3BzS1pSdWJKVnRTVTRRazJudnJRQmhLWGhXeEwzYkhvNmJaXzVnb3VRUWdtNlB6LWRLZlRBQWFfVUdBVGFEN3p2OEdjWklEb0Z1U0JFbWdpOENEYU5UMkpSem5VcVNqSHJmSTFlQkpaZkhYSGZ2RDJyN1JEY0MzVEtJYlVabTVwZ095Z2dGazRka2lZREktbVd2RXJLNkhIM3hKSlc0UkhDYm1aSTRlU1MzYXVvZG14bTZ4WE9UTVA3X21GR2RfblNMZDFSeThTR054eg?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-15T15:05:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Delegate shared business processes to agents that are more persistent and proactive with Microsoft Copilot Studio Microsoft",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 4; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "dd943234c039825a37e9624bedc8d4636d5b48d7028ca1b9c03f783ece9c1926",
+      "title": "Microsoft now wants lawyers and legal teams to use Copilot, even for sensitive work - Neowin",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSHpMckxIYUR0bzlONm9nRW1rVmY5WF82eUdDZWZzQ3g3TGJKOVJrVXdBbUhudllxWHhFbm1DNWdmb3JZa21SOFV5bWVmSEFYU3NaSHNkOWpRMkd6NFdLTzM1c0ZRRnNZaHJPYmM4ajRpRTZFZmNEb0ViaWs1eG51RU5GajFDTzZLM0E1MHBMdE9yTFhPeEJFZnJMR2M5WWpFM3h1LWxXcHJlaWlPc0YzZA?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-16T18:32:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Microsoft now wants lawyers and legal teams to use Copilot, even for sensitive work Neowin",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 4; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "ce516ef023c9f0ebbad8ea8b495c72f4de655c1a9141f8c235d127acb1d03018",
+      "title": "NVDA Stock Quote Price and Forecast - CNN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oakpQaVAtWVg3Rjh6M2FFaExEa1JVeThKN1FIX1p2OG1lWmVaVnhlU3Zsek42ZlRyd055aXc2dGNHa0NxV2RfU1I1dUoweXNi?oc=5",
+      "source_name": "NVIDIA launches news search",
+      "category": "NVIDIA",
+      "source_priority": 4,
+      "published_utc": "2026-10-17T08:01:57+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 20,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 20 (Low). Reasons: source priority 4. Category: NVIDIA.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "8c94b56389902c639ebe53e4de64a284a101c9f7687c0db79800ffbf8750c346",
+      "title": "The Copilot Problem: All Risk, No Reward - Cybersecurity Insiders",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb216eEt0TFpqT2o2dkl4ZlpTcXVwOEViUl9ENXZVSEVMdEM3emJzWEx4ZDJUWFEwVHVIYnROcXE2b3J2cTlVd3FlSGJJeXk0aTdKMldaTmxLRkdkeWZLUk5fOUVvQk1FbmI0N25jdnUyRXdMd21nWlFLX3d4ZG5ET1Bfc3Q?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-18T17:27:25+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 40,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 40 (Medium). Reasons: source priority 4; published in last 24h. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "0e187e0eaebd7a3d2b66d3c115561391b7413a472d37bc724ad48cfa286c45f6",
+      "title": "Some Investors Are Questioning the AI Trade. Microsoft Is Bucking the Trend - AOL.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU25yRl9ES1dUSEZzTXZZYmZwMjZtQ2hWRy1lQXpHVVNZTXJWZVpkTWMzN09DeDhwa0hFRWZsS3lSMVEwRW9vMnVyQmNUdFR5c2FoNUxVUXFrMUUybl83dUptUFVfRnp0RlNSbkxIbjVMRHREWG96WUEwQ3JvczFlaVlIRWkxNkhjd1Atcg?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-18T21:05:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "fa135a0c2138082efd7d22a26d5c17511baa5fa83dc1275e8ed329a46e7f881f",
+      "title": "Some Investors Are Questioning the AI Trade. Microsoft Is Bucking the Trend - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMWNMMV8yaUwyb3BRQXl4QTNwa3lYaUZwd1pzdG14Ynptbm15YXFSRG8wcHBzOW9Yb0ZBYWtiODVjN1lxYkQ5eFVpYlBsRGdsRmJ0c3Jscm54ako2MjBCTFZ3V1hCWmVmdjNhUnRqU3FCbFZkZ1JUYUhtSmNzajg2eVk4YjFWcEpJeGpfcC1kTUt3MjdCTVBJVg?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-18T21:45:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Some Investors Are Questioning the AI Trade.",
+      "explanation": "Microsoft Is Bucking the Trend The Motley Fool",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "027d1e9561d2c554aa051a4dff9bac2ae2e0d23b58c32c0b8effe42ecdaa00c7",
+      "title": "How AI Client Integrations At Microsoft (MSFT) Have Changed Its Investment Story - Simply Wall Street",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ1pLU09KWUQtdTFuODBsczQzc2l2S3BaREtZcFBoSGhEWHg2UXlYSzU2VXhBT0NxamhWM2YwU0VNZkplNkl1cU1vcTlJV3o0UXRYUGtPUzBoaUxqdGJTbUxsZ3h5aExqWExSVHZBV1EzLWxFYjJUY2RmTlE4Z0JYV2REdUxvZzc4aUNqODlkbGQ3YkNzNHc1enlkUVVFTkxnbjZ1aVZ5bzA5eXdxbjFmMDF0TDBfbnBkX05ZaUpvUllWd3VDMFI00gHMAUFVX3lxTE5nbEpDVU5EU290MENhYk5kX21fanNMY1lQU0RTclM3VHFyYXQ2SW5kZ09KdEVjMXFTWHU2aHZ2U2hnTmQ4QU9GbnBjVnVqT3k4OXZJcUp5X0xWa25uUUpxUW9HYnVhc01WTW9yTVRwejV6TXN4TmZsOWdXSS1wTWM5UDJpLVRqYm1kSFJPNWNfTENCT2RUd0xjQUQ1RXNGZHNyY2xySXpHY09fX0RFRlZyY3J2RkJ2WHhZZVFCSHBQTWtmRGJiUGdtVnlTQw?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-19T05:54:04+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "How AI Client Integrations At Microsoft (MSFT) Have Changed Its Investment Story Simply Wall Street",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "0eac7ef91778010aa52c6d0ca3349a20a8e0ec240cd02a06cde05f19422d4d17",
+      "title": "CMA moves to give Microsoft strategic market status - Resultsense",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMEZlbWJtZXlxbFNUdFNsOHNVcGpYVEtGSk9wdG9SdkVRRjYwSVcxc0NReDAyM240S3ZfdVRJc1hpa2xjMUswZXp1UnJXOGFJeFRrTkx1Y2RlS2RCc3FHeW9KUkpEaG5qNzNOMzNOYUVmdWFwVEpGNzVmSGpMZ3c2TUY1SXF5MV9yWmxHbF91UTlrcVIy?oc=5",
+      "source_name": "Microsoft AI news search",
+      "category": "Big Tech",
+      "source_priority": 4,
+      "published_utc": "2026-10-19T06:30:25+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: Microsoft"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: Microsoft. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "80ed6ba4a69f8b8afc1d5305facd426b23217ce5969a06b48bdbe8ef41020bb8",
+      "title": "Doubao Responds to \"Half of Compute for Binge-Worthy Dramas\": ByteDance Video Generation Compute Is Only About 10% - 深潮TechFlow",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tbHdJeEp3S1M1VlhabjVOWTNsRXFXTzZDbUlSSDFmd0E1SlNLSWtJN3ZwYmFBei1VY0NMREx2and3ZEU4XzBvay1NMUF5eHljT1EyeG9VZl94dERs?oc=5",
+      "source_name": "ByteDance Doubao news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 4,
+      "published_utc": "2026-10-19T06:47:19+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: ByteDance"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Doubao Responds to \"Half of Compute for Binge-Worthy Dramas\": ByteDance Video Generation Compute Is Only About 10% 深潮TechFlow",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: ByteDance. Category: China Big Tech & AI.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "7456efa56e7ba1c4223983deb6ec76f19a917d2a48461324b1ffefddcc64d64a",
+      "title": "PADO launches GPU leasing brokerage platform - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZE5qdTBObjVsUzhkTEVOVG10OTlFQXJ5clIzVndOR2UzSkZmSW1VQlBpMnVFUzRBUVpRU2E1dXNmdkhVWDZBZ3ljQVh3ZHlkckl0US1vRXFhTzdkd3d5Mk1OTzNlcWgySzFpaWZXMnNzNUg1bUNtUmFDT29GeS1FRmh6aFJOV2N1?oc=5",
+      "source_name": "NVIDIA launches news search",
+      "category": "NVIDIA",
+      "source_priority": 4,
+      "published_utc": "2026-10-19T07:50:27+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 50,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "release keyword: launch",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 50 (Medium). Reasons: source priority 4; release keyword: launch; published in last 24h. Category: NVIDIA.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "1f3bc1050c455601ee7ff76eaffeed89504938dd4a885e46126440bc4f75ec1d",
+      "title": "CERN and Mistral AI team up on AI for physics - Greater Geneva Bern area (GGBa)",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNG83b29Xd0s0RFh4c09iRG5TTTBoMXJBVVZscXJ4RVA5UWNMNlFBeEFxaFRVa0NBWlVJZU1jY1FnNndNMXFXclBsNzhnQ0xBbmdjNjVnOW9kTUhYXzY1cVpraDljRE95U29QbjhNVDRCNTRlbmlCa0JsbWUzV1F6U1VTeHg2enNaWjFOaC1xMXZ0ZFNUaUp6ckFpUmo1aDg?oc=5",
+      "source_name": "Mistral AI news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 4,
+      "published_utc": "2026-10-19T07:53:44+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: Mistral"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "CERN and Mistral AI team up on AI for physics Greater Geneva Bern area (GGBa)",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: Mistral. Category: Frontier AI Labs.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "5103dc52a4875841c270afff1b77e57899dc39334721835bb182fd923fbb76aa",
+      "title": "Tencent Hunyuan Achieves \"Small RSI\" with Alibaba as Foundational Underlying Base - 36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Id05CcDBUbEhxQTRtZ3JoRTRwVWdXdkRPOE1qYkpwS2FLUDhKbTlVem8tN2ZtaUE0TkNmQmY1dVZGbzZCQks5NGlfencwYUZINjYw?oc=5",
+      "source_name": "Tencent Hunyuan news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 4,
+      "published_utc": "2026-10-19T08:12:46+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: Alibaba, Tencent"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: Alibaba, Tencent. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "1e61fe645688af3e40293b5571b185822a65253aab396180807f6c6b321a6284",
+      "title": "What's Going On With Intel Stock Monday? - Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbWtqVjlmazdHRDZYRk0wdllGbFlneGItU3huQWtOUkNoNGJUOFVwTGYzLV8xZVlrNHdlRjI3RmZXYlNmVDJUN2lQSW5NUkF0MmxkcHFmdGlaUUtGd1V1VFU4NXNvejlhTVdUQ1NLcEdkc1M5Zks3amJaYlNWSTc2RWxDelZ6Mm83M0dzUDNWT0tiRTQyUWhCMA?oc=5",
+      "source_name": "Intel AI news search",
+      "category": "AMD & Intel",
+      "source_priority": 4,
+      "published_utc": "2026-10-19T09:55:57+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "published in last 24h",
+        "major entity in title: Intel"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 4; published in last 24h; major entity in title: Intel. Category: AMD & Intel.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "9526cbfe2e35dbc1868b223a88a2eb5e928fce719ac94ed265e21735318a67d3",
+      "title": "Google Cloud’s Lohmeyer: Agentic AI will kick off a CPU comeback - Fierce Network",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmJaUlNBNUZaakp2RTRSYUNIVmN2MUZKN1pRNjlBMlNvR0RTV0dOTDRCa2VMQVFGYVRBcVdrZi03T1NlR3ctbEdXdS1pVmxZblVTY2lVelVjbEFDVnI0RFZqQnZrMFlvaEpxOHd0Z3JaOVBOd2M2OFRGVWh1Q3p4S3dIRE81SmkyMDRXcVBDMXY0ZXN4N0Z1Nw?oc=5",
+      "source_name": "Google Cloud AI news search",
+      "category": "Cloud (AWS, Google Cloud, Azure)",
+      "source_priority": 3,
+      "published_utc": "2026-10-13T18:45:25+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "major entity in title: Google, Google Cloud"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 3; major entity in title: Google, Google Cloud. Category: Cloud (AWS, Google Cloud, Azure).",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "b492a227e7dd1e59fc5e97f83390bc0fe26675d13a65d29b589d9296d6b0e458",
+      "title": "Lovelace debuts tools on Google Cloud marketplace as startup comes full circle - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUEYtSkNteVRQUHhwMlBsRHZkOG51enhmd0U5dmpMTWduTy02OVBYblJLNkRNRDRjSjR3dlBtTzhXd3Z5aUd2eE1objkwblFQUDdlZ2hZLS1rUGU3Tk0yWXkzZmxIS0gzSzFOZzQ1SHljQmY4aHFWbXlkeVE1Qlp1a2NfaS1nZDVn?oc=5",
+      "source_name": "Google Cloud AI news search",
+      "category": "Cloud (AWS, Google Cloud, Azure)",
+      "source_priority": 3,
+      "published_utc": "2026-10-14T20:12:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "major entity in title: Google, Google Cloud"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Lovelace debuts tools on Google Cloud marketplace as startup comes full circle The Business Journals",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 3; major entity in title: Google, Google Cloud. Category: Cloud (AWS, Google Cloud, Azure).",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "e78396f669905e968072c6558a6c22c9e12e3b60fae10bf7248f5dfc4f1775e6",
+      "title": "Apple Intelligence reportedly coming to China in December, but without Siri AI - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNjNKOWl0aVFZRlp4UHdtMzFMMmdOSDc3TUNidllkSXZvYnM3MVVGMGxpdnlxd21qMG1YbGlLTFJBc19xcGNZekZUTWlZTFExZVVzeDVnc1hRU3EtNHpJcUFHc3RaS2Q0SFc3VzFtQTlYTmM0dzg5WkMtWWRxMlM5dnpyeFJ2QlFFbE54Zlg4SnktQTNDSWRkMHY5QV9JNUkzUnVYc2RLOUJNT000UkE?oc=5",
+      "source_name": "Big tech AI news search",
+      "category": "Big Tech",
+      "source_priority": 3,
+      "published_utc": "2026-10-14T20:20:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "major entity in title: Apple"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 3; major entity in title: Apple. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "08429af1edd489ad6af19b1d6454f2183b85448e1e0e22050b1c944f44dfd4ea",
+      "title": "How AI Chips Will Power Google Cloud Revenue In 2027 And Beyond - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbHBNeURLVlZKc1N4bXVoU2t2OUVwaUY2OFNQemQ0VU93R3NIeGJLWi10SlQ5cktKdmpMTmREemZQVzZfYWx0Mkpia3FPTW1yUGR1TUY0VnlQT3JPVmtQNEFJNm11VXdMN0hiUmt5MDNSUzBEbnBNa1U0UkV4SFBOUzFWY1Q3RUZIazRLSzY0UVk5UW8?oc=5",
+      "source_name": "Google Cloud AI news search",
+      "category": "Cloud (AWS, Google Cloud, Azure)",
+      "source_priority": 3,
+      "published_utc": "2026-10-16T12:00:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "major entity in title: Google, Google Cloud"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "How AI Chips Will Power Google Cloud Revenue In 2027 And Beyond Investor's Business Daily",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 3; major entity in title: Google, Google Cloud. Category: Cloud (AWS, Google Cloud, Azure).",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "0fe9d9f16e44b2bbd7d222ae4be7d44b1c84cdc9db325c5bf609a8443ba17982",
+      "title": "Jack Henry and Google Cloud Launch Tokenized Deposits for Community Banks - FF News",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbFIzTjl6Y1JnM0xOS3NmeTM2cmlzX2lRaFNydkk3Znh1QUV1X09CZkw0ZVlXbUd1YnR6S2Q4T2wyYm1vdzE5SU5ob1MxTF9CVlUzanNNbF9adlVQbUNNd3VaVkpZSFFQbTV3UFhNVTFqLTgxY19xYUE2Unl5NGMtVUVmUkJ0Sl9xTGxIWG1Ea2dOeHp5Ym1FYVlEM3dYUURvcW5RVHpwbElTN2hhZjdleVpqVQ?oc=5",
+      "source_name": "Google Cloud AI news search",
+      "category": "Cloud (AWS, Google Cloud, Azure)",
+      "source_priority": 3,
+      "published_utc": "2026-10-16T16:04:25+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 40,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "release keyword: launch",
+        "major entity in title: Google, Google Cloud"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 40 (Medium). Reasons: source priority 3; release keyword: launch; major entity in title: Google, Google Cloud. Category: Cloud (AWS, Google Cloud, Azure).",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "8bae85dcc3f3e099d2baa80112d1377a5192e4ef7c8248820336447dfca180ac",
+      "title": "Prediction: Alphabet Will Report Google Cloud Revenue Growth Exceeding 100% on Oct. 28. - AOL.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ2FoY3lOWW9DTDNhUlBSNVJfc2NrQjNNc1JPM19EUzdGNmV2ZHd1NVlPRjlWb0V5QXVvVWoyamYzcUZEcV9oQW5yNXZ1QmM5NmtNaHhLMjMzVzhEQ1UzVlV3U2lKUEhweWRVNTUxcFlFSnNfWXJQRjVyVTNoRGI5a2V3M01GYlVweEg0?oc=5",
+      "source_name": "Google Cloud AI news search",
+      "category": "Cloud (AWS, Google Cloud, Azure)",
+      "source_priority": 3,
+      "published_utc": "2026-10-18T12:05:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 50,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h",
+        "major entity in title: Google, Google Cloud"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 50 (Medium). Reasons: source priority 3; published in last 24h; major entity in title: Google, Google Cloud. Category: Cloud (AWS, Google Cloud, Azure).",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "094a73f07ffb3e85eb526598ad21c439338c109c271078323d8aea40368bbdc3",
+      "title": "AI Agents Reach Indian Live Systems and Read Confidential Data Without Organizations Detecting It - CDO Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSGFqWGxHRnphNEpNZXh4eTF1RGhiSDl2WURYMy1kLUpFMk5DMFl2R1FWc1lCckVDRHBIMk1NSmRhWGJSZWthT1cwWGlFWVEycVhpMEJub1E3bWF3RzBEd3NObHNYMW5tVUFGRWN0TjAwcGZWVjFiYTZvUGRkMjhuTnJxYzBVMzV3MjNyaURsQUVRZmpsNFNCQ3l4NTVDOU9tZ3VKaGJVN0poM1VCWlVlRHBZSmRzc3dfdmpZZXNiczZiMTlLem45Qk9YTQ?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T07:16:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "AI Agents Reach Indian Live Systems and Read Confidential Data Without Organizations Detecting It CDO Magazine",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "911aabf738d8ac08465f1cff374a863a91aa5b3619335c533a9df0f3f4739244",
+      "title": "European tech weekly recap: More than 65 tech funding deals worth over €1.8B",
+      "link": "https://tech.eu/2026/10/19/european-tech-weekly-recap-more-than-65-tech-funding-deals-worth-over-eur18b/",
+      "source_name": "Tech.eu",
+      "category": "US & Europe AI Startups",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T08:00:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "funding keyword: funding",
+        "funding keyword: funding",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Last week, we tracked more than 65 tech funding deals worth over €1.8 billion and over 5 exits, M&A transactions, rumours, and related news stories across Europe.📊 The top three industries that ra...",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 3; funding keyword: funding; funding keyword: funding; published in last 24h. Category: US & Europe AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "8e7e6035b3759c03197ed122e916a05919bc80aa77db51b02c8b7252764b5434",
+      "title": "AI Agents as Employees: An HR Model for the Digital Workforce - E3-Magazin",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS3k4TFpTVjAwN2ZKb1NZZ256NDVpVkhWMmlhOHBJUm1NX2pvUzU4RllkNlZJSEloYTFpbGNhN3gxeFZwU3FkX1g1M2pEZU50QkFJaVF4Tlg4WXItaURnRFVfTkJKZlE3Y3I4TU9YTWtGMjd6VlpSS0c1OW42aTRCTnlVeXR0LVlMOFE?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T08:00:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "61fcf6ac0426a628f94a0a5e72e4b0ec4374a660d693c4c0cc5df96caf817077",
+      "title": "TechWolf co-founder: Ghent flywheel &quot;super important”",
+      "link": "https://tech.eu/2026/10/19/techwolf-co-founder-ghent-flywheel-effect-super-important/",
+      "source_name": "Tech.eu",
+      "category": "US & Europe AI Startups",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T08:02:11+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "funding keyword: acquisition",
+        "funding keyword: acquisition",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "One of the co-founders of a Ghent-based AI startup which is being acquired by sofware giant SAP in a deal valued at hundreds of millions of dolllars has stressed the importance of the city’s flywheel ...",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 3; funding keyword: acquisition; funding keyword: acquisition; published in last 24h. Category: US & Europe AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "5cd8ae28ab4839afb875a5337ccd9c11497069c0da5db3bb78a567ba0c6706b8",
+      "title": "AI Agents Are Going to Work at City Hall - PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ000dExJeDd5RVZPU3RhVjRMWDJWX3k3ay1Za0d6Y1M3LUJYVm1fbTlwUFc4QnNIcTBia1dTbl9TaE5hM1d0M2hmOTRDd1h5dHhsTFh5QU9LOUYxZXlWQVJkWEprcFZISTd3NDVpY1VaQzcyTkd6SEFuWkp4OTJ3U1A3ckdqQk5YVkdCd1NoYk15Y3FLNmFITWU0NkxpWE0?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T08:03:45+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "689854789e761bc79bf58f7a34451027d5aea5bc6a1eafcdcff17be14c83d118",
+      "title": "AI Agents Could Fill Treasury’s Looming Talent Gap - PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdEhfSmJReHdoQkluZ2xMVkFqS1R6eEItcDRzLW5jdUQ3MlJvUU1jRnplWEVJY3ByZDhvSGtnNEFqVzlGYlFRZDJEYVhmd1hSc3BkNUtJYzRfejZFTzJyTFRHNEkyQ0ZZbE5nVHVJRW9hNGtkVW1Eb1ZPUmV6V1MwdTdlU0RIRm5QaG4zS01fa1dlWTZ4c3ZlMzdZSTgxZjdrazJBZXQ2N1JJbXM?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T08:08:51+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "cc178c607dba27f33b1374dad1355bb8c287a1b9e8dc395d75b6057dc8a06799",
+      "title": "Charles Schwab is blocking AI Agents, CEO Rick Wurster asks the 'money question' that almost every bank i - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNVjRJNno2NWFpUlJzMEM0YmczYXBsR3ZYQmUwYkgzdEVKVzRHNmJWZnNsd0o1R2E4VW9rVzExQlF6cUpFLXA5SUpQdkRxNGxMUHZ5VzFZaWVuSmxsVzJldzR5MWFHZTRneTcxbjVvS3ZFN3pJOWZZUUJVWnV1YTExTy1MRWdERTVNYWVld2lvNUI2dEdBTU50Ukxsand2RUo5a29iaXJwTjFTeGhxV2tMSlA2ZUtJaXZST2lpd3BBLTlBemhMNXNaVXRmcFhNZ1lPNUQ0WmtKcXZ2UlBkT0V4cl9QclVVdHF3U1VESEphOHVhTWNFQmdHcWZrREZXU1FpWE5na1lsV2REYmN0T201TnhvdEVydmFyaXBRSmpHX1RsN213QUhuQmR0aFJzeFJzeWR5aG5HcjBDTjRlYS0xQ012dkI3emlreWFIbndXV1oyZ9IB1wJBVV95cUxNb0RXOFR6MHJMUi1SMkpSeDBwcVp3YnNxWWZobVBmc1FBbXl0RUJsd05YSUd6Smc5NG84bk5XTEpCbmVfVTFEdDNCM05hdXJTRDA0S1JrVnBMdE5LSjlOODE3R1VBc1AwSFF3TW04STFmeUNEcGNoMTg4SjhRVkc1SXBnOEU0eGFUbHcyQnNYYlk0YnNuZlNzNXQ1clBmUklFS0lxNnhzTHJpZndrY3ZjcGpyS0NtcGZMRThXTEZ6enBYelNLWDdXMEoybWVUaVhtRVpxc1VNMjc4YkMyenE5NHk3RnpKSHotbHRRZkJoV1hOcTdPbW9mNUZ5Sk1rNGNRVnp3NmZaUWNYTDBzaDdUODRndW1NZzVueExvaUJkV0dJSW9jclV0ZThHQ0NISzJGclZFSW9hQ3pCZmxrbVYyQkloMC1ISm9SSEpKMTlsZ1ZTczkza05n?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T08:09:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Charles Schwab is blocking AI Agents, CEO Rick Wurster asks the 'money question' that almost every bank i The Times of India",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "a979c0f4b72fa1e2ac599d9772334d6fac4dcf974d7ffcc7ad2f3aed150a0b6a",
+      "title": "Barcelona-based Enzo Ventures closes €20M Fund II backing Southern European founders",
+      "link": "https://tech.eu/2026/10/19/barcelona-based-enzo-ventures-closes-eur20m-fund-backing-southern-european-founders/",
+      "source_name": "Tech.eu",
+      "category": "US & Europe AI Startups",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T08:10:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Barcelona-based Enzo Ventures has closed its second fund, a €20m fund which is backing Southern European founders at the pre-seed stage.Fund II follows Enzo’s strategy it began in 2023, when it invest...",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: US & Europe AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "e29f1a312089530d323c5de925015d14eb543f84c885d0b975bec235002991f7",
+      "title": "Opsin raises $21m as AI agents outpace legacy security - FinTech Global",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRWxNQWNyNEdiSkNXN2NsbTR1MEFtU0d2c2lqRm53VFQzTWw1a0NpTldoRUFuc0ZVWl9BTzBCMXA1eWtxT1p1NE1LcnZFdHhkSTQwclo0enk0QVBvbENxRUE2UnMtZXA2VmhReHVXb0ZiYkdKWW93ZElJbENsdjExS1R6WWgxQVh4NGhqaHpqMFlWdw?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T08:37:22+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "funding keyword: funding",
+        "funding keyword: funding",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 3; funding keyword: funding; funding keyword: funding; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "5ca3fcef1702fae8e373d7e4ca77a87f1c43dd6cdac6b52468cc1d3b99679f8f",
+      "title": "Samsung Electro-Mechanics Signs 360.5 Billion Won Memory Substrate Contract - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY2tZRVpIYkVFbkJEbzF2amFiSGJtTFpQTFo4c0lNbno5UXlCbmdKbUpCYmRYLThJNlVIcjlSMW82LWVNalllbjhJY2s1QTF0R2E2QUZOeGV5YlFicm1UUVFXQUtGT3VFakYwUmF4dVE0cjl4RmtHY2d6ZldGNXJzbFNqRTg4R0Q0?oc=5",
+      "source_name": "Supercomputer and HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T08:51:48+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: High Performance Computing.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "ac0cf0fe11f663b1f63fd00dc1efc5415c6fc11a603f94ef31f89d3ceeac183b",
+      "title": "Pax8 launches 8os to let IT partners govern AI agents and 8bot as a managed AI co-worker - SiliconANGLE",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS3pEbXhhYjl0SVN2bFdkTDRTanNIcjZkekFqRmxsY2RmdlQxUUdHYU81V01GVFR0bmJWSzBnMGwzOV9hc1hSUzZueGdvT0tzWlduOGhiZDhTTHJET0R6WmpMMjlUZ1drVUhodzdrTjBMVk1VMXFiWW1QUjRCNEQyUy0xWFlCTnJCbGUtTzRTSG1IOGN1eWNYNVlZZ3BCTnYxMUVGUFQ4bVM2eHA0NVltWnNkZE9TeHBLTzNkQ1o2MXF6UQ?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T09:00:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 45,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "release keyword: launch",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Pax8 launches 8os to let IT partners govern AI agents and 8bot as a managed AI co-worker SiliconANGLE",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 45 (Medium). Reasons: source priority 3; release keyword: launch; published in last 24h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "1f209822bb4781ce201579fddd8201ca5da97ff2c94c5339d4ac1c963388c481",
+      "title": "Axios C-Suite: No one knows who should manage AI agents - Axios",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wakZjVUNKNUpibHRzOGpwMTBVTmR2STk2ZVo0VnBkaktFaE5hamQwUmJxcW9YM3F4dnp6TUVTbnpqeFpCLVByU18yUXJoQ2QtU2pwcHBxZFF1TWUtQlRUb1hrX1FiUlg1SjI3LTl5cw?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T09:22:30+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "0a50fdcf51646e7ea93de484e430cdfd4caa47fb49a7731e1895101d71e29dcc",
+      "title": "The Army Wants to Sic AI Agents on Its Enemies. What Could Go Wrong? - The Intercept",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56TlQzUzJiMHJmY1BuMmFod3p2aE1LVzhNaVRwVUk0UVZWbG5kazNnU2dOVUU1V0s1ekFTcGhka2lGX1NiRG5QRjM3dTh2VWY4Mjd6cFh2dnBKTURINHV0cFhHdUNsTUdYQ3IwMWxabndSOXNqREhWR2pB?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T10:00:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "The Army Wants to Sic AI Agents on Its Enemies.",
+      "explanation": "What Could Go Wrong? The Intercept",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "26193ebf9906a25bec451e397aaa8d5a393e7aaf748cb6c1eba8d680c83dde6f",
+      "title": "Sumsub Expands Know Your Agent, Putting Businesses in Control of What AI Agents Can Access - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPX3A0a1R4TzhKUDdDY1NIcU9pVHExOTZXemd6T0ptNlhiVE91enhBNzZsaW84MEZaRzhTRG4waGY4U3Jub0RtRWJOQVlZYzRySXgtb3hnTGswcENzQlhTNkxuV3dEOXNiYUJrY2dhSXF0ZEdoMmh6TU9aZnJGallpUzVRUWZtbFU3S25RdEtWaEd6clUtcWwtdWUyS1ZVNkFUT3lXNk9naGlTamtjeVQ5dWgxZjhWVDZRRnJBVGdJVkVVTzNUZzFkb0RJMHRLM0I2c2MzcHJZTzlPcUFBWXc?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T10:00:00+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Sumsub Expands Know Your Agent, Putting Businesses in Control of What AI Agents Can Access PR Newswire",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "51e813d7c800f0bcaec522324f600cbb2fe7c32c80213f189a17c237fb28b10e",
+      "title": "macOS 15.8.2 Breaks OpenGL",
+      "link": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
+      "source_name": "Hacker News - Front page",
+      "category": "Big Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-18T15:26:06+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "0a369623275a16404b57bc9cca4bc8b501f821c43caa10122ad61d9a3a4292aa",
+      "title": "Linux 7.3 Released",
+      "link": "https://lwn.net/Articles/1101143/",
+      "source_name": "Hacker News - Front page",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T07:23:57+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 40,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 2",
+        "release keyword: release",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 40 (Medium). Reasons: source priority 2; release keyword: release; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "6abef420b3e5a2eaaa22ac8e894494b7fcfb612cb7fee1a72922bcb3b95aca5c",
+      "title": "What if AI could control robots?",
+      "link": "https://www.hyperverse.sh",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T08:06:25+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "de1a713eef0b44fbecf4ffa6b06bf2cb210da3350e92256c5e7b97758de2df69",
+      "title": "AI agents made my personal GitHub repo need a merge queue",
+      "link": "https://alatas.dev/blog/ai-agents-made-my-personal-github-repo-need-a-merge-queue.html",
+      "source_name": "Hacker News - AI",
+      "category": "AI Agents",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T08:11:43+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "0cc9a8b1e84e30ef067ba0bdd2e33a8b57d0c01f3883ee689f2b306e440bd192",
+      "title": "Why you should not install unvetted AI agent skills",
+      "link": "https://aiskills402.com/blog/agent-skills-security-risks",
+      "source_name": "Hacker News - AI",
+      "category": "AI Agents",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T08:12:51+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "8f5c27f69d75f18165136b1924542989c72ae1fff2c12300f2efed4778437080",
+      "title": "Show HN: AI decision model plays Mortal Kombat II",
+      "link": "https://github.com/aipdv/fightbench",
+      "source_name": "Hacker News - AI",
+      "category": "Networking & Infrastructure",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T08:45:03+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "i created a benchmark which evaluates the ai decision models. i thought the idea, by watching jev playing doom i thought, games are the right place to evaluate these things : - real-life network latency - decision proba...",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: Networking & Infrastructure.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "1bd34c15239beca0daa3c4a2510ee304e4eae3e64e5978001a2c2e30e0717566",
+      "title": "Show HN: Panel Font-AI Manga Translator",
+      "link": "https://www.panelfont.com/",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T09:03:58+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Text removal happens in browsers through Panel Font, an all-in-one manga tool for text removal, coloring, translation, and manga generation.",
+      "explanation": "Access is free and requires neither account registration nor software installation. Comments URL: https://news.ycombinator.com/item?id=50150083 Points: 1 # Comments: 0",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "7fccab3134ee8c5d6e98c3a71de070a296d1615815e717b41ef324f500094655",
+      "title": "AI made the lean startup more important",
+      "link": "https://jgothelf.substack.com/p/ai-made-the-lean-startup-even-more",
+      "source_name": "Hacker News - AI",
+      "category": "US & Europe AI Startups",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T09:11:27+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: US & Europe AI Startups.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "3ac2195b3f07f3828b4c7da368d709a5a7e1ba922b6a49098eb7d37ed1899176",
+      "title": "The Universe as a Test Harness: Meat AI and God's Admin Panel",
+      "link": "https://rebecca-powell.com/posts/meat-ai-universe-test-harness/",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T09:15:18+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "8a071706c567229932bd70c8eb284089bada77fdc7947435de2940d64960ddad",
+      "title": "Show HN: Free design canvas for your AI (open source)",
+      "link": "https://uidesigneditor.com/",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T09:23:12+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 40,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 2",
+        "release keyword: open-source",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Hey, sometimes it's easier to just move around some buttons in an editor instead of waiting a minute for the AI result.",
+      "explanation": "E.g. take a screenshot of your UI, cut out a button, move it around to see what it looks like. Your AI can send HTML into the editor, or screenshots. Then you can edit it, move things around, and your AI takes it from there. I've made it free and open source. You can build on top of it or improve it. Comments URL: https://news.ycombinator.com/item?id=50150221 Points: 3 # Comments: 0",
+      "relevance": "Rule-based score 40 (Medium). Reasons: source priority 2; release keyword: open-source; published in last 24h. Category: General Tech.",
+      "content_status": "full",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "a8e0d37789ba009eb9ce15c3f18a5517783cc755d3db736903e768bac744b55b",
+      "title": "Share your AI with your friends and team mates",
+      "link": "https://github.com/EagleMind/tokenbud",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T09:50:14+00:00",
+      "first_seen_utc": "2026-10-19T10:05:30+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
@@ -31534,6 +33512,302 @@
     {
       "id": "c4f2d45b56865b9a5777a9c9c932473d1766f7a33177ff93899c2ea903541788",
       "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "c96ee1130aa381b735fee0df33a093552eb469bceddb1ae508ad13399b4276bb",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "3a76eb9678855aa5d317f4056d45434dd6c23d945a1d8865356d8004bdd65bab",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "260c8f104b6346b83f75c76275e98d54bb2975e2d7a51fdef0b53494d1d37a95",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "04832ecc2d3126165bb071f809aa207e6493795599f0c1b487a4e0e29b032058",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "1d3c5e70f5c5b5f751e5195a092b1955c44013d922d19d87222b8ed1197ba1fd",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "66e93c51e4dd9a644a83bbed00b2efec874a7b88ef86a00d4d703feb210bc9c2",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "4345877efdbb85da605339081013c8c5fdd169a942fae5e997df7ddaf1b59d58",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "cc664b86181b2e1accdfa80b08c1e041e60016b5f7a872b880724480db6a5390",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "77e364b1a6f058165276c21142f05f2d0c7056e951e82da148f7a69f8b983936",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "a305cc06419292c044e13b12e24bf19354a205f9f9c4db18ea085b3365551c8f",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "20b1f560c00efe3eebb42ddf8bcc080d1e5e243699632067ea1c69f9d13352c6",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "9ddd91e7df72c58e878df1fd96516e1cbe0fe1cf28591dd51721a4344f659223",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "c3a451b541368e2f449b2e99a17f2595455111f87b17805aad150492c4cbb721",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "47a029e800c055d66db14797c3ff5ef0361745c8d96d0f9cd5a871ecc83e9a85",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "a37d568b69922633234c923acd0d95af356823e77936dc07f2309552f06644c5",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "b24e12e0b67be7122cfbff7234a194d8555ebf4f8d2b61e0c6faa1d10cb70282",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "bc603ea636aeac6159e316116d4692a7b638dcda292dccf8e41609cfb9080cc9",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "98d802070fec594bda2884473f4a60630dd382a1cf215534f16217a8056c24c9",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "f32ee385012746806669af18de68d208ccaead40000b5b9408e6a925d6b0ae76",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "6c815d5caa2850d05d77376a3391563c2d2cb08b7d916f20b30d9cadc1c61101",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "b6daa2d889510a38417c5aefa92de5b0325cbd200aa695e345e3a8bb95579364",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "8b10c383a415fc86acb7ddaa8e3ed65b467f979bdf3c0c6a1cdb3bfe5d2da00c",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "3733c83fa3807c14244af0089c674d3f6562344454dbbd884fd79e2ab1232615",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "65882098879fd06299f37a9ee67804ae7a98bb2877c82f0a7488d76b70342e3b",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "52ab957322ee11398ba5b8f3fde451ac540329190c77a9728a8a6fefd89e7f78",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "fe0b0fa7b1597b8271a07f06e4a883dc9a04c69c1a81b5e1536e6d0341470554",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "39052ad94a8a76cc68a2cb5d2b6325203b5875584233fbb5d6de6b8d63fe42e3",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "4b81dda512a7cd0dd63401244372128766ebbd304c2de8fe8642e128165b0160",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "91f62c7d7bc3f04752da4d50d0f04d91138792093b660f9c58b058674ffcc539",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "da8c8df1dd2d3856c42362119295bd64fc480a372d054183e8b392e7541f06cf",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "b26bd989895c234d82cdd80f094eee35d2a002fe510a3452ca91a31672e3e1c4",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "dd943234c039825a37e9624bedc8d4636d5b48d7028ca1b9c03f783ece9c1926",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "ce516ef023c9f0ebbad8ea8b495c72f4de655c1a9141f8c235d127acb1d03018",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "8c94b56389902c639ebe53e4de64a284a101c9f7687c0db79800ffbf8750c346",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "0e187e0eaebd7a3d2b66d3c115561391b7413a472d37bc724ad48cfa286c45f6",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "fa135a0c2138082efd7d22a26d5c17511baa5fa83dc1275e8ed329a46e7f881f",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "027d1e9561d2c554aa051a4dff9bac2ae2e0d23b58c32c0b8effe42ecdaa00c7",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "0eac7ef91778010aa52c6d0ca3349a20a8e0ec240cd02a06cde05f19422d4d17",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "80ed6ba4a69f8b8afc1d5305facd426b23217ce5969a06b48bdbe8ef41020bb8",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "7456efa56e7ba1c4223983deb6ec76f19a917d2a48461324b1ffefddcc64d64a",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "1f3bc1050c455601ee7ff76eaffeed89504938dd4a885e46126440bc4f75ec1d",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "5103dc52a4875841c270afff1b77e57899dc39334721835bb182fd923fbb76aa",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "1e61fe645688af3e40293b5571b185822a65253aab396180807f6c6b321a6284",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "9526cbfe2e35dbc1868b223a88a2eb5e928fce719ac94ed265e21735318a67d3",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "b492a227e7dd1e59fc5e97f83390bc0fe26675d13a65d29b589d9296d6b0e458",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "e78396f669905e968072c6558a6c22c9e12e3b60fae10bf7248f5dfc4f1775e6",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "08429af1edd489ad6af19b1d6454f2183b85448e1e0e22050b1c944f44dfd4ea",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "0fe9d9f16e44b2bbd7d222ae4be7d44b1c84cdc9db325c5bf609a8443ba17982",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "8bae85dcc3f3e099d2baa80112d1377a5192e4ef7c8248820336447dfca180ac",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "094a73f07ffb3e85eb526598ad21c439338c109c271078323d8aea40368bbdc3",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "911aabf738d8ac08465f1cff374a863a91aa5b3619335c533a9df0f3f4739244",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "8e7e6035b3759c03197ed122e916a05919bc80aa77db51b02c8b7252764b5434",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "61fcf6ac0426a628f94a0a5e72e4b0ec4374a660d693c4c0cc5df96caf817077",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "5cd8ae28ab4839afb875a5337ccd9c11497069c0da5db3bb78a567ba0c6706b8",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "689854789e761bc79bf58f7a34451027d5aea5bc6a1eafcdcff17be14c83d118",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "cc178c607dba27f33b1374dad1355bb8c287a1b9e8dc395d75b6057dc8a06799",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "a979c0f4b72fa1e2ac599d9772334d6fac4dcf974d7ffcc7ad2f3aed150a0b6a",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "e29f1a312089530d323c5de925015d14eb543f84c885d0b975bec235002991f7",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "5ca3fcef1702fae8e373d7e4ca77a87f1c43dd6cdac6b52468cc1d3b99679f8f",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "ac0cf0fe11f663b1f63fd00dc1efc5415c6fc11a603f94ef31f89d3ceeac183b",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "1f209822bb4781ce201579fddd8201ca5da97ff2c94c5339d4ac1c963388c481",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "0a50fdcf51646e7ea93de484e430cdfd4caa47fb49a7731e1895101d71e29dcc",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "26193ebf9906a25bec451e397aaa8d5a393e7aaf748cb6c1eba8d680c83dde6f",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "51e813d7c800f0bcaec522324f600cbb2fe7c32c80213f189a17c237fb28b10e",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "0a369623275a16404b57bc9cca4bc8b501f821c43caa10122ad61d9a3a4292aa",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "6abef420b3e5a2eaaa22ac8e894494b7fcfb612cb7fee1a72922bcb3b95aca5c",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "de1a713eef0b44fbecf4ffa6b06bf2cb210da3350e92256c5e7b97758de2df69",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "0cc9a8b1e84e30ef067ba0bdd2e33a8b57d0c01f3883ee689f2b306e440bd192",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "8f5c27f69d75f18165136b1924542989c72ae1fff2c12300f2efed4778437080",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "1bd34c15239beca0daa3c4a2510ee304e4eae3e64e5978001a2c2e30e0717566",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "7fccab3134ee8c5d6e98c3a71de070a296d1615815e717b41ef324f500094655",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "3ac2195b3f07f3828b4c7da368d709a5a7e1ba922b6a49098eb7d37ed1899176",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "8a071706c567229932bd70c8eb284089bada77fdc7947435de2940d64960ddad",
+      "added_utc": "2026-10-19T10:05:30+00:00"
+    },
+    {
+      "id": "a8e0d37789ba009eb9ce15c3f18a5517783cc755d3db736903e768bac744b55b",
+      "added_utc": "2026-10-19T10:05:30+00:00"
     }
   ],
   "run_history": [
@@ -31641,6 +33915,18 @@
       "new": 0,
       "duplicates": 568,
       "high": 0,
+      "digest": "day",
+      "digest_sent": true,
+      "pruned": 0
+    },
+    {
+      "run_utc": "2026-10-19T10:05:30+00:00",
+      "ai": true,
+      "feeds_ok": 55,
+      "feeds_failed": 0,
+      "new": 74,
+      "duplicates": 512,
+      "high": 4,
       "digest": "day",
       "digest_sent": true,
       "pruned": 0
