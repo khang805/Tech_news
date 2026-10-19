@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-10-19T06:48:35+00:00",
+  "last_run_utc": "2026-10-19T07:48:05+00:00",
   "articles": [
     {
       "id": "79428cf43613e4131c16b2f45c833d7e87f5fb9b7bf3c33fddcb7e212b8af303",
@@ -524,7 +524,8 @@
       "alerted": false,
       "digested": false,
       "also_reported_by": [
-        "NVIDIA launches news search"
+        "NVIDIA launches news search",
+        "GPU news search"
       ]
     },
     {
@@ -23496,7 +23497,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23523,7 +23524,7 @@
       "content_status": "partial",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23550,7 +23551,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23871,7 +23872,7 @@
       "content_status": "partial",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23898,7 +23899,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23925,7 +23926,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -23979,7 +23980,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -24840,7 +24841,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -26602,7 +26603,7 @@
       "content_status": "insufficient",
       "date_is_estimated": false,
       "alerted": false,
-      "digested": false,
+      "digested": true,
       "also_reported_by": []
     },
     {
@@ -26705,6 +26706,729 @@
       "explanation": "",
       "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: AI Agents.",
       "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "a454bda5dd2ca6f9aab24452eac80b66596ac16917927fe17abb43772dacf91e",
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys - The Hacker News",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9DSHd3eWxKVUpRZVpodjBWSENuSVRUMUpEQnQxNFJvN0JaT0JkQndMamRlRVk5QUtvaDJ5M2hldzh2bkhOVWlGa3VHcXlheHg3d3UxamFSbDNDd2o0a1FpbXB1UWpva3VUSE1xTkhYUGtrbFQ4d19hSVpyRQ?oc=5",
+      "source_name": "OpenAI news search",
+      "category": "Frontier AI Labs",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T06:07:00+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 60,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 5",
+        "published in last 24h",
+        "major entity in title: OpenAI, Anthropic, Google"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys The Hacker News",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 60 (Medium). Reasons: source priority 5; published in last 24h; major entity in title: OpenAI, Anthropic, Google. Category: Frontier AI Labs.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "40a872d9f8b6e5dac81d2d870918eb641d150207a3db4479709466fd15434b57",
+      "title": "DeepSeek launches web search and page-fetching APIs for AI agents - TechNode",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTkVzM1RuRGpCVk5mSWRMUVB5Z29KRkRjWW1DTXpKVTU5YW13SzNyQmo1b2wtSzQ3R2h3b2tFRE9FTDRteVVWZ25sbUVwbkN6SVlWTVZIUUlFY3c4LTc0SHZ4WEs2bnFOZTJ1VU4xYnpJVGcxRXhIVk52OXlITVNiakhhMXRlQzFjNHkxWWhRLWRvaEJBYjFvUmtBRnFfMnM?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T06:41:02+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 70,
+      "importance_level": "High",
+      "importance_reasons": [
+        "source priority 5",
+        "release keyword: launch",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "High",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 70 (High). Reasons: source priority 5; release keyword: launch; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "20f6398bac4d28c943f0b998f0be707b9761a5685bc55f557ba75985ce3c47ff",
+      "title": "DeepSeek releases V4.1 Flash-1017 with stronger coding and agent capabilities - TechNode",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOWxwekdueE83N18yaE1YbnlTRmJSSHpzYTBPQUlRLVhONzNwVFRwSWZMU29jY1hnTkNBTDdNOEZSSlB1SlNBNV9FTWQ0Nmk3WGNNVWZOR0Y1MEFTc1g2aEZUQkRwOUdQMWlwTzZHVDhib25aLXNrRGVoV1pfWXBfWGdoTXl2WS1fRzJFektWR1gxb2JuZmRhWGk4MlphelZNNm1PNXN2TXRPN2s5UU1J?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T06:41:03+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 80,
+      "importance_level": "High",
+      "importance_reasons": [
+        "source priority 5",
+        "release keyword: release",
+        "release keyword: version",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "High",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 80 (High). Reasons: source priority 5; release keyword: release; release keyword: version; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "71e4d2ebe5b48921ea468eb34a26f36ff5383a7c120bd2165d7e6ed7e6c8da62",
+      "title": "New DeepSeek V4.1 Flash 1017 Hits 300 Tokens per Second in Tests - Geeky Gadgets",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80aWlUUWdvakV4S01fTDh0VUtJc01hdXBCeXhvc0dZZTZkdC1aQ3Q0SjZqMDhmVVJnZ2Nwb0NkZVNKeU1yRENBVktKRFpqNmV4MzRIanJHSEFNV1dNdU5uRFZ1eTRaVW1pbnpN?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T07:19:49+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 70,
+      "importance_level": "High",
+      "importance_reasons": [
+        "source priority 5",
+        "release keyword: version",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "High",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 70 (High). Reasons: source priority 5; release keyword: version; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "2e83c56ee4b8ddfd1b7add71cd62dd04c805bc05adc619dec21bf552cdb4841b",
+      "title": "DeepSeek V4.1 Flash update enables wish-driven programming - Techzine Global",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM3poU2VWWEY5aUMyc014amNMdlJUVFpoYllGWmVUejBTTUppSWxDbWtnSnhSamRXVDVMWmhSWG93YS00dnU2MlZaQkZDa2J0Zzk4ZXd1NUhxNGs1SUdETm1xby1tUklPRWN4Y05qNy14elU3R3pTWFE1YzdHWldzQzhiT2VreW9LZ0tMbGRwb0U1Vm5MYlp2MkNIREVUV215WFN6dQ?oc=5",
+      "source_name": "DeepSeek news search",
+      "category": "China Big Tech & AI",
+      "source_priority": 5,
+      "published_utc": "2026-10-19T07:32:11+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 70,
+      "importance_level": "High",
+      "importance_reasons": [
+        "source priority 5",
+        "release keyword: version",
+        "published in last 24h",
+        "major entity in title: DeepSeek"
+      ],
+      "impact_level": "High",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 70 (High). Reasons: source priority 5; release keyword: version; published in last 24h; major entity in title: DeepSeek. Category: China Big Tech & AI.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "d7309583aa9c65aaf75c45867fef0664c1a374fb85be061942c18203ce99b6aa",
+      "title": "TSMC CEO Hints Company Could Back Up Customers If Intel’s Advanced Packaging Ramp-Up Falls Short - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTV9GVkgxdnZJWlQ5cDhMT0E5bi1KS29YTkNqTjJGNnlWWlpOVHg5T3NuY2FXUFM4UEFfR25vRnY1cm9QSFVQa21ZZFoyTDJCTF9xSjY3OGVlM0NYMndhYmMta1doUUF1aDBNdFhJTUZGX1hRSnFfNHVJbXNoNGYwb0twUG5FR0VUSld2cHhrclR3MWxBVTl1TA?oc=5",
+      "source_name": "Intel AI news search",
+      "category": "AMD & Intel",
+      "source_priority": 4,
+      "published_utc": "2026-10-15T15:19:11+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 4",
+        "major entity in title: Intel"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "TSMC CEO Hints Company Could Back Up Customers If Intel’s Advanced Packaging Ramp-Up Falls Short Yahoo Finance",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 4; major entity in title: Intel. Category: AMD & Intel.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "c032ba0697f998deb2588d173812d0cde1f44e872c791e69faa26d25d534f14c",
+      "title": "Hana Asset Management Launches U.S. AI Chip ETF With 25% Nvidia Weighting - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ0c4Z0ltZVN1SThNcU0xNkdKb0tlUnhBSFYtTlJsb1dCTlNYVEVnbkJteVZWam95bURIZW1JQWY0dE0weDhvVkw2WV9WWGlMMFA3UHJHZE91Q2lHSWl6anRXckkyYVJNR1pYa3VXUGp0VjBiNGlCbHF4clJxQ2pBeVloMTBwX3g3Rm9Wb1B6a0FFZzg2RVlaQ3oxcw?oc=5",
+      "source_name": "GPU news search",
+      "category": "GPUs & Accelerators",
+      "source_priority": 4,
+      "published_utc": "2026-10-19T00:54:53+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 65,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 4",
+        "release keyword: launch",
+        "published in last 24h",
+        "major entity in title: NVIDIA"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Hana Asset Management Launches U.S.",
+      "explanation": "AI Chip ETF With 25% Nvidia Weighting Seoul Economic Daily",
+      "relevance": "Rule-based score 65 (Medium). Reasons: source priority 4; release keyword: launch; published in last 24h; major entity in title: NVIDIA. Category: GPUs & Accelerators.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": true,
+      "also_reported_by": []
+    },
+    {
+      "id": "9c01e512177b632d760c27a6b4fa061a51db426ba6098e4ec1ecfec09afcca06",
+      "title": "Apple confirms HomePod mini 2 won’t have Siri AI at launch - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM0pKN2cyUld4VXlCc18xcmFGSV9PZGNwRmNJVXRVelFMNUN6alU2M1FDVFE1Xzg2THUyTGRwdG9IQjlzYnJnc3habHJFTjhHRVRLRlBNYkNEdjhhMUlJUlFTRFpZcWY0S2JzdjdhcjljQnVBUW04My0wbV9Oc0R0TEQxZ2N3UmtFWldLRzR6QzNwc0E?oc=5",
+      "source_name": "Big tech AI news search",
+      "category": "Big Tech",
+      "source_priority": 3,
+      "published_utc": "2026-10-13T14:47:00+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 40,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "release keyword: launch",
+        "major entity in title: Apple"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 40 (Medium). Reasons: source priority 3; release keyword: launch; major entity in title: Apple. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "36dbdc460f9a993edd6d8dd2f622f7f501b8e4a57ed7addf3dfe972411082a7c",
+      "title": "Amazon Unveils Two Bee-Branded Hardware Devices Powered by AI - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONzdWSWFJLVpxWTE3eWc3V2RVSGg5UlJ3a0xjWmlCVngtVVptM0REVlNRMzhLVS16bDViakpWSVBYNUZBU2JBSmc1WXExWTU2bDN3LWFlSlJWUVN2akRadG0yc0JKUUVfODh0MFpPODFIMVEzT1ZKOVBkSTFOSnM0TzdGakNNWVJValZPSlB2X3dOdmF1bTNfU2J3?oc=5",
+      "source_name": "Big tech AI news search",
+      "category": "Big Tech",
+      "source_priority": 3,
+      "published_utc": "2026-10-16T14:00:22+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "major entity in title: Amazon"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 3; major entity in title: Amazon. Category: Big Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "8ebbe96eabfb82452edb7eb8044b2299139503735f4d66aa32c0fb60c76b6c67",
+      "title": "AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP's office - The Decoder",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSHpGNWtiRE04anhic1llbTdLbGV3ZFM5SFJOT01saTZOcFROVWpFbm5PeFRSUUFzaWI3anVvU3FDUEVocnhrTXY1T21kcTlpUVlyaHpkWTc4NXBUeDV1by1XejRUbExUaVhKX2FPSEdhb3A3M29CV3JsLThpMUdEc3E2RG01WWhuZGxfbTFPWl9QVUE5UGR3bmtLV1JGR2lzaFBwLXFhVERCUlJLbVB3b3U5U09KYlktYnRZNElNNzVRUQ?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-18T08:18:40+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP's office The Decoder",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "0ce49673993106aa9c7c97637048f9772cd9aa25daedd42f7299e4613ea6d7e2",
+      "title": "b11727",
+      "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11727",
+      "source_name": "llama.cpp releases",
+      "category": "Inference Engines",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T06:27:46+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: Inference Engines.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "7353e33042fcab0f256ef457f338150ccd89c2f1fbd896e59406c0c12fc440d7",
+      "title": "ACE Robotics Releases ACE-Brain-0.6, a 9B Model Tuned for Visual Grounding on Spatial Data",
+      "link": "https://pandaily.com/ace-robotics-ace-brain-0-6-9b-visual-grounding-spatial-supervision-qwen3-5-gpt-6-astra",
+      "source_name": "Pandaily (China tech startups)",
+      "category": "China AI Startups",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T06:58:07+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 45,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "release keyword: release",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Company-reported scores: ACE-Brain-0.6 beats GPT-6 Astra on six of eight grounding tests after ~1M spatial samples.",
+      "explanation": "Public repos still list 0/0.5, not 0.6 weights.",
+      "relevance": "Rule-based score 45 (Medium). Reasons: source priority 3; release keyword: release; published in last 24h. Category: China AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "6720edad84893b99055160c84f131dfbaefdeb8e59e730583dc8eb5e75dcb935",
+      "title": "Xiaomi Auto Rolls Out HyperOS 1.18 With Smoother City Assist for SU7 and YU7",
+      "link": "https://pandaily.com/xiaomi-auto-hyperos-1-18-ota-su7-yu7-had-city-assisted-driving-parking-nav",
+      "source_name": "Pandaily (China tech startups)",
+      "category": "China AI Startups",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T06:58:38+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "SU7 and YU7 with Xiaomi HAD get smoother city accel, lane changes and intersections, quieter lane-change prompts, and wider YU7 parking-spot navigation to elevators and chargers.",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: China AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "fbbba78eb47e4951843ddc1ef1c935decbcef0e64956340667f1e66b65f8ee37",
+      "title": "SenseTime's SenseCore Details Prefill/Decode Split Clusters for Agentic Inference",
+      "link": "https://pandaily.com/sensetime-sensecore-csdi-summit-prefill-decode-heterogeneous-inference-token-factory",
+      "source_name": "Pandaily (China tech startups)",
+      "category": "China AI Startups",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T06:59:58+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "At CSDI Summit, SenseCore described domestic Prefill and high-bandwidth Decode linked by KV Cache, about 5x token throughput in one test, and a path from 6 to 10 trillion tokens a day by Q4 2026.",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: China AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "dfa985bd7c5dc3bdb8d377f82a17e13b398318bb65b1bb8d7bdca2874740e1df",
+      "title": "Vessla exits stealth with $3.3M to bring AI agents to property management",
+      "link": "https://tech.eu/2026/10/19/vessla-exits-stealth-with-33m-to-bring-ai-agents-to-property-management/",
+      "source_name": "Tech.eu",
+      "category": "US & Europe AI Startups",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T07:00:00+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "funding keyword: funding",
+        "funding keyword: funding",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Stockholm-based AI startup Vesslahas emerged from stealth with a $3.3 million pre-seed funding round led bySeedcamp.",
+      "explanation": "Other participants included Inception Fund, Tiny VC, operators fromLovable and Open...",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 3; funding keyword: funding; funding keyword: funding; published in last 24h. Category: US & Europe AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "eecdf9675b0a9eb8ff9eca403ea7db637e05539f559e8505477486f8f0d9b05a",
+      "title": "‘The accountability is with Mike’: Atlassian CEO’s AI agent rule - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1KNlFyc1RGdjdPVTFMSHJOWUFqd2I3Q1ZzYW95MncwV0x3QUg5TFlfeFVidF81RW0xQjlmcVVNb3hfcm9YQklwWXlWZUQ3RHAxazNCVktLN1otd0REdGdEeXllR0tpdUtHTmZoSVNiRlA1R0pDOWc4b0pn?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T07:00:00+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "d4433ace103b36b3913bbee9acfe197ec272dcd0d312df5d7945071b77ee9867",
+      "title": "Lawaken Opens Pre-Sale of X-AI Memory Glasses From ¥699 With MCP Agent Hooks",
+      "link": "https://pandaily.com/lawaken-x-ai-memory-glasses-presale-699-yuan-12-hour-recording-mcp-workbuddy",
+      "source_name": "Pandaily (China tech startups)",
+      "category": "China AI Startups",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T07:00:14+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "The 26-gram glasses record up to 12 hours, translate 128 languages, sync with Tencent WorkBuddy and expose memory to Doubao, Feishu, QwenWork, Codex and Claude via MCP.",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: China AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "d340b9e7773fb36f27ec58f8108a58000f5fd4f93d4bc3a3ddf06845ccc518f9",
+      "title": "Volcano Engine Offers Up to ¥200,000 for Seedance AI Dramas Ranked on Hongguo",
+      "link": "https://pandaily.com/volcano-engine-seedance-premium-ai-drama-incentive-hongguo-top50-200000-yuan",
+      "source_name": "Pandaily (China tech startups)",
+      "category": "China AI Startups",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T07:01:09+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "AI comics and digital-human dramas made fully with Seedance, over 50% Seedance 2.5, can earn up to 200,000 yuan if they hit Hongguo's monthly AI-drama TOP50 and pass generation-log checks.",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: China AI Startups.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "d950ddb0ce2af5fa25aa5a12db2192cf196a4d9652695fb2d70b3aeb54c90e55",
+      "title": "2026 IMPACT | SHINKO Reveals the Next Evolution of AI Advanced Packaging Substrates: From ABF and Glass Core to Hybrid RDL - semivision",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS09Zd3dsWU4xTldDenZ2VFRYejhEa2QtNXlqRnRDLUtnQVc3UjNpMDFmaGQwMFVtN0I5b3VEc0JjNEh0YlFtVmZpZG02UDViNi1uX1QtZGdCOGtvMTJLS0staUFMOUhhQnlhY2NYZG92Sl9NbmZmMHdTZVhDNGx4clFn?oc=5",
+      "source_name": "Supercomputer and HPC news search",
+      "category": "High Performance Computing",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T07:09:28+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "2026 IMPACT | SHINKO Reveals the Next Evolution of AI Advanced Packaging Substrates: From ABF and Glass Core to Hybrid RDL semivision",
+      "explanation": "The source text has no further detail beyond the line above.",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: High Performance Computing.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "1a6a7ab42e9b0295b440d8f51aa6ecfb739ae57be3d6620b0c3c31adee2a0563",
+      "title": "AI Agents Are Only as Good as the Personal Information You Share. That Raises Privacy Concerns - U.S. News & World Report",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM3p2ZUpWYmpYdi12UUEyemJPQ0UweWZHSlZ0U1l4UVN2cnM4ZjRXdHFTQzQwVm9yXzY1ZFY0Q3h2a1hpYkY3a2h1dzQteEs1bVZ1TVhTdEprWEFWY0VncmNTOU5Pa2o1V0ZKRmM0MGhWRkNMelNpTzVna1hRSEpQN09JYTFpeFZJakdBMlFLbHBUNmZNYm1FRHpLY2FTMy1kbV9xMlJzYmJkdG8tV2IxQWhaMk04YTFYa3M0ckpjZ3pWWFlFcXNnSDFjTE1CemdldFJRNEQxME5iVkpXVnhDMGhtRW4?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T07:17:00+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "funding keyword: funding",
+        "funding keyword: funding",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "AI Agents Are Only as Good as the Personal Information You Share.",
+      "explanation": "That Raises Privacy Concerns U.S. News & World Report",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 3; funding keyword: funding; funding keyword: funding; published in last 24h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "c86da4a6816812e1db3dacc7e4dc888e131dcace5001be6792c02dfffc515baf",
+      "title": "AI agents are only as good as the personal information you share. That raises privacy concerns - Bozeman Daily Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNYkoyamVRbnVLOFpLckp4YUgwZGNadkxVT0pTMG1JQjRWNE4xSmYzUW1jSkJqWGhJd3ZBdVJHbzV0TGYwSDZ4UjI4dlBlTGRHdjdUdHRfNkFfMW9HQjlIU1B4LWdVa1RrVE5teDZmXzVERnFvbGVPTWFDUFlBSWUtajNTeGpLTi13WHdhNTNyRHZCdzA4MGJjV1FuakZWcFliOEtpV25ydmVxNmV6U2pGMVFkN0FqRkRrcEZIbnZYblY4LVVPQmNUUUE3VU50MTlSMEZ2X3lGd3BEZkZLWUliREtYV3VpdzNsS2h4ZHdiY1M2SHRFcUpla3ZoWUl5YjZNX2xYeHlTQUVHSE1xbUJTOXpmTmU?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T07:17:54+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 55,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 3",
+        "funding keyword: funding",
+        "funding keyword: funding",
+        "published in last 24h"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "AI agents are only as good as the personal information you share.",
+      "explanation": "That raises privacy concerns Bozeman Daily Chronicle",
+      "relevance": "Rule-based score 55 (Medium). Reasons: source priority 3; funding keyword: funding; funding keyword: funding; published in last 24h. Category: AI Agents.",
+      "content_status": "partial",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "c6fe2cae75b1ffbcbfb9615bb0b1d269547dde38484022e71cd466bc2adfe49a",
+      "title": "Are Hotels Closing Their Doors to AI Agents? - Hospitality Net",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOFhpN2JUNlJGbkh6SDcxeU53Z3NmQTVTSDZVLUVTWkl6SXhBb2diV3lhS1pQMTlyTHY2UlpNM2NsVHhMSmI5QmdLcG9xUmNrSUlaMFNEQkw5a2VzLUVvSkhUdnNMVW0tMFVPdm9nS2oxdXpPTjByZThtOU4wbmo2SGJ3UWVWd05QY1dZWmQxTkRuaFYw?oc=5",
+      "source_name": "AI agents news search",
+      "category": "AI Agents",
+      "source_priority": 3,
+      "published_utc": "2026-10-19T07:35:31+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 35,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 3",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 35 (Low). Reasons: source priority 3; published in last 24h. Category: AI Agents.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "97c5e5bea345bd2cd52f66cb28fe197903c04f61eae0f29e2280f75893630fa0",
+      "title": "Flatpak – An Insecurity Nightmare",
+      "link": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
+      "source_name": "Hacker News - Front page",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T05:11:24+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "5abc35d08fdc0a7d8f2b42b5a7048a44a9d6ce0d27fe8c52b579700f17ae2bcc",
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "link": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "source_name": "Hacker News - Front page",
+      "category": "Frontier AI Labs",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T05:55:31+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 45,
+      "importance_level": "Medium",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h",
+        "major entity in title: Claude"
+      ],
+      "impact_level": "Medium",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 45 (Medium). Reasons: source priority 2; published in last 24h; major entity in title: Claude. Category: Frontier AI Labs.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "28f7424c1f9362562f68c9511057448adc6699855dee22a842efc2d4fd2b68d2",
+      "title": "TurboScribe AI: Free Video to Text, Audio to Text – No Sign Up",
+      "link": "https://www.turboscribeai.net/",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T07:00:58+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "d64013709a6afa3ec73ccc5d388443065bbcc688dcbc725cfd9a20385ba143b5",
+      "title": "In Europe's tech capital, Irish labor unions are booming amid AI-driven layoffs",
+      "link": "https://www.politico.eu/article/in-europe-tech-capital-ireland-irish-labor-unions-are-booming-amid-ai-layoffs/",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T07:12:57+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "Limited source content: only the title and link are available.",
+      "explanation": "",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "insufficient",
+      "date_is_estimated": false,
+      "alerted": false,
+      "digested": false,
+      "also_reported_by": []
+    },
+    {
+      "id": "c4f2d45b56865b9a5777a9c9c932473d1766f7a33177ff93899c2ea903541788",
+      "title": "Ask HN: Do you also feel that it's impossible to keep up with AI?",
+      "link": "https://news.ycombinator.com/item?id=50149373",
+      "source_name": "Hacker News - AI",
+      "category": "General Tech",
+      "source_priority": 2,
+      "published_utc": "2026-10-19T07:22:23+00:00",
+      "first_seen_utc": "2026-10-19T07:48:05+00:00",
+      "importance_score": 30,
+      "importance_level": "Low",
+      "importance_reasons": [
+        "source priority 2",
+        "published in last 24h"
+      ],
+      "impact_level": "Low",
+      "impact_source": "rules",
+      "overview": "I have a tech background, I haven't been super active in coding or other things, but I still play with stuff a lot.",
+      "explanation": "And yet, in the past ~2 years, I often feel that it's pretty much impossible to keep up with the latest AI development (in particular regarding vibe coding), which in turns gives me less energy or determination to explore the latest thing. How do you feel about it? And did you find a solution to stay motivated to learn and get better at using AI? Comments URL: https://news.ycombinator.com/item?id=50149373 Points: 2 # Comments: 0",
+      "relevance": "Rule-based score 30 (Low). Reasons: source priority 2; published in last 24h. Category: General Tech.",
+      "content_status": "full",
       "date_is_estimated": false,
       "alerted": false,
       "digested": false,
@@ -30699,6 +31423,114 @@
     {
       "id": "241dad6dc890994b7568c85038ec86a049574b01567ad0012b8975e53e520930",
       "added_utc": "2026-10-19T06:44:59+00:00"
+    },
+    {
+      "id": "a454bda5dd2ca6f9aab24452eac80b66596ac16917927fe17abb43772dacf91e",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "40a872d9f8b6e5dac81d2d870918eb641d150207a3db4479709466fd15434b57",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "20f6398bac4d28c943f0b998f0be707b9761a5685bc55f557ba75985ce3c47ff",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "71e4d2ebe5b48921ea468eb34a26f36ff5383a7c120bd2165d7e6ed7e6c8da62",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "2e83c56ee4b8ddfd1b7add71cd62dd04c805bc05adc619dec21bf552cdb4841b",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "d7309583aa9c65aaf75c45867fef0664c1a374fb85be061942c18203ce99b6aa",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "c032ba0697f998deb2588d173812d0cde1f44e872c791e69faa26d25d534f14c",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "9c01e512177b632d760c27a6b4fa061a51db426ba6098e4ec1ecfec09afcca06",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "36dbdc460f9a993edd6d8dd2f622f7f501b8e4a57ed7addf3dfe972411082a7c",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "8ebbe96eabfb82452edb7eb8044b2299139503735f4d66aa32c0fb60c76b6c67",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "0ce49673993106aa9c7c97637048f9772cd9aa25daedd42f7299e4613ea6d7e2",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "7353e33042fcab0f256ef457f338150ccd89c2f1fbd896e59406c0c12fc440d7",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "6720edad84893b99055160c84f131dfbaefdeb8e59e730583dc8eb5e75dcb935",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "fbbba78eb47e4951843ddc1ef1c935decbcef0e64956340667f1e66b65f8ee37",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "dfa985bd7c5dc3bdb8d377f82a17e13b398318bb65b1bb8d7bdca2874740e1df",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "eecdf9675b0a9eb8ff9eca403ea7db637e05539f559e8505477486f8f0d9b05a",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "d4433ace103b36b3913bbee9acfe197ec272dcd0d312df5d7945071b77ee9867",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "d340b9e7773fb36f27ec58f8108a58000f5fd4f93d4bc3a3ddf06845ccc518f9",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "d950ddb0ce2af5fa25aa5a12db2192cf196a4d9652695fb2d70b3aeb54c90e55",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "1a6a7ab42e9b0295b440d8f51aa6ecfb739ae57be3d6620b0c3c31adee2a0563",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "c86da4a6816812e1db3dacc7e4dc888e131dcace5001be6792c02dfffc515baf",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "c6fe2cae75b1ffbcbfb9615bb0b1d269547dde38484022e71cd466bc2adfe49a",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "97c5e5bea345bd2cd52f66cb28fe197903c04f61eae0f29e2280f75893630fa0",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "5abc35d08fdc0a7d8f2b42b5a7048a44a9d6ce0d27fe8c52b579700f17ae2bcc",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "28f7424c1f9362562f68c9511057448adc6699855dee22a842efc2d4fd2b68d2",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "d64013709a6afa3ec73ccc5d388443065bbcc688dcbc725cfd9a20385ba143b5",
+      "added_utc": "2026-10-19T07:48:05+00:00"
+    },
+    {
+      "id": "c4f2d45b56865b9a5777a9c9c932473d1766f7a33177ff93899c2ea903541788",
+      "added_utc": "2026-10-19T07:48:05+00:00"
     }
   ],
   "run_history": [
@@ -30783,6 +31615,18 @@
       "duplicates": 561,
       "high": 0,
       "digest": "month",
+      "digest_sent": true,
+      "pruned": 0
+    },
+    {
+      "run_utc": "2026-10-19T07:48:05+00:00",
+      "ai": true,
+      "feeds_ok": 53,
+      "feeds_failed": 3,
+      "new": 27,
+      "duplicates": 539,
+      "high": 4,
+      "digest": "day",
       "digest_sent": true,
       "pruned": 0
     }
