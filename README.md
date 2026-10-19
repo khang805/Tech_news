@@ -78,8 +78,8 @@ Never paste keys into code or into `settings.yaml`. The `.gitignore` file alread
 3. **Terminal > New Terminal**, then:
 
 ```powershell
-py -3.11 -m venv .venv
-.\.venv\Scripts\Activate.ps1
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements-dev.txt
 pip install -e .
 ```
@@ -185,3 +185,7 @@ Then:
 ## 10. Tests
 
 `pytest -q` runs 44 tests offline: links, cleaning, scoring, duplicates, storage and recovery, one-line/paragraph rules, feed parsing, retries, multi-recipient email, digest groups, AI fallback, and the day/week/month windows.
+
+## 11. Check Repositry size
+
+curl -s https://api.github.com/repos/khang805/Tech_news | grep '"size"' | awk -F': ' '{printf "Repository size: %.1f MB\n", $2/1024}'
