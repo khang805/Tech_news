@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-10-19T06:44:59+00:00",
+  "last_run_utc": "2026-10-19T06:47:25+00:00",
   "articles": [
     {
       "id": "79428cf43613e4131c16b2f45c833d7e87f5fb9b7bf3c33fddcb7e212b8af303",
@@ -30771,6 +30771,18 @@
       "duplicates": 556,
       "high": 1,
       "digest": "day",
+      "digest_sent": true,
+      "pruned": 0
+    },
+    {
+      "run_utc": "2026-10-19T06:47:25+00:00",
+      "ai": true,
+      "feeds_ok": 53,
+      "feeds_failed": 3,
+      "new": 0,
+      "duplicates": 560,
+      "high": 0,
+      "digest": "week",
       "digest_sent": true,
       "pruned": 0
     }
