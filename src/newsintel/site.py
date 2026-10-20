@@ -9,7 +9,7 @@ TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News</title>
+<title>Tech Intelligence</title>
 <style>
 body { font-family: system-ui, Arial, sans-serif; margin: 0; background: #f4f6f9; color: #1d1d1f; }
 header { background: #1d2b44; color: #fff; padding: 16px; }
@@ -32,7 +32,7 @@ main { max-width: 900px; margin: 0 auto; padding: 16px; }
 </head>
 <body>
 <header>
-  <h1>Tech News</h1>
+  <h1>Tech Intelligence</h1>
   <div class="updated">
     Data updated: <span id="updated-local">loading...</span> (your time)<br>
     Pakistan time: <span id="updated-pkt">loading...</span>
@@ -144,7 +144,7 @@ function render() {
     card.appendChild(title);
     card.appendChild(el("span", "badge " + a.impact_level, a.impact_level + " impact"));
     card.appendChild(el("span", "meta", "  " + a.category));
-    card.appendChild(el("div", "meta", `${a.published_utc.replace("T", " ").slice(0, 16)} UTC | ${a.source_name} | ${a.impact_source === "ai" ? "AI" : "rules"} impact`));
+    card.appendChild(el("div", "meta", `${a.published_utc.replace("T", " ").slice(0, 16)} UTC | ${a.source_name} | ${a.impact_source === "ai" ? "AI" : "rules"} impact | ${a.summary_source === "ai" ? "AI summary" : a.summary_source === "headline" ? "AI summary (headline only)" : "source summary"}`));
     card.appendChild(el("p", "line", a.overview));
     if (a.explanation) card.appendChild(el("p", "para", a.explanation));
     list.appendChild(card);

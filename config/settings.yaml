@@ -47,13 +47,14 @@ ai:
   batch_size: 25               # new articles per AI request when labelling impact
   max_items_per_run: 150       # cap on AI-labelled articles per run (keeps free quotas safe)
   max_selection_candidates: 250  # cap on articles sent to the AI for weekly/monthly picks
-  pause_seconds: 4             # pause between AI requests (free tiers limit requests per minute)
+  pause_seconds: 7             # pause between AI requests (free tiers limit requests per minute)
+  enrich_batch_size: 8        # stories per Gemini request: impact + one line + one paragraph
 
 email:
   # One or more recipients. Override with the EMAIL_TO secret (comma-separated) to keep addresses private.
   to:
-    - "mabdurrahmankhan58@gmail.com"
-  subject_prefix: "[Tech News]"
+    - "abdurrahmank084@gmail.com"
+  subject_prefix: "[TechIntel]"
   # SMTP and AI keys are NOT stored here. They come from environment variables / GitHub Secrets.
 
 category_keywords:

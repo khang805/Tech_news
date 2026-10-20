@@ -20,6 +20,7 @@ class Article:
     importance_reasons: list[str] = field(default_factory=list)
     impact_level: str = "Low"              # final impact: High / Medium / Low (AI-rated when available)
     impact_source: str = "rules"           # "ai" or "rules"
+    summary_source: str = "source"         # "ai", "headline" (AI, headline only), or "source" (feed text)
     overview: str = ""
     explanation: str = ""
     relevance: str = ""

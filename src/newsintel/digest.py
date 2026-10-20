@@ -31,8 +31,9 @@ def _local(iso: str, tz_name: str) -> str:
 def _meta(a: Article, tz: str) -> str:
     est = " (date estimated)" if a.date_is_estimated else ""
     label = "AI" if a.impact_source == "ai" else "rules"
+    summary_label = {"ai": "AI", "headline": "AI from headline only"}.get(a.summary_source, "source text")
     return (f"{a.category} | {a.source_name} | {_local(a.published_utc, tz)}{est} | "
-            f"Impact: {a.impact_level} (by {label})")
+            f"Impact: {a.impact_level} (by {label}) | Summary: {summary_label}")
 
 
 def _story_text(n: int, a: Article, tz: str) -> str:

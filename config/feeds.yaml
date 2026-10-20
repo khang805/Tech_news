@@ -261,7 +261,7 @@ feeds:
     category: "Cloud (AWS, Google Cloud, Azure)"
     source_priority: 3
     enabled: true
-  - name: "Google Cloud AI news search"  # VERIFY
+  - name: "Google Cloud AI news search"
     url: "https://news.google.com/rss/search?q=Google+Cloud+AI&hl=en-US&gl=US&ceid=US:en"
     category: "Cloud (AWS, Google Cloud, Azure)"
     source_priority: 3
@@ -273,7 +273,7 @@ feeds:
     enabled: true
 
   # ---------- Big tech and general AI ----------
-  - name: "Microsoft AI news search"  # VERIFY
+  - name: "Microsoft AI news search"
     url: "https://news.google.com/rss/search?q=Microsoft+AI+Copilot&hl=en-US&gl=US&ceid=US:en"
     category: "Big Tech"
     source_priority: 4

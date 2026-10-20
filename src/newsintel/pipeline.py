@@ -12,7 +12,8 @@ from .emailer import load_email_config, send_email
 from .fetcher import fetch_feed
 from .formatter import build_article
 from .http_client import FetchError, make_session
-from .impact import ai_configured, classify_articles, select_important
+from .enrich import enrich_articles
+from .impact import ai_configured, select_important
 from .logging_setup import setup_logging
 from .models import Article, to_utc_iso, utcnow
 from .site import build_site
@@ -119,9 +120,9 @@ def run(opts) -> int:
     log.info("new articles: %d, duplicates removed: %d", len(new), duplicates)
     all_articles = stored + new
 
-    # 5. Free AI labels impact (High/Medium/Low) for new articles. Rule-based levels are the fallback.
+    # 5. Gemini labels impact and writes one line + one paragraph per new story. Source text is the fallback.
     if ai_on and new:
-        classify_articles(new, ai_cfg)
+        enrich_articles(new, ai_cfg)
 
     # 6. Breaking alerts for new High-impact articles (off by default).
     high = sorted([a for a in new if a.impact_level == "High"], key=lambda a: -a.importance_score)
