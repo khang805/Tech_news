@@ -7,3 +7,5 @@ logs/
 data/
 docs/data/
 .env
+docs/data
+vercel.json
