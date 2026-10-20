@@ -1,4 +1,4 @@
-"""Digest and alert emails. Two groups: High Impact, and Medium & Low Impact. Each story = one line + one paragraph."""
+"""Digest and alert emails. Two groups: High Impact, and Medium & Low Impact. Each story = title + one paragraph."""
 import html as h
 from datetime import timedelta
 from zoneinfo import ZoneInfo
@@ -24,35 +24,36 @@ def group_of(a: Article) -> str:
     return HIGH_GROUP if a.impact_level == "High" else OTHER_GROUP
 
 
+def _paragraph(a: Article) -> str:
+    """One paragraph per story: the summary, plus any feed-text detail if there is no summary."""
+    return " ".join(part for part in (a.overview, a.explanation) if part)
+
+
 def _local(iso: str, tz_name: str) -> str:
     return parse_utc(iso).astimezone(ZoneInfo(tz_name)).strftime("%d %b %Y, %H:%M %Z")
 
 
 def _meta(a: Article, tz: str) -> str:
     est = " (date estimated)" if a.date_is_estimated else ""
-    label = "AI" if a.impact_source == "ai" else "rules"
-    summary_label = {"ai": "AI", "headline": "AI from headline only"}.get(a.summary_source, "source text")
-    return (f"{a.category} | {a.source_name} | {_local(a.published_utc, tz)}{est} | "
-            f"Impact: {a.impact_level} (by {label}) | Summary: {summary_label}")
+    also = ""
+    if a.also_reported_by:
+        shown = a.also_reported_by[:5]
+        more = len(a.also_reported_by) - len(shown)
+        also = " | Also reported by: " + ", ".join(shown) + (f" and {more} more" if more else "")
+    return f"{a.category} | {a.source_name} | {_local(a.published_utc, tz)}{est} | Impact: {a.impact_level}{also}"
 
 
 def _story_text(n: int, a: Article, tz: str) -> str:
-    lines = [f"{n}. {a.title}", "   " + _meta(a, tz), "", "   " + a.overview]
-    if a.explanation:
-        lines += ["", "   " + a.explanation]
-    lines += ["", "   Read more: " + a.link]
-    return "\n".join(lines)
+    return "\n".join([f"{n}. {a.title}", "   " + _meta(a, tz), "", "   " + _paragraph(a), "",
+                      "   Read more: " + a.link])
 
 
 def _story_html(n: int, a: Article, tz: str) -> str:
-    body = f"<p style='margin:0 0 8px;font-weight:bold'>{h.escape(a.overview)}</p>"
-    if a.explanation:
-        body += f"<p style='margin:0 0 8px'>{h.escape(a.explanation)}</p>"
     return (
         '<div style="margin:0 0 18px;padding:14px;border:1px solid #e3e6eb;border-radius:8px">'
         f'<h3 style="margin:0 0 4px;font-size:17px">{n}. {h.escape(a.title)}</h3>'
         f'<div style="font-size:12px;color:#666;margin-bottom:8px">{h.escape(_meta(a, tz))}</div>'
-        f"{body}"
+        f"<p style='margin:0 0 8px'>{h.escape(_paragraph(a))}</p>"
         f'<a href="{h.escape(a.link, quote=True)}">Read more</a>'
         "</div>"
     )
@@ -63,7 +64,7 @@ def _wrap(body: str) -> str:
             f"{body}</body></html>")
 
 
-def build_digest(selected: list[Article], stats: dict, settings: dict, now, period: str, note: str):
+def build_digest(selected: list[Article], stats: dict, settings: dict, now, period: str, note: str = ""):
     tz = settings["timezone_display"]
     prefix = settings["email"]["subject_prefix"]
     label, days = PERIODS[period]
@@ -82,9 +83,9 @@ def build_digest(selected: list[Article], stats: dict, settings: dict, now, peri
     for a in selected:
         groups[group_of(a)].append(a)
 
-    text_parts = [title, status, f"Selection: {note}", ""]
+    text_parts = [title, status, ""]
     html_parts = [f"<h2>{h.escape(title)}</h2>",
-                  f"<p style='font-size:13px;color:#555'>{h.escape(status)}<br>Selection: {h.escape(note)}</p>"]
+                  f"<p style='font-size:13px;color:#555'>{h.escape(status)}</p>"]
     n = 0
     for name in (HIGH_GROUP, OTHER_GROUP):
         items = groups[name]

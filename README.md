@@ -7,3 +7,4 @@ and the website is hosted on GitHub Pages (`docs/index.html`) and reads the stor
 - Run locally: `python -m newsintel --no-email --no-ai` (uses `data/articles.json` if Supabase variables are not set).
 - Tests: `pytest -q`
 - Schedule: `.github/workflows/daily_collect.yml` (daily 01:00 UTC; weekly on Sunday; monthly on the 1st).
+

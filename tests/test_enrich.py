@@ -19,22 +19,22 @@ def make(i, text="Source sentence one. Sentence two follows here.", status="full
 def test_gemini_sets_impact_line_and_paragraph(monkeypatch):
     arts = [make(0), make(1)]
     reply = {"items": [
-        {"id": "a0", "impact": "high", "line": "Company launches a model.", "paragraph": "It runs faster. It is free.", "basis": "text"},
-        {"id": "a1", "impact": "Medium", "line": "Partner announced.", "paragraph": "Details are limited.", "basis": "headline"},
+        {"id": "a0", "impact": "high", "summary": "Company launches a model that runs faster and is free to use. It was released this week.", "basis": "text"},
+        {"id": "a1", "impact": "Medium", "summary": "A partner was announced, according to the headline only, with no further details available.", "basis": "headline"},
     ]}
     monkeypatch.setattr(enrich, "ask_json", lambda prompt, cfg: reply)
     counts = enrich_articles(arts, CFG, sleep=lambda _: None)
     assert counts == {"summaries": 2, "impact": 2}
     assert arts[0].impact_level == "High" and arts[0].impact_source == "ai"
-    assert arts[0].overview == "Company launches a model."
-    assert arts[0].explanation == "It runs faster. It is free."
+    assert arts[0].overview == "Company launches a model that runs faster and is free to use. It was released this week."
+    assert arts[0].explanation == ""
     assert arts[0].summary_source == "ai"
     assert arts[1].impact_level == "Medium" and arts[1].summary_source == "headline"
 
 
 def test_invalid_or_missing_answers_keep_source_text(monkeypatch):
     arts = [make(0, text="Original feed text stays."), make(1)]
-    reply = {"items": [{"id": "a0", "impact": "Huge", "line": "", "paragraph": "x"}]}
+    reply = {"items": [{"id": "a0", "impact": "Huge", "summary": "short"}]}
     monkeypatch.setattr(enrich, "ask_json", lambda prompt, cfg: reply)
     counts = enrich_articles(arts, CFG, sleep=lambda _: None)
     assert counts == {"summaries": 0, "impact": 0}
