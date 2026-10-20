@@ -138,9 +138,8 @@ function render() {
     card.appendChild(title);
     card.appendChild(el("span", "badge " + a.impact_level, a.impact_level + " impact"));
     card.appendChild(el("span", "meta", "  " + a.category));
-    card.appendChild(el("div", "meta", `${a.published_utc.replace("T", " ").slice(0, 16)} UTC | ${a.source_name} | ${a.impact_source === "ai" ? "AI" : "rules"} impact | ${a.summary_source === "ai" ? "AI summary" : a.summary_source === "headline" ? "AI summary (headline only)" : "source summary"}`));
-    card.appendChild(el("p", "line", a.overview));
-    if (a.explanation) card.appendChild(el("p", "para", a.explanation));
+    card.appendChild(el("div", "meta", `${a.published_utc.replace("T", " ").slice(0, 16)} UTC | ${a.source_name} | ${a.impact_source === "ai" ? "AI" : "rules"} impact`));
+    card.appendChild(el("p", "para", [a.overview, a.explanation].filter(Boolean).join(" ")));
     list.appendChild(card);
   });
 }
