@@ -73,11 +73,13 @@ def test_timeouts_exhaust_retries():
     assert exc.value.kind == "timeout"
     assert session.calls == 3
 
+
 def test_server_error_waits_longer_than_normal_retries():
     waits = []
     session = FakeSession([FakeResp(503), FakeResp(200, b"ok")])
     get_with_retries(session, "https://x", SETTINGS | {"server_error_backoff_seconds": 10}, sleep=waits.append)
     assert waits == [10]
+
 
 def test_pacing_spaces_requests_to_the_same_site():
     waits = []

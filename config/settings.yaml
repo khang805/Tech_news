@@ -4,8 +4,8 @@ retention_days: 30             # stored articles older than this are removed
 request_timeout_seconds: 15
 max_retries: 2                 # retries after the first attempt (waits 2, 4, 8 seconds)
 backoff_seconds: 2
-server_error_backoff_seconds: 10 
-host_min_interval_seconds:         # minimum gap between requests to the same site
+server_error_backoff_seconds: 10   # waits for 5xx and 429 errors: 10s, then 20s (longer than normal timeouts)
+host_min_interval_seconds:          # minimum gap between requests to the same site
   news.google.com: 3               # Google News blocks bursts of requests (HTTP 503)
 max_items_per_feed: 30
 high_importance_threshold: 70  # rule-based score at or above this is High (used when AI is off)
@@ -51,9 +51,9 @@ ai:
 
 email:
   # One or more recipients. Override with the EMAIL_TO secret (comma-separated) to keep addresses private.
-   to:
-    - "mabdurrahmankhan58@gmail.com"
-   subject_prefix: "[TechIntel]"
+  to:
+    - "abdurrahmank084@gmail.com"
+  subject_prefix: "[TechIntel]"
   # SMTP and AI keys are NOT stored here. They come from environment variables / GitHub Secrets.
 
 category_keywords:

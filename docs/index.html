@@ -28,8 +28,8 @@ main { max-width: 900px; margin: 0 auto; padding: 16px; }
 <header>
   <h1>Tech Intelligence</h1>
   <div class="updated">
-    Data updated: <span id="updated-local">2026-10-19T11:48:31+00:00</span> (your time)<br>
-    Pakistan time: 19 Oct 2026, 04:48 PM PKT
+    Data updated: <span id="updated-local">loading...</span> (your time)<br>
+    Pakistan time: <span id="updated-pkt">loading...</span>
   </div>
 </header>
 <main>
@@ -52,8 +52,12 @@ main { max-width: 900px; margin: 0 auto; padding: 16px; }
 <div id="list"></div>
 </main>
 <script>
+const SUPABASE_URL = "";
+const SUPABASE_ANON_KEY = "";
+const CATEGORY_ORDER = ["NVIDIA", "Jetson & Edge AI", "GPUs & Accelerators", "AMD & Intel", "Inference Engines", "Frontier AI Labs", "China Big Tech & AI", "China AI Startups", "US & Europe AI Startups", "NLP & LLMs", "AI Agents", "Cloud (AWS, Google Cloud, Azure)", "High Performance Computing", "Big Tech"];
+const HEADERS = { apikey: SUPABASE_ANON_KEY, Authorization: "Bearer " + SUPABASE_ANON_KEY };
 const $ = (id) => document.getElementById(id);
-let DATA = null;
+let ARTICLES = [];
 
 function el(tag, cls, text) {
   const node = document.createElement(tag);
@@ -62,19 +66,41 @@ function el(tag, cls, text) {
   return node;
 }
 
-function showLocalUpdateTime(iso) {
-  // Show the update time in the viewer's own timezone (browser setting).
+function showUpdateTimes(iso) {
   const d = new Date(iso);
   if (isNaN(d)) return;
   $("updated-local").textContent = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+  $("updated-pkt").textContent = d.toLocaleString("en-GB", { timeZone: "Asia/Karachi", dateStyle: "medium", timeStyle: "short" }) + " PKT";
+}
+
+async function fetchArticles() {
+  // Last 30 days, newest first, 1000 rows per request (the API's page size).
+  const cutoff = new Date(Date.now() - 30 * 86400000).toISOString();
+  const rows = [];
+  for (let from = 0; ; from += 1000) {
+    const url = SUPABASE_URL + "/rest/v1/articles?select=data&published_utc=gte." +
+                encodeURIComponent(cutoff) + "&order=published_utc.desc";
+    const res = await fetch(url, { headers: { ...HEADERS, Range: from + "-" + (from + 999), "Range-Unit": "items" }, cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const batch = await res.json();
+    batch.forEach((r) => rows.push(r.data));
+    if (batch.length < 1000) break;
+  }
+  return rows;
+}
+
+async function fetchLastRun() {
+  const res = await fetch(SUPABASE_URL + "/rest/v1/meta?select=value&key=eq.last_run_utc", { headers: HEADERS, cache: "no-store" });
+  if (!res.ok) return null;
+  const rows = await res.json();
+  return rows.length ? rows[0].value : null;
 }
 
 function fillCategories() {
-  const order = DATA.category_order || [];
-  const cats = [...new Set(DATA.articles.map((a) => a.category))];
+  const cats = [...new Set(ARTICLES.map((a) => a.category))];
   cats.sort((a, b) => {
-    const ia = order.indexOf(a) < 0 ? 999 : order.indexOf(a);
-    const ib = order.indexOf(b) < 0 ? 999 : order.indexOf(b);
+    const ia = CATEGORY_ORDER.indexOf(a) < 0 ? 999 : CATEGORY_ORDER.indexOf(a);
+    const ib = CATEGORY_ORDER.indexOf(b) < 0 ? 999 : CATEGORY_ORDER.indexOf(b);
     return ia - ib || a.localeCompare(b);
   });
   cats.forEach((c) => {
@@ -90,7 +116,7 @@ function render() {
   const impact = $("impact").value;
   const cat = $("cat").value;
   const cutoff = Date.now() - (days === "all" ? Infinity : Number(days) * 86400000);
-  const rows = DATA.articles.filter((a) => {
+  const rows = ARTICLES.filter((a) => {
     if (Date.parse(a.published_utc) < cutoff) return false;
     if (impact === "high" && a.impact_level !== "High") return false;
     if (impact === "other" && a.impact_level === "High") return false;
@@ -100,7 +126,7 @@ function render() {
   rows.sort((x, y) => (days === "1" ? (x.published_utc < y.published_utc ? 1 : -1) : y.importance_score - x.importance_score));
   const list = $("list");
   list.innerHTML = "";
-  $("count").textContent = `${rows.length} of ${DATA.articles.length} stored stories`;
+  $("count").textContent = `${rows.length} of ${ARTICLES.length} stored stories`;
   rows.forEach((a) => {
     const card = el("div", "card");
     const title = el("h3");
@@ -120,17 +146,21 @@ function render() {
 }
 
 async function load() {
+  if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+    $("count").textContent = "";
+    $("list").appendChild(el("p", "error", "The website is not connected to its database yet (SUPABASE_URL / SUPABASE_ANON_KEY missing)."));
+    return;
+  }
   try {
-    const res = await fetch("data/articles.json", { cache: "no-store" });
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    DATA = await res.json();
-    showLocalUpdateTime(DATA.generated_utc);
+    const [rows, lastRun] = await Promise.all([fetchArticles(), fetchLastRun()]);
+    ARTICLES = rows;
+    if (lastRun) showUpdateTimes(lastRun);
     fillCategories();
     ["q", "period", "impact", "cat"].forEach((id) => $(id).addEventListener("input", render));
     render();
   } catch (err) {
     $("count").textContent = "";
-    $("list").appendChild(el("p", "error", "Could not load data/articles.json (" + err.message + "). Open the site over http, not as a local file."));
+    $("list").appendChild(el("p", "error", "Could not load the stories (" + err.message + "). Check the Supabase keys and the RLS policies."));
   }
 }
 load();

@@ -99,11 +99,11 @@ feeds:
     category: "US & Europe AI Startups"
     source_priority: 4
     enabled: true
-  - name: "VentureBeat AI"  # Disabled: site returns HTTP 429 to cloud servers. Re-enable only if it starts working.
+  - name: "VentureBeat AI"  # VERIFY
     url: "https://venturebeat.com/category/ai/feed/"
     category: "US & Europe AI Startups"
     source_priority: 3
-    enabled: false
+    enabled: true
   - name: "European AI startup funding news search"
     url: "https://news.google.com/rss/search?q=European+AI+startup+funding&hl=en-US&gl=US&ceid=US:en"
     category: "US & Europe AI Startups"
@@ -177,12 +177,11 @@ feeds:
     enabled: true
 
   # ---------- High performance computing ----------
-  - name: "HPC news search"  # VERIFY
-    url: "https://news.google.com/rss/search?q=high+performance+computing+HPC&hl=en-US&gl=US&ceid=US:en"
+  - name: "HPCwire"  # VERIFY
+    url: "https://www.hpcwire.com/feed/"
     category: "High Performance Computing"
     source_priority: 3
     enabled: true
-    
   - name: "Supercomputer and HPC news search"
     url: "https://news.google.com/rss/search?q=supercomputer+OR+high+performance+computing&hl=en-US&gl=US&ceid=US:en"
     category: "High Performance Computing"
@@ -262,8 +261,8 @@ feeds:
     category: "Cloud (AWS, Google Cloud, Azure)"
     source_priority: 3
     enabled: true
-  - name: "Google Cloud AI news search"  # Replaces the old Google Cloud blog URL, which returned a web page, not a feed
-    url: "https://news.google.com/rss/search?q=Google+Cloud+AI&hl=en-US&gl=US&ceid=US:en"
+  - name: "Google Cloud AI blog"  # VERIFY
+    url: "https://cloud.google.com/blog/products/ai-machine-learning/rss"
     category: "Cloud (AWS, Google Cloud, Azure)"
     source_priority: 3
     enabled: true
@@ -274,8 +273,8 @@ feeds:
     enabled: true
 
   # ---------- Big tech and general AI ----------
-  - name: "Microsoft AI news search"  # Replaces the old Microsoft AI blog URL, which was removed (HTTP 410)
-    url: "https://news.google.com/rss/search?q=Microsoft+AI+Copilot&hl=en-US&gl=US&ceid=US:en"
+  - name: "Microsoft AI blog"  # VERIFY
+    url: "https://blogs.microsoft.com/ai/feed/"
     category: "Big Tech"
     source_priority: 4
     enabled: true

@@ -1,4 +1,5 @@
-"""One collection run: fetch, process, dedupe, label impact with free AI, alert, digest, archive."""
+"""One collection run: fetch, process, dedupe, label impact with free AI, alert, digest, save."""
+import json
 import logging
 from datetime import timedelta
 from pathlib import Path
@@ -15,10 +16,12 @@ from .impact import ai_configured, classify_articles, select_important
 from .logging_setup import setup_logging
 from .models import Article, to_utc_iso, utcnow
 from .site import build_site
-from .storage import load_db, mark_seen, prune, record_run, save_db, seen_set
+from .storage import SEEN_RETENTION_DAYS, load_db, mark_seen, seen_set
+from .store import StoreError, get_store
 from .text_utils import clean_html
 
 log = logging.getLogger("newsintel")
+LEGACY_FILE = DATA_DIR / "articles.json"
 
 
 def run(opts) -> int:
@@ -48,8 +51,27 @@ def run(opts) -> int:
                         dry_run=opts.dry_run)
         log.info("test email %s", "sent" if ok else "NOT sent (see messages above)")
         return 0 if ok else 1
-    db_path = DATA_DIR / "articles.json"
-    db = load_db(db_path)
+
+    # Load stored data (Supabase in GitHub Actions, local JSON otherwise).
+    try:
+        store = get_store()
+        articles_in = store.load_articles()
+        seen_in = store.load_seen()
+    except (StoreError, OSError) as exc:
+        log.error("could not read storage: %s", exc)
+        return 1
+
+    # One-time migration: the first Supabase run imports the old data/articles.json, if it exists.
+    migrated = False
+    if store.kind == "supabase" and not articles_in and LEGACY_FILE.exists():
+        legacy = load_db(LEGACY_FILE)
+        articles_in, seen_in = legacy["articles"], legacy["seen_ids"]
+        migrated = True
+        log.info("migrating %d articles from %s into %s", len(articles_in), LEGACY_FILE.name, store.kind)
+
+    # After migration every article counts as changed, so all of them are written to the database.
+    snapshot = {} if migrated else {a["id"]: json.dumps(a, sort_keys=True) for a in articles_in}
+    db = {"articles": list(articles_in), "seen_ids": list(seen_in)}
     session = make_session(settings)
     fixture_bytes = Path(opts.fixture).read_bytes() if opts.fixture else None
 
@@ -101,8 +123,7 @@ def run(opts) -> int:
     if ai_on and new:
         classify_articles(new, ai_cfg)
 
-    # 6. Breaking alerts for new High-impact articles (capped; extras get one summary email).
-    cfg = load_email_config(settings)
+    # 6. Breaking alerts for new High-impact articles (off by default).
     high = sorted([a for a in new if a.impact_level == "High"], key=lambda a: -a.importance_score)
     alerts_on = bool(settings.get("breaking_alerts", False))
     limit = settings["max_alerts_per_run"] if alerts_on else 0
@@ -138,24 +159,29 @@ def run(opts) -> int:
             for art in selected:
                 art.digested = True
 
-    # 8. Save: update articles, remember new ids, prune, record the run.
+    # 8. Save. Only new or changed articles are written, which keeps database traffic small.
     db["articles"] = [a.to_dict() for a in all_articles]
     mark_seen(db, [a.id for a in new], now)
-    removed = prune(db, now, settings["retention_days"])
-    summary = {"run_utc": to_utc_iso(now), "ai": ai_on, "feeds_ok": len(feeds_ok),
+    changed = [a for a in db["articles"] if snapshot.get(a["id"]) != json.dumps(a, sort_keys=True)]
+    seen_to_write = [s["id"] for s in db["seen_ids"]] if migrated else [a.id for a in new]
+    article_cutoff = now - timedelta(days=settings["retention_days"])
+    seen_cutoff = now - timedelta(days=SEEN_RETENTION_DAYS)
+
+    summary = {"run_utc": to_utc_iso(now), "storage": store.kind, "ai": ai_on, "feeds_ok": len(feeds_ok),
                "feeds_failed": len(feeds_failed), "new": len(new), "duplicates": duplicates,
-               "high": len(high), "digest": opts.period if opts.digest else None,
-               "digest_sent": digest_sent, "pruned": removed}
-    record_run(db, summary, now)
+               "high": len(high), "changed": len(changed), "digest": opts.period if opts.digest else None,
+               "digest_sent": digest_sent}
 
     if opts.dry_run:
         log.info("dry run: nothing was written")
     else:
         try:
-            save_db(db_path, db)
-            build_site(db["articles"], DOCS_DIR, to_utc_iso(now), settings)
-        except OSError as exc:
-            log.error("could not write storage: %s", exc)
+            pruned = store.persist(changed, seen_to_write, now, article_cutoff, seen_cutoff,
+                                   last_run_iso=to_utc_iso(now))
+            summary["pruned"] = pruned
+            build_site(DOCS_DIR, settings)
+        except (StoreError, OSError) as exc:
+            log.error("could not save data: %s", exc)
             return 1
 
     log.info("run complete: %s", summary)

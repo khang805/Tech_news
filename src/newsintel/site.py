@@ -1,10 +1,8 @@
-"""Builds the static website in docs/: index.html (the page) and data/articles.json (the data it loads).
-Vercel serves the docs folder; GitHub Actions rebuilds it every run."""
+"""Builds the website in docs/index.html. The page reads articles directly from Supabase
+with the public anon key (read-only). The repository holds no article data."""
 import json
-from datetime import datetime
-from html import escape
+import os
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 TEMPLATE = """<!doctype html>
 <html lang="en">
@@ -36,8 +34,8 @@ main { max-width: 900px; margin: 0 auto; padding: 16px; }
 <header>
   <h1>Tech Intelligence</h1>
   <div class="updated">
-    Data updated: <span id="updated-local">__UPDATED_LOCAL__</span> (your time)<br>
-    Pakistan time: __UPDATED_PKT__
+    Data updated: <span id="updated-local">loading...</span> (your time)<br>
+    Pakistan time: <span id="updated-pkt">loading...</span>
   </div>
 </header>
 <main>
@@ -60,8 +58,12 @@ main { max-width: 900px; margin: 0 auto; padding: 16px; }
 <div id="list"></div>
 </main>
 <script>
+const SUPABASE_URL = __SB_URL__;
+const SUPABASE_ANON_KEY = __SB_ANON__;
+const CATEGORY_ORDER = __CATEGORY_ORDER__;
+const HEADERS = { apikey: SUPABASE_ANON_KEY, Authorization: "Bearer " + SUPABASE_ANON_KEY };
 const $ = (id) => document.getElementById(id);
-let DATA = null;
+let ARTICLES = [];
 
 function el(tag, cls, text) {
   const node = document.createElement(tag);
@@ -70,19 +72,41 @@ function el(tag, cls, text) {
   return node;
 }
 
-function showLocalUpdateTime(iso) {
-  // Show the update time in the viewer's own timezone (browser setting).
+function showUpdateTimes(iso) {
   const d = new Date(iso);
   if (isNaN(d)) return;
   $("updated-local").textContent = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+  $("updated-pkt").textContent = d.toLocaleString("en-GB", { timeZone: "Asia/Karachi", dateStyle: "medium", timeStyle: "short" }) + " PKT";
+}
+
+async function fetchArticles() {
+  // Last 30 days, newest first, 1000 rows per request (the API's page size).
+  const cutoff = new Date(Date.now() - 30 * 86400000).toISOString();
+  const rows = [];
+  for (let from = 0; ; from += 1000) {
+    const url = SUPABASE_URL + "/rest/v1/articles?select=data&published_utc=gte." +
+                encodeURIComponent(cutoff) + "&order=published_utc.desc";
+    const res = await fetch(url, { headers: { ...HEADERS, Range: from + "-" + (from + 999), "Range-Unit": "items" }, cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const batch = await res.json();
+    batch.forEach((r) => rows.push(r.data));
+    if (batch.length < 1000) break;
+  }
+  return rows;
+}
+
+async function fetchLastRun() {
+  const res = await fetch(SUPABASE_URL + "/rest/v1/meta?select=value&key=eq.last_run_utc", { headers: HEADERS, cache: "no-store" });
+  if (!res.ok) return null;
+  const rows = await res.json();
+  return rows.length ? rows[0].value : null;
 }
 
 function fillCategories() {
-  const order = DATA.category_order || [];
-  const cats = [...new Set(DATA.articles.map((a) => a.category))];
+  const cats = [...new Set(ARTICLES.map((a) => a.category))];
   cats.sort((a, b) => {
-    const ia = order.indexOf(a) < 0 ? 999 : order.indexOf(a);
-    const ib = order.indexOf(b) < 0 ? 999 : order.indexOf(b);
+    const ia = CATEGORY_ORDER.indexOf(a) < 0 ? 999 : CATEGORY_ORDER.indexOf(a);
+    const ib = CATEGORY_ORDER.indexOf(b) < 0 ? 999 : CATEGORY_ORDER.indexOf(b);
     return ia - ib || a.localeCompare(b);
   });
   cats.forEach((c) => {
@@ -98,7 +122,7 @@ function render() {
   const impact = $("impact").value;
   const cat = $("cat").value;
   const cutoff = Date.now() - (days === "all" ? Infinity : Number(days) * 86400000);
-  const rows = DATA.articles.filter((a) => {
+  const rows = ARTICLES.filter((a) => {
     if (Date.parse(a.published_utc) < cutoff) return false;
     if (impact === "high" && a.impact_level !== "High") return false;
     if (impact === "other" && a.impact_level === "High") return false;
@@ -108,7 +132,7 @@ function render() {
   rows.sort((x, y) => (days === "1" ? (x.published_utc < y.published_utc ? 1 : -1) : y.importance_score - x.importance_score));
   const list = $("list");
   list.innerHTML = "";
-  $("count").textContent = `${rows.length} of ${DATA.articles.length} stored stories`;
+  $("count").textContent = `${rows.length} of ${ARTICLES.length} stored stories`;
   rows.forEach((a) => {
     const card = el("div", "card");
     const title = el("h3");
@@ -128,17 +152,21 @@ function render() {
 }
 
 async function load() {
+  if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+    $("count").textContent = "";
+    $("list").appendChild(el("p", "error", "The website is not connected to its database yet (SUPABASE_URL / SUPABASE_ANON_KEY missing)."));
+    return;
+  }
   try {
-    const res = await fetch("data/articles.json", { cache: "no-store" });
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    DATA = await res.json();
-    showLocalUpdateTime(DATA.generated_utc);
+    const [rows, lastRun] = await Promise.all([fetchArticles(), fetchLastRun()]);
+    ARTICLES = rows;
+    if (lastRun) showUpdateTimes(lastRun);
     fillCategories();
     ["q", "period", "impact", "cat"].forEach((id) => $(id).addEventListener("input", render));
     render();
   } catch (err) {
     $("count").textContent = "";
-    $("list").appendChild(el("p", "error", "Could not load data/articles.json (" + err.message + "). Open the site over http, not as a local file."));
+    $("list").appendChild(el("p", "error", "Could not load the stories (" + err.message + "). Check the Supabase keys and the RLS policies."));
   }
 }
 load();
@@ -148,22 +176,13 @@ load();
 """
 
 
-def _format_time(iso_utc: str, tz_name: str) -> str:
-    dt = datetime.fromisoformat(iso_utc).astimezone(ZoneInfo(tz_name))
-    return dt.strftime("%d %b %Y, %I:%M %p %Z")
-
-
-def build_site(articles: list[dict], docs_dir: Path, generated_utc: str, settings: dict) -> None:
-    rows = sorted(articles, key=lambda a: a["published_utc"], reverse=True)
-    payload = {"generated_utc": generated_utc,
-               "category_order": settings.get("category_order", []),
-               "articles": rows}
-    data_dir = docs_dir / "data"
-    data_dir.mkdir(parents=True, exist_ok=True)
-    (data_dir / "articles.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
-
-    tz = settings.get("timezone_display", "UTC")
+def build_site(docs_dir: Path, settings: dict) -> None:
+    """Write docs/index.html. The Supabase URL and anon key are public by design; the service key is never written here."""
+    url = os.environ.get("SUPABASE_URL", "").strip().rstrip("/")
+    anon = os.environ.get("SUPABASE_ANON_KEY", "").strip()
     page = (TEMPLATE
-            .replace("__UPDATED_PKT__", escape(_format_time(generated_utc, tz)))
-            .replace("__UPDATED_LOCAL__", escape(generated_utc)))
+            .replace("__SB_URL__", json.dumps(url))
+            .replace("__SB_ANON__", json.dumps(anon))
+            .replace("__CATEGORY_ORDER__", json.dumps(settings.get("category_order", []), ensure_ascii=False)))
+    docs_dir.mkdir(parents=True, exist_ok=True)
     (docs_dir / "index.html").write_text(page, encoding="utf-8")

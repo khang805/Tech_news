@@ -4,6 +4,6 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 logs/
-data/*.corrupt-*.json
-data/*.tmp
+data/
+docs/data/
 .env
